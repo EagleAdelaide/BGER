@@ -1,0 +1,120 @@
+{
+ "identity": "SYNTHETIC_INTEGRATION",
+ "scope": "evaluation resume / OOM guard affected path only",
+ "passed": true,
+ "n_checks": 17,
+ "checks": [
+  {
+   "check": "fresh_complete",
+   "passed": true,
+   "pairs": 12,
+   "jobs": 12,
+   "chunks": 4
+  },
+  {
+   "check": "complete_read_back_not_recomputed",
+   "passed": true
+  },
+  {
+   "check": "interrupted_resume_fills_only_missing",
+   "passed": true,
+   "pairs_recomputed": 9,
+   "expected": 9,
+   "embed_calls": 0
+  },
+  {
+   "check": "resumed_outputs_identical_to_uninterrupted",
+   "passed": true
+  },
+  {
+   "check": "threshold_change_refused",
+   "passed": true
+  },
+  {
+   "check": "fixed_pair_change_refused",
+   "passed": true
+  },
+  {
+   "check": "checkpoint_change_refused",
+   "passed": true
+  },
+  {
+   "check": "tampered_complete_refused",
+   "passed": true
+  },
+  {
+   "check": "unbound_outputs_refused",
+   "passed": true
+  },
+  {
+   "check": "embedding_identity_refused",
+   "passed": true
+  },
+  {
+   "check": "partial_chunk_conflict_refused",
+   "passed": true
+  },
+  {
+   "check": "dev_resume_identical_with_locked_thresholds",
+   "passed": true
+  },
+  {
+   "check": "train_guarded_retry_then_record",
+   "passed": true,
+   "failure_records": 5
+  },
+  {
+   "check": "runner_rerun_is_pure_reuse",
+   "passed": true,
+   "evaluations_reused": 34,
+   "fresh_evaluations": 0,
+   "new_steps": 0,
+   "changed_files": [],
+   "fresh_seconds": 188.6,
+   "rerun_seconds": 41.8
+  },
+  {
+   "check": "runner_rerun_deterministic_files_unchanged",
+   "passed": true,
+   "changed": []
+  },
+  {
+   "check": "abn_failure_recorded_incomplete_not_dropped",
+   "passed": true,
+   "incomplete": {
+    "abn_box": {
+     "failed_run": "abn_box_l0.5_s0",
+     "not_attempted": [
+      1,
+      2
+     ]
+    }
+   },
+   "oom_records": 2
+  },
+  {
+   "check": "resume_after_abn_failure_replays_freeze",
+   "passed": true
+  }
+ ],
+ "code_digest": "b41f35bd1a72b57cc1556e5b6a2dbf3b4ed4cfe177d6a91aeddb25dbdc4e7d50",
+ "code_files": {
+  "abn_box.py": "69aa7538a600aba962b64d18fab6928de7c25b0447a635458b1421b58450f119",
+  "deepfashion_integrity_check.py": "79a1b9eb8ecae86bc794c684a712f1cc26242d729bcb6d5993b8e217050b14e6",
+  "e1_analysis.py": "7c1853b6556da565f4c01a2de9a5617ab8a98d1109dcbb827835e9a8ea0069bc",
+  "e1_common.py": "d2b8ed571c39b5bcd7cab729aac95d90a890fcea2e0b8c6b0ea91a1a11819d13",
+  "e1_data.py": "dbefdf5231739154fee1f96d552ae45a46615c5f75630cd460f8020886652d27",
+  "e1_evaluate.py": "eac4876407f71f3529603a4eecf5f81af0fde4b4a024a4d674d5caf4c56d885e",
+  "e1_guards.py": "925dbbde1cd4e7eba8eb2bf66555c479920d97d240b70e68f96a44db1c284ba0",
+  "e1_inference_candidate.py": "02ce0919c0790b3b7e260927c9e23325811ff6702ba1291f17fd8438a169756d",
+  "e1_runner.py": "cf36003430b579e1dcc0b975fba169914547637763539f3f827ee3e36f17d9bc",
+  "e1_train.py": "4b4830329d792e6f90ac75cce89f4dd00d7ccb5b9f0f37b95f43b0fbca0eee42",
+  "make_cpu_fixture.py": "9dc02873eade71f45b576c1a698c04b72f7a0888d98c063044608fa199fc3cf1",
+  "make_data_receipt.py": "f16588ddd628d63a8674d003d0eaecfac82758c4b171ab097bf7d08fbc28240a",
+  "make_osld_fixture.py": "23754da26f2f7f2f2b7ffad3cb14ca59ce85b3698cb474a616d578cba1366b26",
+  "osld_data.py": "4b57d5194e867229c62b24a6cae4ececaf5273b9283a2c1dedd6fe7e6354e88e",
+  "osld_release_check.py": "0dcc6ae3317595f7995cde62184d546bdeef370ee579432e9e6f90eb18b90d7f",
+  "train_web_arms.py": "ceb98dc51474eef802c7391383d809a8f2ad34325e13bbae5e0a5e882738a2a6",
+  "web_eval.py": "82509523b9ad1257a8b97b0d4230b724c32ce0c63ab52d5dbc96ebf92dcb1336"
+ }
+}

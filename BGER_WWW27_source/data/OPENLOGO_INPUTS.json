@@ -1,0 +1,9 @@
+{
+  "source": "openlogo/tables in the adjacent anonymous supplementary archive",
+  "files": {
+    "openlogo_coordinate_mixture_bounds.csv": "bdd702b1a788fd81de8136d6c661885f1eb5a37df83c21c7d1f421669a4597d6",
+    "openlogo_paired_contrasts.csv": "657a87397efe7af301f5257ab13b0000d303d6c015766f8e3bf3820d2f9f64db",
+    "openlogo_per_seed_and_mean_SD.csv": "b6e337c3ba5914845510c26e2c0c210cde80d8c22f147431dcfeb787cd0e6025"
+  },
+  "scope": "Unchanged completed record values; independent saved-record verification, not training reproduction"
+}

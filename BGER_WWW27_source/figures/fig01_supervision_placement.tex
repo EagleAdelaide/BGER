@@ -1,0 +1,138 @@
+% Figure 1: independent-arm architecture summary, not an ensemble or selector.
+% Solid edge IDs E01--E17 / S01--S04 / A01--A09 are audited in FIG1_TOPOLOGY_CHECK.md.
+\definecolor{figInk}{HTML}{24343E}
+\definecolor{figTeal}{HTML}{167C80}
+\definecolor{figWarm}{HTML}{B66B30}
+\definecolor{figHook}{HTML}{395D9A}
+\definecolor{figBottle}{HTML}{E6E1D5}
+\input{figures_src/fig01_artwork.tex}
+\begin{tikzpicture}[x=1cm,y=1cm,font=\fontsize{8.5}{9.5}\selectfont,>=stealth,
+ blk/.style={draw=figInk!65,rounded corners=1.1pt,inner sep=3pt,align=center,line width=.45pt,fill=white},
+ feat/.style={blk,fill=figInk!3}, gate/.style={blk,fill=figWarm!7,draw=figWarm!75},
+ loss/.style={blk,draw=figWarm!80,text=figWarm,fill=figWarm!3,inner sep=2pt},
+ flow/.style={->,draw=figInk,line width=.6pt},
+ sup/.style={->,dashed,draw=figWarm,line width=.65pt},
+ hook/.style={draw=figHook,densely dotted,line width=.8pt,inner sep=2pt,rounded corners=1pt},
+ lab/.style={align=center,text=figInk},
+ secondary/.style={lab,font=\fontsize{7.5}{8.6}\selectfont},
+ tensor/.style={feat,minimum width=1.08cm,minimum height=1.05cm}]
+% Fixed editorial canvas, with ordinary labels >=7.5 pt before final-width scaling.
+\path[use as bounding box] (-.03,-4.54) rectangle (17.65,4.32);
+% Original synthetic product; the dashed box is an illustrative annotation only.
+\node[blk,minimum width=1.18cm,minimum height=1.86cm] (q) at (.63,1.72) {};
+\pic[scale=.96] at (.63,.96) {figone product};
+\draw[figWarm,dashed,line width=.65pt] (.30,1.30) rectangle (.96,1.90);
+\node[secondary,anchor=south] at (.63,2.73) {product $q$};
+\node[secondary,anchor=north,text width=1.55cm] at (.80,.68) {whole image\\$224{\times}224$\\box overlay};
+\node[feat,minimum width=1.34cm,minimum height=.70cm] (bb) at (2.36,1.73) {ResNet-50\\backbone};
+\node[tensor] (H) at (4.12,1.73) {};
+\node[lab,anchor=north] at (4.12,2.21) {$H$};
+% Uniform tensor icon: no spatial values or model attribution are illustrated.
+\foreach \i in {0,...,6}{\foreach \j in {0,...,6}{
+ \fill[figTeal!14] (3.83+.081*\i,1.57+.052*\j) rectangle ++(.064,.040);}}
+\node[secondary,anchor=south] at (4.12,1.25) {$2048{\times}7{\times}7$};
+\draw[flow] (q.east)--(bb.west); % E01
+\draw[flow] (bb.east)--(H.west); % E02
+% Two alternative pooling structures. The bracket is editorial, not tensor fusion.
+\node[lab,anchor=south] at (7.80,3.85) {\textbf{Alternative pooling paths}};
+\node[secondary] at (8.50,3.55) {separately trained; one $F$ per arm};
+\node[gate,text width=2.25cm,minimum height=.65cm] (M) at (6.00,2.78)
+ {BGER gate\\$M=\sigma(v^\top H+b)$};
+\node[draw=figInk,circle,inner sep=0pt,minimum size=.43cm,fill=white] (mul) at (7.65,2.78) {$\odot$};
+\node[feat,text width=1.40cm,minimum height=.75cm] (F) at (9.00,2.78)
+ {$F=M\odot H$\\routed};
+\node[feat,text width=2.80cm,minimum height=.70cm] (pass) at (8.23,1.18)
+ {$F=H$\\CE / Aux-BCE\\CAM-BCE};
+
+\draw[flow] (H.north) |- (M.west); % E03 H->M
+\draw[flow] (M.east)--(mul.west); % E04 M->multiply
+\draw[flow] (H.east)--(4.88,1.73)--(4.88,2.13)--(7.65,2.13)--(mul.south); % E05 H->multiply
+\draw[flow] (mul.east)--(F.west); % E06 multiply->F
+\draw[flow] (H.south east)--(4.90,1.18)--(pass.west); % E07 H->F=H
+\draw[flow] (F.east)--(9.96,2.78); % E08 alternative F, ending at editorial bracket
+\draw[flow] (pass.east)--(9.96,1.18); % E09 alternative F, ending at editorial bracket
+\draw[figInk!65,line width=.5pt] (10.04,.52)--(10.18,.52)--(10.18,3.12)--(10.04,3.12);
+
+\node[feat,minimum width=1.45cm,minimum height=.75cm] (z) at (11.63,1.73) {$z=\mathrm{GAP}(F)$\\$z_q$ for query};
+\draw[flow] (10.43,1.73)--(z.west); % E10 one arm's F->GAP, no fusion
+% Separate classifier and deployed-score branches from z.
+\node[feat,minimum width=2.67cm,minimum height=.72cm] (cls) at (15.12,2.90)
+ {training classifier $Wz+c$\\identity CE (all arms)\\training only};
+\node[feat,minimum width=2.85cm,minimum height=.70cm] (score) at (15.12,1.60)
+ {retrieval score\\$s(q,d)=\cos(z_q,z_d)$};
+\draw[flow] (z.north)--(11.63,2.90)--(cls.west); % E11 z->classifier, never score->classifier
+\draw[flow] (z.east)--(score.west); % E12 z_q->score
+% Matching synthetic canonical template and the same selected-arm encoder/pooling.
+\node[blk,minimum width=.87cm,minimum height=.80cm] (d) at (12.24,.03) {};
+\pic[scale=.58] at (12.24,.02) {figone emblem};
+\node[secondary,anchor=north] at (12.24,-.40) {template $d$};
+\node[feat,minimum width=2.38cm,minimum height=.65cm] (enc) at (14.32,.03)
+ {same selected-arm\\encoder + pooling};
+\node[lab] (zd) at (16.40,.03) {$z_d$};
+\draw[flow] (d.east)--(enc.west); % E13 d->same encoder/pooling
+\draw[flow] (enc.east)--(zd.west); % E14 same encoder/pooling->z_d
+\draw[flow] (zd.north)--(16.40,.94)-|(score.south); % E15 z_d->score
+% Box-supervised training objects; these branches do not feed GAP.
+\node[loss] (bceM) at (4.90,3.50) {box BCE};
+\draw[sup] (M.north west)--(bceM.south east); % S01 M->box BCE
+\node[gate,text width=2.35cm,minimum height=.66cm] (aux) at (5.10,-.25)
+ {Aux-BCE: off-path $M$\\$M=\sigma(v^\top H+b)$};
+\node[loss] (bceA) at (7.02,-.25) {box\\BCE};
+\draw[flow] (H.south west)--(3.38,.78)--(3.38,-.25)--(aux.west); % E16 H->aux M
+\draw[sup] (aux.east)--(bceA.west); % S02 aux M->box BCE
+\node[feat,text width=2.50cm,minimum height=.73cm] (cam) at (9.14,-.25)
+ {CAM-BCE spatial proxy\\$Q_{y,u}=\sigma(w_y^\top H_u)$};
+\node[loss] (bceQ) at (11.17,-.25) {box\\BCE};
+\draw[flow] (H.south)--(4.12,.45)--(9.14,.45)--(cam.north); % E17 H->Q_y
+\draw[sup] (cam.east)--(bceQ.west); % S03 Q_y->box BCE
+\node[secondary,anchor=north] at (9.14,-.95) {$w_y$: row of classifier $W$; no bias $c$};
+% Hooks attach to spatial tensors, not pooled z, gates, losses, or proxy.
+\node[hook,fit=(H)] (hookH) {};
+\draw[figHook,densely dotted,line width=.5pt] (3.45,2.52)--(hookH.north west);
+\node[secondary,text=figHook,anchor=south] at (2.90,2.58) {primary\\Grad-CAM hook};
+\node[hook,fit=(F)] (hookF) {};
+\node[secondary,text=figHook,anchor=north] at (9.00,2.27) {$F$ hook (post hoc)};
+\begin{scope}[shift={(0,-.65)}]
+% Compact ABN inset: attention CE and box BCE are separate outputs of the attention branch.
+\draw[figInk!35,line width=.4pt,rounded corners=1.4pt] (.02,-3.85) rectangle (11.43,-.94);
+\node[secondary,anchor=north west,align=left] at (.16,-1.00)
+ {\textbf{ABN-box: distinct architecture; not parameter-matched}};
+\begin{scope}[font=\fontsize{7.5}{8.6}\selectfont]
+\node[feat,inner sep=2pt,text width=.90cm] (G) at (.72,-2.55) {$G$\\stage 3};
+\node[feat,inner sep=2pt,text width=1.25cm] (att) at (2.63,-2.55) {attention\\branch};
+\node[lab,inner sep=0pt] (alog) at (4.14,-2.55) {$a$};
+\node[feat,inner sep=2pt,text width=1.22cm] (A) at (5.05,-2.55) {$A=\sigma(a)$\\$14{\times}14$};
+\node[feat,inner sep=2pt,text width=2.05cm] (attcls) at (2.63,-1.77) {attention-branch\\class logits $\to$ CE};
+\node[loss,inner sep=2pt,text width=1.40cm] (attbce) at (4.95,-1.77) {box BCE\\on logits $a$};
+\node[feat,inner sep=2pt,text width=1.30cm] (mod) at (6.20,-3.25) {$(1+A)\odot G$};
+\node[feat,inner sep=2pt,text width=1.16cm] (per) at (7.85,-3.25) {perception\\stage 4};
+\node[feat,inner sep=1.6pt,text width=.65cm] (Habn) at (9.15,-3.25) {$H_{\rm ABN}$};
+\node[feat,inner sep=2pt,text width=1.00cm] (abnz) at (10.45,-3.25) {GAP\\$z_{\rm ABN}$};
+\draw[flow] (G.east)--(att.west); % A01 G->attention branch
+\draw[flow] (att.east)--(alog.west); % A02 attention features->a
+\draw[flow] (alog.east)--(A.west); % A03 a->sigmoid->A
+\draw[flow] (att.north)--(attcls.south); % A04 separate attention classifier
+\draw[sup] (alog.north)|-(attbce.west); % S04 attention logits a->box BCE
+\draw[flow] (A.east)-|(mod.north); % A05 A->modulation
+\draw[flow] (G.south)--(.72,-3.67)--(6.20,-3.67)--(mod.south); % A06 G->modulation
+\draw[flow] (mod.east)--(per.west); % A07 modulated G->perception stage 4
+\draw[flow] (per.east)--(Habn.west); % A08 perception->actual spatial H_ABN
+\draw[flow] (Habn.east)--(abnz.west); % A09 H_ABN->pooling
+\node[hook,fit=(Habn),inner sep=1.5pt] {};
+\node[secondary,text=figHook,anchor=south] at (9.15,-2.90) {primary hook};
+\node[secondary,align=center,text width=4.20cm] at (8.60,-1.72)
+ {$z_{\rm ABN}$ serves the perception\\classifier (CE) and retrieval};
+\end{scope}
+\end{scope}
+\begin{scope}[shift={(0,-.65)}]
+% Short legend and train/test scope; no duplicated method cards or example heatmaps.
+\draw[flow] (11.90,-1.30)--(12.50,-1.30);
+\node[secondary,anchor=west] at (12.62,-1.30) {tensor flow};
+\draw[sup] (11.90,-1.75)--(12.50,-1.75);
+\node[secondary,anchor=west] at (12.62,-1.75) {training box-loss link};
+\draw[figHook,densely dotted,line width=.8pt] (11.95,-2.28) rectangle (12.45,-2.10);
+\node[secondary,anchor=west] at (12.62,-2.19) {score-readout hook};
+\node[secondary,anchor=north west,align=left,text width=5.5cm] at (11.90,-2.52)
+ {Boxes supervise training; retrieval uses whole images without box or class-label inputs. Off-path losses still update $H$.};
+\end{scope}
+\end{tikzpicture}

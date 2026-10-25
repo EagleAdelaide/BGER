@@ -1,0 +1,39 @@
+{
+  "seed0": {
+    "dV2_point": -0.0017,
+    "dV2_ci": [
+      -0.0058,
+      0.0017
+    ],
+    "dAcc_point": 0.0038,
+    "dAcc_ci": [
+      -0.0036,
+      0.0112
+    ]
+  },
+  "seed1": {
+    "dV2_point": -0.0009,
+    "dV2_ci": [
+      -0.0048,
+      0.0029
+    ],
+    "dAcc_point": -0.0033,
+    "dAcc_ci": [
+      -0.011,
+      0.0047
+    ]
+  },
+  "seed2": {
+    "dV2_point": 0.0198,
+    "dV2_ci": [
+      0.0162,
+      0.0239
+    ],
+    "dAcc_point": 0.0035,
+    "dAcc_ci": [
+      -0.0038,
+      0.0107
+    ]
+  },
+  "note": "BGER lam2 minus CAM-BCE lam0.5; paired image bootstrap (2000 resamples, V2 re-maximized over 101 thresholds within each resample); conditional on the trained seed pair; image-sampling uncertainty only, NOT training-seed uncertainty."
+}

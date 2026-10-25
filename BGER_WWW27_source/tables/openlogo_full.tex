@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering\small\setlength{\tabcolsep}{4pt}
+\caption{Derived OpenLogo additional endpoints (percentages). First four
+numeric columns: mean $\pm$ sample SD across three seeds; other columns:
+three-seed means. $H$ is primary; D is forward decomposition. Macro R@1
+weights released classes equally. These seed SDs are not confidence intervals.}
+\label{tab:openlogo-full}
+\begin{tabular}{@{}lrrrrrrrr@{}}
+\toprule
+Arm & R@1 & R@10 & MRR=AP & $H$ Loc $C_0$ & $H$ Loc $C_1$ & D Loc $C_0$ & D Loc $C_1$ & Macro R@1\\
+\midrule
+CE & $4.24\pm0.06$ & $13.72\pm0.39$ & $7.89\pm0.08$ & $4.78\pm0.85$ & 4.80 & 7.22 & 7.23 & 3.77\\
+Aux-BCE & $4.08\pm0.11$ & $12.62\pm0.38$ & $7.43\pm0.15$ & $5.32\pm0.76$ & 5.40 & 6.36 & 6.38 & 3.89\\
+BGER & $5.10\pm0.11$ & $16.80\pm0.44$ & $9.47\pm0.20$ & $3.34\pm1.55$ & 3.35 & 9.59 & 9.69 & 4.81\\
+CAM-BCE & $4.74\pm0.33$ & $14.84\pm0.27$ & $8.74\pm0.27$ & $5.73\pm0.33$ & 5.78 & 10.53 & 10.62 & 4.03\\
+\bottomrule\end{tabular}
+\par\smallskip\raggedright BGER $F$ localization: 3.63\% ($C_0$), 3.70\% ($C_1$).
+Primary coordinate-verdict flips: CE 0.094\%, Aux-BCE 0.144\%, BGER 0.050\%,
+CAM-BCE 0.129\%. All per-seed values, C1 joint rates, class macros and
+conditional percentile intervals remain in the machine-readable tables.
+\end{table*}

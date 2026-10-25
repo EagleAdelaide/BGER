@@ -1,0 +1,9 @@
+{
+ "identity": "OSLD_P0B_EXPLORATORY",
+ "corruption_seed": 20261020,
+ "n_boxed": 7367,
+ "mean_iou_with_true": 0.008495896625592927,
+ "frac_iou_below_0p1": 0.9902266865752681,
+ "max_iou": 0.6328043698173555,
+ "rule": "Same-size box at a random position inside the image; prefer IoU<.1 with the true box."
+}

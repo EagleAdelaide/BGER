@@ -1,0 +1,29 @@
+{
+  "protocol": "OpenLogo-Derived-ConventionStable-B-v1",
+  "freeze_utc": "2026-10-22T06:15:34.042929+00:00",
+  "kind": "INTERNAL_PROSPECTIVE_FREEZE_NOT_PUBLIC_PREREGISTRATION",
+  "official_coordinate_semantics": "UNVERIFIED",
+  "files": {
+    "openlogo_b_convention_stable/protocol/config.json": "16bdc338a005905ba24425647aa661c57ccd39315557c535103fe6e091bdf430",
+    "openlogo_b_convention_stable/protocol/manifests.json": "4489cf084f5b5f3f343e49a36b91f45c9a55276569744cf44e9f5d299beda76b",
+    "openlogo_b_convention_stable/protocol/sampler_batches.json": "0e74e9fcb8b91b0dc3ef33a98439fabea71f68ef2edfdd5a3c10d5681bc504e1",
+    "openlogo_b_convention_stable/protocol/labels.json": "33c137c799615e57cb137dac93f60475b41efd8f4641b46897a97d6be29eacbb",
+    "openlogo_b_convention_stable/outputs/gate/retention_by_source_definition.csv": "0aaa687d05571ba2bab2f4527f7c8f17c042b6d9ecca316b320a0944750b3c6d",
+    "openlogo_b_convention_stable/outputs/gate/retention_by_box_area.csv": "00d2d9ab3fd3421f89c1c4798995999c258999553d0ed53a70a5444f9ad133f4",
+    "openlogo_b_convention_stable/outputs/gate/retention_by_class.csv": "50c177b20b908e311c1072f90fd2c094348cadabbd1e82afe73a78c90954cacf",
+    "openlogo_b_convention_stable/outputs/gate/training_target_convention_audit.csv": "f023cb0f8a1a3261031aeaa4c1f23233797ff0c72c3db9fe1d5f538cd70f1c83",
+    "openlogo_b_convention_stable/outputs/gate/training_targets_both.npz": "ddac005109afcfed8129ce10fad0d649360f6e993651b09ea1e4fc710a2f68ee",
+    "openlogo_b_convention_stable/outputs/gate/GATE_RESULT.json": "e1b57a93ef0520aa1dd318f2223eb0a8a7e88078adcb1e172f7602af3f321448",
+    "openlogo_b_convention_stable/scripts/b_common.py": "f455e003f037ff37a7785fd1e311d01634e6e3c61f42be83f03772c8cc0c3c2f",
+    "openlogo_b_convention_stable/scripts/cpu_gate.py": "1c981fa1586d4755ec214bb48c1b3c566402a5d8ce5c5550771f51d6c1d5ccfe",
+    "e1_osld/code/osld_data.py": "4b57d5194e867229c62b24a6cae4ececaf5273b9283a2c1dedd6fe7e6354e88e",
+    "e1_osld/code/train_web_arms.py": "ceb98dc51474eef802c7391383d809a8f2ad34325e13bbae5e0a5e882738a2a6",
+    "e1_osld/code/web_eval.py": "82509523b9ad1257a8b97b0d4230b724c32ce0c63ab52d5dbc96ebf92dcb1336",
+    "e1_osld/code/e1_evaluate.py": "eac4876407f71f3529603a4eecf5f81af0fde4b4a024a4d674d5caf4c56d885e",
+    "e1_osld/code/e1_common.py": "d2b8ed571c39b5bcd7cab729aac95d90a890fcea2e0b8c6b0ea91a1a11819d13",
+    "deliverables/BGER_OPENLOGO_ONE_SHOT/audit/complete_B_membership_and_exclusions_CURRENT_NOT_FROZEN.csv": "9105b745d0af0523bf8e3671d07b2db09cbf87339c3177dddcc308debaa9ed24",
+    "deliverables/BGER_OPENLOGO_ONE_SHOT/audit/target_identity_groups_PRE_OUTPUT.csv": "fd62fa6ae0b76ba8e401e4450661e5758b7f1f357b41faffd9c4018c9151408d",
+    "deliverables/BGER_OPENLOGO_ONE_SHOT/receipts/full_gallery_NOT_FROZEN.csv": "0f5e8a308df4bcc88c25089a05ac7faf03607a878655c951dd514717620e603e",
+    "deliverables/BGER_OPENLOGO_ONE_SHOT/receipts/exact_duplicate_decisions_REUSED.json": "d35a5a42999c2b8ef909bfdb6c6a81a6a48a1c292b69135d06d0aae69f9ab089"
+  }
+}

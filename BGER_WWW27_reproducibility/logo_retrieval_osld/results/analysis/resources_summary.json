@@ -1,0 +1,40 @@
+{
+ "cap_allocated_gpu_seconds": 75600,
+ "reserved_gpu_seconds": 54000,
+ "actual_elapsed_gpu_seconds": 32938,
+ "jobs": [
+  {
+   "state": "TIMEOUT",
+   "elapsed_seconds": 3623,
+   "reserved_gpu_seconds": 3600
+  },
+  {
+   "state": "COMPLETED",
+   "elapsed_seconds": 29315,
+   "reserved_gpu_seconds": 50400
+  }
+ ],
+ "gate_train_minutes_median": 13.037146626683292,
+ "abn_train_minutes_median": 25.582448789366634,
+ "gate_step_seconds": 0.23663239199959207,
+ "abn_step_seconds": 0.46769608349131886,
+ "abn_peak_gib": 33.98469161987305,
+ "gate_peak_gib": 7.734521389007568,
+ "test_eval_minutes_gate": 11.234645316666667,
+ "test_eval_minutes_abn": 12.542353633333333,
+ "failures": 0,
+ "gpu": "one A100 40 GB",
+ "macros": {
+  "osResReserved": "15.0",
+  "osResElapsed": "9.1",
+  "osResCap": "21",
+  "osTrainGate": "13",
+  "osTrainAbn": "26",
+  "osStepGate": "0.24",
+  "osStepAbn": "0.47",
+  "osPeakAbn": "34.0",
+  "osPeakGate": "7.7",
+  "osTestGate": "11",
+  "osTestAbn": "12.5"
+ }
+}

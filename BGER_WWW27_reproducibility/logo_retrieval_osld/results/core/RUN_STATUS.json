@@ -1,0 +1,25 @@
+{
+ "identity": "OSLD_E1_CORE",
+ "status": "COMPLETE",
+ "production_entrypoint": "code/e1_runner.py",
+ "optimizer_steps": 60705,
+ "model_runs": 19,
+ "selected_test_runs": 15,
+ "new_gpu_seconds": "see_reserved_allocation_ledger",
+ "pretrained": true,
+ "resume_exercised": false,
+ "max_score_error": 4.172325134277344e-07,
+ "max_secondary_error": 1.7881393432617188e-07,
+ "wrong_top1_included": 17722,
+ "official_osld_results": true,
+ "statistical_scope": "fixed trained models and fixed gallery; query logo-identity clusters only (OSLD adapter stores the identity in product_id)",
+ "arms_tested": [
+  "abn_box",
+  "aux",
+  "bger",
+  "cam_bce",
+  "ce"
+ ],
+ "incomplete_arms": {},
+ "five_arm_study_complete": true
+}

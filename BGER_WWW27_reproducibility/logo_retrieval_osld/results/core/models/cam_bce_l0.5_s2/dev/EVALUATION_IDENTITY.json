@@ -1,0 +1,13 @@
+{
+ "stage": "dev",
+ "checkpoint_sha256": "b54c11bbf4ffb31cd95dae0da91b89363ddcb929c99efb1664cd7651fd1f7dbd",
+ "source_digest": "b41f35bd1a72b57cc1556e5b6a2dbf3b4ed4cfe177d6a91aeddb25dbdc4e7d50",
+ "identity": "OSLD_E1_CORE",
+ "query_records": "0b1b8c51e2da88d07397a4e1a4aa7102d11a167e71ddf7c5e17971668c663ce7",
+ "gallery_records": "30302d45ebc5e228e5d3d2f0e0c090cdb2e95c2b23548eecd49aee1096f42e48",
+ "n_queries": 1295,
+ "n_gallery": 7272,
+ "thresholds": null,
+ "fixed_pairs": null,
+ "pair_chunk": 100
+}

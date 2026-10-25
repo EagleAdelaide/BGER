@@ -1,0 +1,263 @@
+{
+ "release_files": {
+  "product_images": 20023,
+  "logo_images": 20849
+ },
+ "gallery": {
+  "canonical_images_decodable": 20848,
+  "identities": 12140,
+  "templates_per_identity": {
+   "3": 1372,
+   "1": 7600,
+   "2": 2081,
+   "4": 710,
+   "5": 247,
+   "6": 62,
+   "7": 39,
+   "8": 20,
+   "13": 1,
+   "9": 5,
+   "12": 1,
+   "10": 2
+  }
+ },
+ "annotation_entries": {
+  "train": 15747,
+  "val": 1843,
+  "test": 2433
+ },
+ "cohort_accounting": {
+  "train": {
+   "multiple_boxes": 3211,
+   "included_single_logo": 7367,
+   "single_box_unlabeled": 4852,
+   "invalid_coordinates": 15,
+   "no_logo": 302
+  },
+  "val": {
+   "multiple_boxes": 345,
+   "included_single_logo": 1295,
+   "invalid_coordinates": 2,
+   "no_logo": 201
+  },
+  "test": {
+   "included_single_logo": 1237,
+   "multiple_boxes": 996,
+   "no_logo": 200
+  }
+ },
+ "boxes_per_image_histogram": {
+  "train": {
+   "2": 2391,
+   "1": 12234,
+   "3": 543,
+   "4": 177,
+   "15": 1,
+   "5": 55,
+   "10": 2,
+   "6": 29,
+   "7": 8,
+   "8": 3,
+   "9": 1,
+   "12": 1,
+   "0": 302
+  },
+  "val": {
+   "2": 265,
+   "1": 1297,
+   "4": 22,
+   "9": 1,
+   "3": 50,
+   "5": 5,
+   "6": 1,
+   "7": 1,
+   "0": 201
+  },
+  "test": {
+   "1": 1237,
+   "3": 260,
+   "2": 600,
+   "5": 34,
+   "4": 63,
+   "12": 2,
+   "6": 26,
+   "8": 4,
+   "7": 5,
+   "10": 1,
+   "9": 1,
+   "0": 200
+  }
+ },
+ "unlabeled_boxes": {
+  "train": 8022,
+  "val": 211,
+  "test": 648
+ },
+ "labeled_identities_per_split": {
+  "train": 4143,
+  "val": 500,
+  "test": 500
+ },
+ "identity_overlap": {
+  "train&val": 0,
+  "train&test": 0,
+  "val&test": 0
+ },
+ "cohort_identities": {
+  "train": 3516,
+  "val": 453,
+  "test": 391
+ },
+ "gallery_identities_not_in_any_split": 6997,
+ "split_identities_without_template": {
+  "train": 0,
+  "val": 0,
+  "test": 0
+ },
+ "protocol_sets": {
+  "train": {
+   "images": 13652,
+   "identities": 3516,
+   "with_box": 7367
+  },
+  "dev_query": {
+   "images": 1295,
+   "identities": 453,
+   "with_box": 1295
+  },
+  "dev_gallery": {
+   "images": 7272,
+   "identities": 3969,
+   "with_box": 0
+  },
+  "query": {
+   "images": 1237,
+   "identities": 391,
+   "with_box": 1237
+  },
+  "gallery": {
+   "images": 20848,
+   "identities": 12140,
+   "with_box": 0
+  }
+ },
+ "training_label_count": 3516,
+ "train_target_geometry": {
+  "n_train_cohort": 7367,
+  "zero_target_rate_old_avgpool_gt_half": 0.22302158273381295,
+  "zero_target_rate_any_overlap": 0.0,
+  "grid_occupancy_old_quantiles": {
+   "5": 0.0,
+   "25": 0.020408162847161293,
+   "50": 0.040816325694322586,
+   "75": 0.06122449040412903,
+   "95": 0.18367347121238708
+  },
+  "grid_occupancy_new_quantiles": {
+   "5": 0.040816325694322586,
+   "25": 0.08163265138864517,
+   "50": 0.12244898080825806,
+   "75": 0.18367347121238708,
+   "95": 0.30612245202064514
+  },
+  "box_area_fraction_quantiles": {
+   "5": 0.0102092,
+   "25": 0.021521230769230768,
+   "50": 0.03924062558884492,
+   "75": 0.07403340684410646,
+   "95": 0.16690143811771302
+  },
+  "note": "coarse 7x7 grid supervision, not a mask; evaluation always uses the original box"
+ },
+ "random_retrieval_reference": {
+  "dev": {
+   "gallery_size": 7272,
+   "random_R@1_reference": 0.00031240575795031495,
+   "queries_without_relevant_template": 0
+  },
+  "test": {
+   "gallery_size": 20848,
+   "random_R@1_reference": 0.00011404097626831086,
+   "queries_without_relevant_template": 0
+  }
+ },
+ "exact_pixel_duplicate_groups": 10,
+ "cross_split_exact_product_duplicates_n": 0,
+ "logo_file_name_unparseable": [
+  "dockers.jpg"
+ ],
+ "product_image_sizes_top": [
+  [
+   [
+    500,
+    500
+   ],
+   3845
+  ],
+  [
+   [
+    400,
+    400
+   ],
+   209
+  ],
+  [
+   [
+    300,
+    300
+   ],
+   207
+  ],
+  [
+   [
+    500,
+    375
+   ],
+   134
+  ],
+  [
+   [
+    450,
+    450
+   ],
+   99
+  ],
+  [
+   [
+    375,
+    500
+   ],
+   54
+  ],
+  [
+   [
+    350,
+    350
+   ],
+   52
+  ],
+  [
+   [
+    500,
+    333
+   ],
+   42
+  ],
+  [
+   [
+    480,
+    480
+   ],
+   38
+  ],
+  [
+   [
+    333,
+    500
+   ],
+   25
+  ]
+ ],
+ "status": "TECHNICAL_CHECKS_PASS",
+ "records_digest": "cd19f0f24960acf19a0c23ed33975e288d6c2fcc31cfd9eb8af49c7d9f65bf7f"
+}

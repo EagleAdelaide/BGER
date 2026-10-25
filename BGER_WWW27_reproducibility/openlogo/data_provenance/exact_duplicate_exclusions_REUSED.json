@@ -1,0 +1,708 @@
+[
+  {
+    "query_ids": [
+      "2627078723",
+      "3002598824"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": true,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "4427242482",
+      "4759775954"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": true,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "4485663646",
+      "4946956773"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": true,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Belgalogos_07630475",
+      "Belgalogos_07630496"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Belgalogos_07630485",
+      "Belgalogos_07630497"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Belgalogos_07666149",
+      "Belgalogos_07666152"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Belgalogos_07673561",
+      "Belgalogos_07673570"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Belgalogos_07674073",
+      "Belgalogos_07674080"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Belgalogos_07680447",
+      "Belgalogos_07680455"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Belgalogos_07707015",
+      "Belgalogos_07707018"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Belgalogos_07707081",
+      "Belgalogos_07707083"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "BlackMore_sportslogo_40",
+      "BlackMore_sportslogo_73"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "BlackMore_sportslogo_88",
+      "BlackMore_sportslogo_89"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "CPA_Australia_sportslogo_10",
+      "CPA_Australia_sportslogo_83"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "CPA_Australia_sportslogo_30",
+      "CPA_Australia_sportslogo_82"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "CPA_Australia_sportslogo_59",
+      "CPA_Australia_sportslogo_80"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "CPA_Australia_sportslogo_61",
+      "CPA_Australia_sportslogo_84"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "CPA_Australia_sportslogo_69",
+      "CPA_Australia_sportslogo_85"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Fly_Emirates_sportslogo_11",
+      "Fly_Emirates_sportslogo_15"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Fly_Emirates_sportslogo_12",
+      "Fly_Emirates_sportslogo_18"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Fly_Emirates_sportslogo_13",
+      "Fly_Emirates_sportslogo_17"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Fly_Emirates_sportslogo_14",
+      "Fly_Emirates_sportslogo_19"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Head_sportslogo_12",
+      "Head_sportslogo_68"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Head_sportslogo_16",
+      "Head_sportslogo_69"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Head_sportslogo_28",
+      "Head_sportslogo_55"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Head_sportslogo_33",
+      "Head_sportslogo_34"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Jurlique_sportslogo_61",
+      "Jurlique_sportslogo_67"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "NB_sportslogo_31",
+      "NB_sportslogo_54"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "NB_sportslogo_63",
+      "NB_sportslogo_74"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Nike_sportslogo_29",
+      "Nike_sportslogo_30"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Nike_sportslogo_38",
+      "Nike_sportslogo_39"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Nike_sportslogo_48",
+      "Nike_sportslogo_77"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "WilliamHill_sportslogo_74",
+      "WilliamHill_sportslogo_80"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "WilliamHill_sportslogo_75",
+      "WilliamHill_sportslogo_79"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "WilliamHill_sportslogo_76",
+      "WilliamHill_sportslogo_78"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Yonex_sportslogo_22",
+      "Yonex_sportslogo_23"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Yonex_sportslogo_27",
+      "Yonex_sportslogo_87"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "Yonex_sportslogo_83",
+      "Yonex_sportslogo_85"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "accentureimg000058",
+      "armitronimg000040",
+      "armitronimg000055"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "bottegaveneta23",
+      "bottegaveneta27"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "flickrlogo27_2219451836",
+      "flickrlogo27_2244358347",
+      "flickrlogo27_2866536247"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "flickrlogo27_2274303482",
+      "flickrlogo27_3335592732"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "flickrlogo27_2423654138",
+      "flickrlogo27_2423655766"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "flickrlogo27_2578628547",
+      "flickrlogo27_3674972656"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "flickrlogo27_258770610",
+      "flickrlogo27_2766852637",
+      "flickrlogo27_2767698530"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "flickrlogo27_4491308340",
+      "flickrlogo27_4506432358",
+      "flickrlogo27_4507852944"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "flickrlogo27_4534861651",
+      "flickrlogo27_4537956983"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "logos32plus_000857",
+      "logos32plus_007049"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": true,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "logos32plus_000956",
+      "logos32plus_000957"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "logos32plus_002901",
+      "logos32plus_007697"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": true,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "logos32plus_003601",
+      "logos32plus_007645"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": true,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "logos32plus_006668",
+      "logos32plus_006677"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "logos32plus_006673",
+      "logos32plus_006678"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  },
+  {
+    "query_ids": [
+      "logos32plus_006674",
+      "logos32plus_006679"
+    ],
+    "annotation_conflict": true,
+    "contains_official_train_or_val": false,
+    "proposed_keep": null,
+    "decision": "EXCLUDE_ALL_GROUP_MEMBERS_DIFFERING_RELEASED_ANNOTATIONS",
+    "status": "RESOLVED_FOR_EXACT_DUPLICATES_BEFORE_ANY_NEURAL_OUTPUT",
+    "reviewer": "Codex; deterministic exact RGB identity and raw annotation comparison",
+    "evidence": "All members have identical decoded RGB and dimensions, but different released object lists/boxes. Exclude every member rather than choose a favorable annotation. Coordinate and class/near gates still block the full protocol."
+  }
+]

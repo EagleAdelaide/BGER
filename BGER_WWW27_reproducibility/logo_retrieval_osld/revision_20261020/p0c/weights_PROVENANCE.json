@@ -1,0 +1,18 @@
+{
+ "dinov2_vitb14": {
+  "source": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_pretrain.pth",
+  "code": "https://github.com/facebookresearch/dinov2 (main, downloaded 2026-10-20, used via torch.hub source=local)",
+  "license": "Apache-2.0 (dinov2 repository and weights)",
+  "sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+  "bytes": 346378731
+ },
+ "openclip_vitb32": {
+  "source": "HF hub laion/CLIP-ViT-B-32-laion2B-s34B-b79K (open_clip pretrained tag laion2b_s34b_b79k), snapshot 1a25a446712ba5ee05982a381eed697ef9b435cf, file open_clip_pytorch_model.bin",
+  "code": "open_clip_torch 2.26.1 (MIT) in env arc_rev (clone of arc; torch 2.4.1+cu118 unchanged)",
+  "license": "MIT (OpenCLIP code and LAION-2B weights as published)",
+  "sha256": "1bd3c7172de5b207ceac554f5ab5266166f3b9baccc9af5989bc801016d080ad",
+  "bytes": 605219813
+ },
+ "downloaded_utc": "2026-10-20T07:06Z",
+ "by": "login node curl / open_clip.download_pretrained; no GPU"
+}

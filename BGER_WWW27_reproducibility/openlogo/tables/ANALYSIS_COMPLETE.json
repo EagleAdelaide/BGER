@@ -1,0 +1,26 @@
+{
+  "protocol": "OpenLogo-Derived-ConventionStable-B-v1",
+  "status": "ANALYSIS_COMPLETE",
+  "bootstrap_draws": 10000,
+  "shared_draws_sha256": "32e0293559446ed224c1b61ff17babccf073b94d9ec5b3087a6a22ea22647ef7",
+  "n_queries": 6706,
+  "n_groups": 178,
+  "n_classes": 217,
+  "models": 12,
+  "seeds_averaged_before_sampling": true,
+  "primary_weighting": "query",
+  "class_macro": true,
+  "official_coordinate_semantics": "UNVERIFIED",
+  "A": "NOT_RUN_SOURCE_UNSEEN_UNRESOLVED",
+  "files": {
+    "estimates_cluster_CI.csv": "dc719bb9fed3ae2e81da0587c979dca50dd7c215789651ea06389813e4de8b76",
+    "per_seed_and_mean_SD.csv": "b6e337c3ba5914845510c26e2c0c210cde80d8c22f147431dcfeb787cd0e6025",
+    "coordinate_mixture_bounds.csv": "bdd702b1a788fd81de8136d6c661885f1eb5a37df83c21c7d1f421669a4597d6",
+    "test_per_query_long.csv": "da1697e83c9378e6e52888481e99da01e29bad6ce85eaa642896ff029e91d5c4",
+    "candidate_diagnostics_mean_SD.csv": "e7a9730125b0ff6564a4451833756989ff637d3afc18c54597f25e677f3ae014",
+    "shared_group_bootstrap_draws.npz": "32e0293559446ed224c1b61ff17babccf073b94d9ec5b3087a6a22ea22647ef7",
+    "candidate_diagnostics_per_seed.csv": "25743b54c6e83598567f369c6efd0f71f025588d1cef6939bddce352cdc17a0d",
+    "paired_contrasts.csv": "657a87397efe7af301f5257ab13b0000d303d6c015766f8e3bf3820d2f9f64db"
+  },
+  "completed_utc": "2026-10-22T07:39:29.759233+00:00"
+}

@@ -1,0 +1,7 @@
+{
+  "historical_blocked_package_sha256_unchanged": "1fe197435b29b868007d8a8243b6ff203708df0a1dd92dcf540904b8c8a92a8c",
+  "raw_archive_image_hashes": "Reused prior verified files; not redownloaded or globally rehashed",
+  "new_checks": "9137 XML/inventory equality and decoded dimensions;965 actual production supervision pairs;675 actual batch target/weight equivalence checks",
+  "official_coordinate_semantics": "UNVERIFIED",
+  "source_A": "NOT_RUN_SOURCE_UNSEEN_UNRESOLVED"
+}

@@ -1,0 +1,17 @@
+{
+  "protocol": "OpenLogo-Derived-ConventionStable-B-v1",
+  "freeze_utc": "2026-10-22T06:18:40.312227+00:00",
+  "phase": "BEFORE_FIRST_GPU",
+  "files": {
+    "openlogo_b_convention_stable/scripts/resources.py": "da28557939a353043ec9e522837d781ca4ca2a8fdb46838b3652a6b0a58458cd",
+    "openlogo_b_convention_stable/scripts/gpu_driver.py": "529eccb7eae8d87c08f3bcc774b6f226e48b20534269f8df999f839a51310785",
+    "openlogo_b_convention_stable/scripts/b_common.py": "f455e003f037ff37a7785fd1e311d01634e6e3c61f42be83f03772c8cc0c3c2f",
+    "openlogo_b_convention_stable/scripts/cpu_gate.py": "1c981fa1586d4755ec214bb48c1b3c566402a5d8ce5c5550771f51d6c1d5ccfe",
+    "openlogo_b_convention_stable/scripts/gpu.sbatch": "eaf77ec121cb1394a41a0399befe72804172b2e1d757fa58e1d9ab09a1621da0",
+    "openlogo_b_convention_stable/protocol/qrels.json": "f60fef9e0dd33b4384eda91201a96ce585b054989d302bd1dae8a326b66452a0",
+    "openlogo_b_convention_stable/protocol/PRE_GPU_FREEZE.json": "0df6710787d7b1f60e9760a06e6a6cf8f1576ab401b998984b878fb14a9ed257"
+  },
+  "engineering_revision_utc": "2026-10-22T07:08:37.219789+00:00",
+  "superseded_binding_sha256": "b6574c0d1e3a69ab2e1c2b28056576f50f2161701e04a6e886adedee587e96b5",
+  "reason": "Log CUDA visibility before unchanged single-GPU guard; no model/data/readout math changes"
+}

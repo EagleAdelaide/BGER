@@ -1,0 +1,106 @@
+{
+  "protocol": "OpenLogo-Derived-ConventionStable-B-v1",
+  "phase": "dev",
+  "arm": "cam_bce",
+  "seed": 0,
+  "checkpoint_sha256": "0b5f1ccb61529e0c1fae5a07e4647c05bc1e37486d26efd81b31504546a7209c",
+  "n_queries": 1466,
+  "n_gallery": 108,
+  "query_records_digest": "04f96c32b4157180b15ef268afb84c53bac9f008288bcfbe2e86b6e0a489b2e8",
+  "gallery_records_digest": "a9266571175b2cc0b021b816359e4da62f386a1fccf2ea7e69dcbfeac0e57f16",
+  "views": [
+    "own_top1",
+    "CEseed0_positive",
+    "CEseed0_negative"
+  ],
+  "readouts": [
+    "H",
+    "decomposition"
+  ],
+  "sides": [
+    "query",
+    "gallery"
+  ],
+  "ranking_sha256": "9053e27e2abd760e98f2be9680091609840c641ff27b7fefd0b1ea59f2b03ade",
+  "fixed_pairs_sha256": "26e0d87812ace28d06ebcd4871c744f46d2e540459462b72830dc30fae35d45c",
+  "chunks": [
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/cam_bce_s0/neural_0000.npz",
+      "sha256": "3a3db1c084f103d236cdbdddd35e020578520c2579b5499950e3d3b8f3085ea3",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/cam_bce_s0/neural_0001.npz",
+      "sha256": "5f3f527d46bb0a7c4faca3c9e9d4d9aed82f187169eb4a9ab56899b2a88bc06f",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/cam_bce_s0/neural_0002.npz",
+      "sha256": "0260fbe8590d24a37cd9f951551947d91ae9e8b5cee29af8bc3c637b5fdf5e1d",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/cam_bce_s0/neural_0003.npz",
+      "sha256": "4c4bea5e578e03f39d0bf063565c3cf55ba34a1b7815825dab7530041165cb87",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/cam_bce_s0/neural_0004.npz",
+      "sha256": "2218fada372dd93a8ce963623c9a96bee19022ebcaae8558067c0e08df4015b7",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/cam_bce_s0/neural_0005.npz",
+      "sha256": "c1d12ed713a857cd1cd3bf924b5502563cc4e4e76368ddf31de99f208c9a9b26",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/cam_bce_s0/neural_0006.npz",
+      "sha256": "42f83ba78036e304b9caef4998cf8fbbab117bf5dc4200f0e88c0772e244778a",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/cam_bce_s0/neural_0007.npz",
+      "sha256": "70d8cf2df8efffde1195ad97d476bc4a50ffd0dc7a1687bac82e878a9760aff4",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/cam_bce_s0/neural_0008.npz",
+      "sha256": "3369ed7c15060902813b1a7fee066828a0dd76bebc4b0b767b9089c3beb7fe61",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/cam_bce_s0/neural_0009.npz",
+      "sha256": "30fe81a61c9f454d1ebec93287965376c6a2517fedb222d3a05a09c7bc352b64",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/cam_bce_s0/neural_0010.npz",
+      "sha256": "bc32ed9fc5b5c38c9f6992ee845e5094cc5cfb411bf44bfddb43c1f16bf1485a",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/cam_bce_s0/neural_0011.npz",
+      "sha256": "cb64edc1581ac83e67f6249fae0e73a4e4d96edf3f34b07cde6aaf44b6e60c98",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/cam_bce_s0/neural_0012.npz",
+      "sha256": "990c85d7abf363ab228a051c78b7eae9cb16b80985f95e69c17d69dc00682bc5",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/cam_bce_s0/neural_0013.npz",
+      "sha256": "76f0ce60775871f84c7ca7e63b29abaf165787bad6ea02ef476aa1014f804416",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/cam_bce_s0/neural_0014.npz",
+      "sha256": "7bb0e2bc96ccb24c6554e16c726be2a3e883b64699bd47afa05647830b7d2a05",
+      "n_queries": 66
+    }
+  ],
+  "eval_state_unchanged": true,
+  "completed_utc": "2026-10-22T06:46:13.561468+00:00",
+  "wall_seconds": 43.26857294200454
+}

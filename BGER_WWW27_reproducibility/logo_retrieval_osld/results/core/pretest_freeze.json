@@ -1,0 +1,191 @@
+{
+ "identity": "OSLD_E1_CORE",
+ "created_utc": "2026-10-16T16:33:56.760869+00:00",
+ "kind": "internal pre-test freeze",
+ "source_digest": "b41f35bd1a72b57cc1556e5b6a2dbf3b4ed4cfe177d6a91aeddb25dbdc4e7d50",
+ "selected_lambdas": {
+  "ce": 0.0,
+  "aux": 0.5,
+  "bger": 0.5,
+  "cam_bce": 0.5,
+  "abn_box": 2.0
+ },
+ "records_digest": "cd19f0f24960acf19a0c23ed33975e288d6c2fcc31cfd9eb8af49c7d9f65bf7f",
+ "label_map_digest": "44e809ace092b3e46fc37917f151253e34b98fa6382ab14aa0eff1706b82edde",
+ "arms_tested": [
+  "abn_box",
+  "aux",
+  "bger",
+  "cam_bce",
+  "ce"
+ ],
+ "incomplete_arms": {},
+ "candidates_sha256": "34b8aa76621f5b1be9624dc49444593e452c7fe737e584475c5987cdf3c0e832",
+ "checkpoints": [
+  {
+   "arm": "ce",
+   "seed": 0,
+   "lambda_value": 0.0,
+   "checkpoint_sha256": "746826f974a3351392ced1e7dcbd86328895715c393d84646ed90c26ebfd853b",
+   "thresholds": {
+    "primary": 0.5499999999999999,
+    "secondary": 0.85
+   }
+  },
+  {
+   "arm": "aux",
+   "seed": 0,
+   "lambda_value": 0.5,
+   "checkpoint_sha256": "3afbb16f8ed53ce9cb2120f3a701c8c3c71ecc7a313a0b71c1c1758d02e1914c",
+   "thresholds": {
+    "primary": 0.6,
+    "secondary": 0.85
+   }
+  },
+  {
+   "arm": "bger",
+   "seed": 0,
+   "lambda_value": 0.5,
+   "checkpoint_sha256": "79e7e92fce567275887ca03bf8c1888c7ae9c45057775fc5f4ef937d4288368d",
+   "thresholds": {
+    "primary": 0.5499999999999999,
+    "secondary": 0.85
+   }
+  },
+  {
+   "arm": "cam_bce",
+   "seed": 0,
+   "lambda_value": 0.5,
+   "checkpoint_sha256": "671a19ca7672c8377554a4b434c6d60b63ee9283e3978cd51b22faba04dbf6ea",
+   "thresholds": {
+    "primary": 0.49999999999999994,
+    "secondary": 0.75
+   }
+  },
+  {
+   "arm": "abn_box",
+   "seed": 0,
+   "lambda_value": 2.0,
+   "checkpoint_sha256": "1458e22736bb07db3157be2171556b800cd706f37b8af0f8189a19337a227fc0",
+   "thresholds": {
+    "primary": 0.65,
+    "secondary": 0.85
+   }
+  },
+  {
+   "arm": "ce",
+   "seed": 1,
+   "lambda_value": 0.0,
+   "checkpoint_sha256": "3389174b82cb36054f9030bbd540dc73231103dfc8f85501d4823cd560a23db7",
+   "thresholds": {
+    "primary": 0.65,
+    "secondary": 0.85
+   }
+  },
+  {
+   "arm": "aux",
+   "seed": 1,
+   "lambda_value": 0.5,
+   "checkpoint_sha256": "1adfff757f16104eea1baf2ebaba5f0ed9029a1cbf1aad352f37793894ba31f0",
+   "thresholds": {
+    "primary": 0.65,
+    "secondary": 0.85
+   }
+  },
+  {
+   "arm": "bger",
+   "seed": 1,
+   "lambda_value": 0.5,
+   "checkpoint_sha256": "c273551763efe1ea4d9d7298c748336432fe06e415aa04d96950a4525f1128ed",
+   "thresholds": {
+    "primary": 0.49999999999999994,
+    "secondary": 0.85
+   }
+  },
+  {
+   "arm": "cam_bce",
+   "seed": 1,
+   "lambda_value": 0.5,
+   "checkpoint_sha256": "87a7aada484af31a65930ca13a3841909eefdd04c18a4a4b98325a1028e88fca",
+   "thresholds": {
+    "primary": 0.5499999999999999,
+    "secondary": 0.75
+   }
+  },
+  {
+   "arm": "abn_box",
+   "seed": 1,
+   "lambda_value": 2.0,
+   "checkpoint_sha256": "2030be9c6c2348af7c99e62c869d408fefce3c0a7b6cc778dc9ad83827abbde6",
+   "thresholds": {
+    "primary": 0.65,
+    "secondary": 0.9
+   }
+  },
+  {
+   "arm": "ce",
+   "seed": 2,
+   "lambda_value": 0.0,
+   "checkpoint_sha256": "7fa51703d19f743395fc2e253d67941378a20d084d309e48b661be7e56422520",
+   "thresholds": {
+    "primary": 0.6,
+    "secondary": 0.85
+   }
+  },
+  {
+   "arm": "aux",
+   "seed": 2,
+   "lambda_value": 0.5,
+   "checkpoint_sha256": "a7de5be5580ab4ab1e8656250048ba6bd50865b98194f74406af9b704e3cc686",
+   "thresholds": {
+    "primary": 0.6,
+    "secondary": 0.85
+   }
+  },
+  {
+   "arm": "bger",
+   "seed": 2,
+   "lambda_value": 0.5,
+   "checkpoint_sha256": "b3df23921aaaee99857e1ea9935483cdff5e45c30acb3071212d3b8489efc169",
+   "thresholds": {
+    "primary": 0.5499999999999999,
+    "secondary": 0.7999999999999999
+   }
+  },
+  {
+   "arm": "cam_bce",
+   "seed": 2,
+   "lambda_value": 0.5,
+   "checkpoint_sha256": "b54c11bbf4ffb31cd95dae0da91b89363ddcb929c99efb1664cd7651fd1f7dbd",
+   "thresholds": {
+    "primary": 0.6,
+    "secondary": 0.75
+   }
+  },
+  {
+   "arm": "abn_box",
+   "seed": 2,
+   "lambda_value": 2.0,
+   "checkpoint_sha256": "f1f8579b2879d05aaa59d274b93c5fc9b4e3ca6da5a4f12c72069a6497f5eae5",
+   "thresholds": {
+    "primary": 0.7,
+    "secondary": 0.85
+   }
+  }
+ ],
+ "analysis": {
+  "family": [
+   "H1-logo R>-0.01",
+   "H2-logo Q>0"
+  ],
+  "reference": "CE",
+  "target": "BGER",
+  "view": "own_top1",
+  "readout": "primary",
+  "method": "query logo-identity cluster centered/basic bootstrap; fixed-seed mean; Holm",
+  "draws": 10000,
+  "rng_seed": 0,
+  "alpha": 0.05
+ },
+ "fixed_pair_rule": "CE seed0 final; highest relevant and highest non-relevant canonical template; exact score then canonical image ID"
+}

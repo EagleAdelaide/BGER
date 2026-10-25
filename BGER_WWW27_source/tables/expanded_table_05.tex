@@ -1,0 +1,23 @@
+\begingroup
+\captionsetup{type=table}
+\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\caption{The CUB study is related evidence, not a controlled transfer: these
+differences between the two studies all vary at once.}
+\label{tab:cub-osld}
+\begin{tabular}{@{}p{0.17\columnwidth}p{0.36\columnwidth}p{0.36\columnwidth}@{}}
+\toprule
+ & CUB-200-2011 & OSLD \\
+\midrule
+Task & closed-set, 200 classes & open-set retrieval of unseen identities \\
+Evaluated map & predicted-class Grad-CAM of a logit & Grad-CAM of the cosine to the top-1 template \\
+Localization & MaxBoxAccV2 envelope (101 thresholds, best per IoU) & IoU $\ge.5$ at a validation-locked threshold \\
+Objects & birds, mostly large boxes & logos, median box 3.9\% of the image \\
+Pretraining & ImageNet V2 weights & ImageNet V1 weights \\
+Checkpoint & best validation accuracy & final epoch \\
+Box target, loss & $\ge$1 cell; per-image balance, clipped prior & any-overlap cells; batch-level balance \\
+Weights & $\lambda=2$, three seeds (CAM-BCE also $.5$, post hoc) & $\lambda\in\{.5,2\}$ selected on validation \\
+Extra arm & Residual-BCE $(1+0.5M)\odot H$ & ABN-box \\
+\bottomrule
+\end{tabular}
+\par
+\endgroup

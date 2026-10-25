@@ -1,0 +1,14 @@
+{
+ "evaluation_key": "028b312a52d185d8bab760643fdc6eadc2a23a78788d27c8b967ceec1efd104c",
+ "files": {
+  "ranking.json": "e686763a8faebec4d613febed265b27ef4fac8a4f26779654b7e9330cda6e048",
+  "own_top1.json": "b7c6eadb75022c963b376ede3b60f29b3c57fdd41826fbc625697146889314a9",
+  "fixed_pairs.json": "6fa14ea65a2a231b0394e8e6282323b61b9c613c5407acad141ed3e390fd9374",
+  "summary.json": "87d2c620fa69b4e3f459dae9be8a77b4e1e1a794e103f5032bb99e4746240142"
+ },
+ "n_queries": 1295,
+ "n_own_top1": 1295,
+ "n_fixed": 0,
+ "chunks": 13,
+ "completed_utc": "2026-10-16T16:33:56.616836+00:00"
+}

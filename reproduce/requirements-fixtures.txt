@@ -1,0 +1,4 @@
+# Tested installed CPU-fixture environment; not the historical training environment.
+torch==1.13.1
+torchvision==0.14.1
+opencv-python==4.8.1.78

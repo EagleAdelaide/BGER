@@ -1,0 +1,196 @@
+{
+  "ce_s0": {
+    "indices": [
+      4,
+      15
+    ],
+    "values": [
+      0.25,
+      0.7999999999999999
+    ],
+    "readouts": [
+      "H",
+      "decomposition"
+    ],
+    "rule": "C0 development own-top1 IoU>=.5, maximum count, first grid point on ties"
+  },
+  "aux_s0": {
+    "indices": [
+      4,
+      14
+    ],
+    "values": [
+      0.25,
+      0.75
+    ],
+    "readouts": [
+      "H",
+      "decomposition"
+    ],
+    "rule": "C0 development own-top1 IoU>=.5, maximum count, first grid point on ties"
+  },
+  "bger_s0": {
+    "indices": [
+      2,
+      11,
+      3
+    ],
+    "values": [
+      0.15,
+      0.6,
+      0.2
+    ],
+    "readouts": [
+      "H",
+      "decomposition",
+      "F"
+    ],
+    "rule": "C0 development own-top1 IoU>=.5, maximum count, first grid point on ties"
+  },
+  "cam_bce_s0": {
+    "indices": [
+      5,
+      13
+    ],
+    "values": [
+      0.3,
+      0.7
+    ],
+    "readouts": [
+      "H",
+      "decomposition"
+    ],
+    "rule": "C0 development own-top1 IoU>=.5, maximum count, first grid point on ties"
+  },
+  "ce_s1": {
+    "indices": [
+      4,
+      10
+    ],
+    "values": [
+      0.25,
+      0.5499999999999999
+    ],
+    "readouts": [
+      "H",
+      "decomposition"
+    ],
+    "rule": "C0 development own-top1 IoU>=.5, maximum count, first grid point on ties"
+  },
+  "aux_s1": {
+    "indices": [
+      4,
+      15
+    ],
+    "values": [
+      0.25,
+      0.7999999999999999
+    ],
+    "readouts": [
+      "H",
+      "decomposition"
+    ],
+    "rule": "C0 development own-top1 IoU>=.5, maximum count, first grid point on ties"
+  },
+  "bger_s1": {
+    "indices": [
+      1,
+      14,
+      5
+    ],
+    "values": [
+      0.1,
+      0.75,
+      0.3
+    ],
+    "readouts": [
+      "H",
+      "decomposition",
+      "F"
+    ],
+    "rule": "C0 development own-top1 IoU>=.5, maximum count, first grid point on ties"
+  },
+  "cam_bce_s1": {
+    "indices": [
+      6,
+      13
+    ],
+    "values": [
+      0.35,
+      0.7
+    ],
+    "readouts": [
+      "H",
+      "decomposition"
+    ],
+    "rule": "C0 development own-top1 IoU>=.5, maximum count, first grid point on ties"
+  },
+  "ce_s2": {
+    "indices": [
+      9,
+      12
+    ],
+    "values": [
+      0.49999999999999994,
+      0.65
+    ],
+    "readouts": [
+      "H",
+      "decomposition"
+    ],
+    "rule": "C0 development own-top1 IoU>=.5, maximum count, first grid point on ties"
+  },
+  "aux_s2": {
+    "indices": [
+      8,
+      13
+    ],
+    "values": [
+      0.44999999999999996,
+      0.7
+    ],
+    "readouts": [
+      "H",
+      "decomposition"
+    ],
+    "rule": "C0 development own-top1 IoU>=.5, maximum count, first grid point on ties"
+  },
+  "bger_s2": {
+    "indices": [
+      10,
+      13,
+      8
+    ],
+    "values": [
+      0.5499999999999999,
+      0.7,
+      0.44999999999999996
+    ],
+    "readouts": [
+      "H",
+      "decomposition",
+      "F"
+    ],
+    "rule": "C0 development own-top1 IoU>=.5, maximum count, first grid point on ties"
+  },
+  "cam_bce_s2": {
+    "indices": [
+      8,
+      14
+    ],
+    "values": [
+      0.44999999999999996,
+      0.75
+    ],
+    "readouts": [
+      "H",
+      "decomposition"
+    ],
+    "rule": "C0 development own-top1 IoU>=.5, maximum count, first grid point on ties"
+  },
+  "centre_prior": {
+    "index": 5,
+    "value": 0.3,
+    "rule": "C0 development own-query IoU>=.5 grid19 tie lowest"
+  }
+}

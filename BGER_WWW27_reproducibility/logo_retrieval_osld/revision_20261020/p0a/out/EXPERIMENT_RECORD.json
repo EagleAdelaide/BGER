@@ -1,0 +1,31 @@
+{
+ "identity": "OSLD_P0A_EXPLORATORY",
+ "experiment": "p0a_bger_pooled_readout",
+ "created_utc": "2026-10-20T06:26:57.019351+00:00",
+ "reserved_gpu_seconds": 5400,
+ "torch": "2.4.1+cu118",
+ "device": "cuda",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "run_root": "<RUN>",
+ "freeze_sha256": "096ec6facbb1880f1c6f7a4d6f6885cad3643ccb4ae30509bc0e187cedd6027f",
+ "fixed_manifest_sha256": "f6576ec65f2f632a8b18514c60d57462da2276bfa6c822fab8b60d7586d56a66",
+ "code_sha256": {
+  "p0a_bger_pooled_readout.py": "ec683eb3626cdf451a93e88244cf4c2e4157bd93df50c6f2f0588b49bd265fd2",
+  "web_eval.py": "82509523b9ad1257a8b97b0d4230b724c32ce0c63ab52d5dbc96ebf92dcb1336",
+  "e1_evaluate.py": "eac4876407f71f3529603a4eecf5f81af0fde4b4a024a4d674d5caf4c56d885e"
+ },
+ "seeds": {
+  "0": {
+   "checkpoint_sha256": "79e7e92fce567275887ca03bf8c1888c7ae9c45057775fc5f4ef937d4288368d",
+   "threshold_C_F": 0.44999999999999996
+  },
+  "1": {
+   "checkpoint_sha256": "c273551763efe1ea4d9d7298c748336432fe06e415aa04d96950a4525f1128ed",
+   "threshold_C_F": 0.65
+  },
+  "2": {
+   "checkpoint_sha256": "b3df23921aaaee99857e1ea9935483cdff5e45c30acb3071212d3b8489efc169",
+   "threshold_C_F": 0.6
+  }
+ }
+}

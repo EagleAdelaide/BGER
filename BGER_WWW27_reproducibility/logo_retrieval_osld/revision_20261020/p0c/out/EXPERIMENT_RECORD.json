@@ -1,0 +1,84 @@
+{
+ "identity": "OSLD_P0C_FROZEN_REFERENCE",
+ "created_utc": "2026-10-20T06:38:00.931165+00:00",
+ "reserved_gpu_seconds": 1800,
+ "torch": "2.4.1+cu118",
+ "device": "cuda",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "weights": {
+  "open_clip_vitb32_laion2b_s34b_b79k.bin": "1bd3c7172de5b207ceac554f5ab5266166f3b9baccc9af5989bc801016d080ad",
+  "PROVENANCE.json": "a7aca901280461e79151c2efa7bdd352f5f4548ba1f406b7dc4ee6eccf7f6c9b",
+  "dinov2_vitb14_pretrain.pth": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73"
+ },
+ "open_clip_version": "2.26.1",
+ "params": {
+  "dinov2_vitb14": 86580480,
+  "openclip_vitb32": 151277313
+ },
+ "results": {
+  "dinov2_vitb14__study": {
+   "identity": "OSLD_P0C_FROZEN_REFERENCE",
+   "model": "dinov2_vitb14",
+   "preprocessing": "study",
+   "embedding_dim": 768,
+   "recall1": 0.0274858528698464,
+   "recall10": 0.07679870654810024,
+   "mAP": 0.03524211461218845,
+   "n_queries": 1237,
+   "gallery_size": 20848,
+   "embed_seconds": {
+    "query": 6.0216968059539795,
+    "gallery": 61.6314811706543
+   },
+   "ms_per_image": 3.063308941662136
+  },
+  "dinov2_vitb14__native": {
+   "identity": "OSLD_P0C_FROZEN_REFERENCE",
+   "model": "dinov2_vitb14",
+   "preprocessing": "native",
+   "embedding_dim": 768,
+   "recall1": 0.03556992724333064,
+   "recall10": 0.09054163298302344,
+   "mAP": 0.04012043254482049,
+   "n_queries": 1237,
+   "gallery_size": 20848,
+   "embed_seconds": {
+    "query": 4.78663444519043,
+    "gallery": 60.12563133239746
+   },
+   "ms_per_image": 2.9392015294357208
+  },
+  "openclip_vitb32__study": {
+   "identity": "OSLD_P0C_FROZEN_REFERENCE",
+   "model": "openclip_vitb32",
+   "preprocessing": "study",
+   "embedding_dim": 512,
+   "recall1": 0.5052546483427648,
+   "recall10": 0.6936135812449474,
+   "mAP": 0.521062817105183,
+   "n_queries": 1237,
+   "gallery_size": 20848,
+   "embed_seconds": {
+    "query": 2.1329939365386963,
+    "gallery": 15.093100309371948
+   },
+   "ms_per_image": 0.7799906835368189
+  },
+  "openclip_vitb32__native": {
+   "identity": "OSLD_P0C_FROZEN_REFERENCE",
+   "model": "openclip_vitb32",
+   "preprocessing": "native",
+   "embedding_dim": 512,
+   "recall1": 0.35004042037186744,
+   "recall10": 0.5270816491511722,
+   "mAP": 0.33134417274002037,
+   "n_queries": 1237,
+   "gallery_size": 20848,
+   "embed_seconds": {
+    "query": 2.397385597229004,
+    "gallery": 15.488206148147583
+   },
+   "ms_per_image": 0.8098524675289376
+  }
+ }
+}

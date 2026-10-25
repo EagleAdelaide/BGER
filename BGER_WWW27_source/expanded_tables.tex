@@ -1,0 +1,43 @@
+\documentclass[sigconf,anonymous,review]{acmart}
+\usepackage{amsmath,booktabs,multirow,xr}
+\externaldocument[main-]{main}
+\setcopyright{none}
+\settopmatter{printacmref=false}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+\acmDOI{}\acmISBN{}
+\acmConference[WWW '27]{Proceedings of the ACM Web Conference 2027}{May 10--14, 2027}{Dublin, Ireland}
+\title[Expanded saved-record tables]{Expanded saved-record tables}
+\author{Anonymous Author(s)}
+\renewcommand{\shortauthors}{Anonymous Author(s)}
+\hypersetup{pdfauthor={},pdftitle={BGER expanded saved-record tables}}
+\input{tables/numbers}
+\input{tables/osld_numbers}
+\input{tables/osld_results_numbers}
+\newcommand{\Lq}{L^{\mathrm q}}
+\begin{document}
+\onecolumn
+\begin{center}\large\bfseries Expanded saved-record tables\end{center}
+These unchanged numerical tables are an optional reproduction companion,
+not extra pages of the main paper. They preserve the frozen records,
+hypotheses and interval definitions. Figure~\ref*{main-fig:effects} refers
+to the main manuscript; its OSLD prespecified rows retain their original scope.
+\par\smallskip
+\noindent\begin{minipage}{\textwidth}\input{tables/expanded_table_01}\end{minipage}
+\par\medskip
+\noindent\begin{minipage}{\textwidth}\input{tables/expanded_table_02}\end{minipage}
+\par\medskip
+\noindent\begin{minipage}[t]{.485\textwidth}\input{tables/expanded_table_03}\end{minipage}\hfill
+\begin{minipage}[t]{.485\textwidth}\input{tables/expanded_table_04}\end{minipage}
+\newpage
+\begin{center}\large\bfseries Related CUB classification records\end{center}
+The comparison below retains the differences in task, maps, metrics,
+pretraining, selection and supervision. It is related evidence, not a
+controlled transfer result.
+\par\medskip
+\noindent\begin{minipage}[t]{.485\textwidth}
+\input{tables/expanded_table_05}
+\par\medskip
+\input{tables/expanded_table_06}
+\end{minipage}\hfill
+\begin{minipage}[t]{.485\textwidth}\input{tables/expanded_table_07}\end{minipage}
+\end{document}

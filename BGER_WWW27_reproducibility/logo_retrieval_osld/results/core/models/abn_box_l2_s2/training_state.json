@@ -1,0 +1,14 @@
+{
+ "identity": "OSLD_E1_CORE",
+ "arm": "abn_box",
+ "lam": 2.0,
+ "seed": 2,
+ "completed_epochs": 15,
+ "next_batch": 0,
+ "optimizer_steps": 3195,
+ "zero_grid_targets": 0,
+ "initial_state_hash": "3b68f0a981875e768cfda1605c5ae1ec6241de25820592a82d958091b0600711",
+ "checkpoint_sha256": "f1f8579b2879d05aaa59d274b93c5fc9b4e3ca6da5a4f12c72069a6497f5eae5",
+ "complete": true,
+ "sample_order_sha256": "a383fb220caecaff8354946541d2bfbd96242b1b3b7e7d30d23efee7e3c65cdb"
+}

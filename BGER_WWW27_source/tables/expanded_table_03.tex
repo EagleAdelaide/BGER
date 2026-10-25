@@ -1,0 +1,32 @@
+\begingroup
+\captionsetup{type=table}
+\centering\footnotesize\setlength{\tabcolsep}{2.5pt}
+\caption{Complete OSLD development record (official validation: 1,295 queries, 7,272 train+validation templates; \%). Seed-0 rows select $\lambda$ within each arm (Recall@1 within 1~pp of the arm's best, then highest $\bar L^{\mathrm q}$, ties to the smaller $\lambda$); seeds 1--2 lock thresholds.}
+\label{tab:osld-dev}
+\begin{tabular}{lccccccccc}
+\toprule
+Arm & Seed & $\lambda$ & R@1 & R@10 & mAP & $\bar L^{\mathrm q}$ & $Jq@1$ & $t$ & Sel.\\
+\midrule
+CE & 0 & 0 & 5.8 & 15.1 & 6.4 & 3.9 & 1.7 & 0.55 & $\checkmark$\\
+Aux-BCE & 0 & 0.5 & 5.9 & 16.4 & 6.7 & 5.7 & 1.8 & 0.60 & $\checkmark$\\
+Aux-BCE & 0 & 2 & 4.2 & 15.7 & 5.9 & 5.7 & 0.5 & 0.65 & \\
+BGER & 0 & 0.5 & 10.4 & 25.5 & 11.2 & 2.4 & 0.6 & 0.55 & $\checkmark$\\
+BGER & 0 & 2 & 9.3 & 22.5 & 9.8 & 3.9 & 0.7 & 0.50 & \\
+CAM-BCE & 0 & 0.5 & 8.8 & 21.4 & 9.5 & 17.4 & 5.1 & 0.50 & $\checkmark$\\
+CAM-BCE & 0 & 2 & 2.7 & 9.0 & 3.2 & 6.9 & 1.1 & 0.60 & \\
+ABN-box & 0 & 0.5 & 4.2 & 14.8 & 5.9 & 4.2 & 0.8 & 0.70 & \\
+ABN-box & 0 & 2 & 5.6 & 20.3 & 7.3 & 4.2 & 0.7 & 0.65 & $\checkmark$\\
+CE & 1 & 0 & 4.8 & 14.1 & 5.7 & 3.9 & 0.7 & 0.65 & $\checkmark$\\
+Aux-BCE & 1 & 0.5 & 6.9 & 17.1 & 7.0 & 4.7 & 1.1 & 0.65 & $\checkmark$\\
+BGER & 1 & 0.5 & 10.3 & 23.1 & 10.6 & 2.2 & 0.8 & 0.50 & $\checkmark$\\
+CAM-BCE & 1 & 0.5 & 9.3 & 21.9 & 9.6 & 16.6 & 5.2 & 0.55 & $\checkmark$\\
+ABN-box & 1 & 2 & 7.3 & 20.4 & 8.1 & 4.3 & 1.4 & 0.65 & $\checkmark$\\
+CE & 2 & 0 & 5.9 & 15.6 & 6.8 & 4.1 & 1.2 & 0.60 & $\checkmark$\\
+Aux-BCE & 2 & 0.5 & 4.6 & 15.8 & 6.1 & 3.6 & 0.8 & 0.60 & $\checkmark$\\
+BGER & 2 & 0.5 & 9.2 & 22.8 & 9.8 & 2.6 & 0.8 & 0.55 & $\checkmark$\\
+CAM-BCE & 2 & 0.5 & 8.0 & 20.2 & 8.7 & 20.0 & 3.5 & 0.60 & $\checkmark$\\
+ABN-box & 2 & 2 & 6.0 & 18.5 & 7.6 & 3.3 & 0.8 & 0.70 & $\checkmark$\\
+\bottomrule
+\end{tabular}
+\par
+\endgroup

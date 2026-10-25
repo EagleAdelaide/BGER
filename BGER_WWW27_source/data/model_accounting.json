@@ -1,0 +1,58 @@
+{
+ "n_ids": 3516,
+ "arms": {
+  "ce": {
+   "total_parameters": 30714365,
+   "training_graph_parameters": 30712316,
+   "retrieval_parameters": 23508032,
+   "not_in_retrieval": [
+    "gate",
+    "head"
+   ]
+  },
+  "aux": {
+   "total_parameters": 30714365,
+   "training_graph_parameters": 30714365,
+   "retrieval_parameters": 23508032,
+   "not_in_retrieval": [
+    "gate",
+    "head"
+   ]
+  },
+  "bger": {
+   "total_parameters": 30714365,
+   "training_graph_parameters": 30714365,
+   "retrieval_parameters": 23510081,
+   "not_in_retrieval": [
+    "head"
+   ]
+  },
+  "cam_bce": {
+   "total_parameters": 30714365,
+   "training_graph_parameters": 30712316,
+   "retrieval_parameters": 23508032,
+   "not_in_retrieval": [
+    "gate",
+    "head"
+   ]
+  },
+  "abn_box": {
+   "total_parameters": 65282850,
+   "training_graph_parameters": 65282850,
+   "retrieval_parameters": 45716310,
+   "not_in_retrieval": [
+    "att_conv2",
+    "head"
+   ]
+  }
+ },
+ "shared_backbone_head_hash": {
+  "ce": "e0f9e39b2498c9cead5057898465ecc46b09b1d2832fc0a86e5b2b4bd4213c0c",
+  "aux": "e0f9e39b2498c9cead5057898465ecc46b09b1d2832fc0a86e5b2b4bd4213c0c",
+  "bger": "e0f9e39b2498c9cead5057898465ecc46b09b1d2832fc0a86e5b2b4bd4213c0c",
+  "cam_bce": "e0f9e39b2498c9cead5057898465ecc46b09b1d2832fc0a86e5b2b4bd4213c0c",
+  "abn_box": "e0f9e39b2498c9cead5057898465ecc46b09b1d2832fc0a86e5b2b4bd4213c0c"
+ },
+ "shared_tensors_identical": true,
+ "note": "retrieval = parameters with nonzero gradient of the pooled embedding; BN running statistics are buffers, not counted; gate-family arms differ only in loss/pooling, ABN-box adds an attention branch (not an equal-parameter control)"
+}

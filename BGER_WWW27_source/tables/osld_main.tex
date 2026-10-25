@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\caption{OSLD test, five matched arms (\%, mean\,$\pm$\,sample SD over seeds 0--2; \osNQueries{} single-logo queries of \osldTestIds{} unseen identities vs 20,848 templates). $\bar L^{\mathrm q}$: own-top-1 query-logo localization (primary Grad-CAM, IoU$\ge$.5 at the validation-locked threshold; wrong templates included); $Jq@1$: correct top-1 and localized. BGER's primary map is read at the pre-gate $H$ (Section~\ref{sec:p0a} reads it at $M{\odot}H$). Bold: best of the five arms per column. Uniform-random Recall@1 is \osRandRefPct\%. EIB, degeneracy and per-seed values: Appendix~\ref{app:osld-results}.}
+\label{tab:osld-main}
+\begin{tabular}{lcccc}
+\toprule
+Arm & R@1 & mAP & $\bar L^{\mathrm q}$ & $Jq@1$\\
+\midrule
+CE & 3.8\,$\pm$\,0.6 & 4.1\,$\pm$\,0.1 & 3.5\,$\pm$\,0.5 & 0.9\,$\pm$\,0.2\\
+Aux-BCE & 3.7\,$\pm$\,0.3 & 4.1\,$\pm$\,0.2 & 5.3\,$\pm$\,0.7 & 0.9\,$\pm$\,0.2\\
+BGER & \textbf{6.4\,$\pm$\,0.7} & \textbf{7.1\,$\pm$\,0.4} & 2.0\,$\pm$\,0.2 & 0.4\,$\pm$\,0.1\\
+CAM-BCE & 4.9\,$\pm$\,0.5 & 5.4\,$\pm$\,0.2 & \textbf{17.5\,$\pm$\,1.3} & \textbf{2.9\,$\pm$\,0.4}\\
+ABN-box & 3.7\,$\pm$\,0.2 & 4.5\,$\pm$\,0.3 & 4.0\,$\pm$\,0.7 & 0.7\,$\pm$\,0.4\\
+\bottomrule
+\end{tabular}
+\end{table}

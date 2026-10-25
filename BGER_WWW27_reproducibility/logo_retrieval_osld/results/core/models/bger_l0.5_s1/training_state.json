@@ -1,0 +1,14 @@
+{
+ "identity": "OSLD_E1_CORE",
+ "arm": "bger",
+ "lam": 0.5,
+ "seed": 1,
+ "completed_epochs": 15,
+ "next_batch": 0,
+ "optimizer_steps": 3195,
+ "zero_grid_targets": 0,
+ "initial_state_hash": "3b65849bb8f4151d687b003fb666105b06328eeefdf8c625336702ff719667de",
+ "checkpoint_sha256": "c273551763efe1ea4d9d7298c748336432fe06e415aa04d96950a4525f1128ed",
+ "complete": true,
+ "sample_order_sha256": "e61b8f365e8e6ff64f59d41dd1efd81edc9472e2044384bfdfb0f7e80cb3ae44"
+}

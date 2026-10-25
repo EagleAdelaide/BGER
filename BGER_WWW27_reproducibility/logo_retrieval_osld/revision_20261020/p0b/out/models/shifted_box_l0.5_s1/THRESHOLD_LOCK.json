@@ -1,0 +1,12 @@
+{
+ "identity": "OSLD_P0B_EXPLORATORY",
+ "tag": "shifted_box_l0.5_s1",
+ "checkpoint_sha256": "83770af612d0c8d07ed5b8072c7a2cc35ff1efbe4a3a596c54a6a6a803334098",
+ "thresholds": {
+  "primary": 0.44999999999999996,
+  "secondary": 0.7999999999999999
+ },
+ "dev_recall1": 0.05791505791505792,
+ "dev_loc": 0.0416988416988417,
+ "locked_utc": "2026-10-20T08:39:10.067767+00:00"
+}

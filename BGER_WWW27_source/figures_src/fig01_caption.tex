@@ -1,0 +1,14 @@
+\caption{\textbf{Supervision placement and deployed-score readouts.}
+Supervision placements are alternatives in separately trained models:
+CE/Aux-BCE/CAM-BCE pool $H$; BGER pools $M\odot H$.
+From $z$, classification and retrieval branch separately; the template uses
+the same selected-arm encoder/pooling. Box BCE supervises $M$ (BGER or Aux),
+$Q_y$ (CAM, sharing $W$ without bias), or spatial attention logits $a$ (ABN).
+Aux/CAM losses still update shared $H$; CE uses identity CE only, with no box loss.
+Both Grad-CAM hooks, at spatial $H$ (primary) and BGER's $F$ before GAP
+(post hoc), explain the deployed pairwise score $s(q,d)$, holding $z_d$ fixed
+and retaining query normalization; they do not explain training-class logits.
+The box is an annotation overlay, not a test-time input or crop.
+Product and template illustrations are synthetic; the feature-grid icon is
+schematic, not an evaluated model output.}
+\input{figures_src/fig01_accessibility.tex}

@@ -1,0 +1,1 @@
+BLOCKED_RESOURCE_LIMIT: job timed out at the 4.5 GPU-h cap after 23/60 epochs of seed 0; no test evaluation; best.pt (val R@1 1.8% at epoch 10) retained privately, not distributed. Not a valid baseline.

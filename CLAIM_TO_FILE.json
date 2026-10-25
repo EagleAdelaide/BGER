@@ -1,0 +1,944 @@
+[
+  {
+    "claim": "Table 1",
+    "paper_page": 4,
+    "paths": [
+      "BGER_WWW27_source/tables/osld_data.tex",
+      "BGER_WWW27_source/data/osld_release_summary.json",
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/code/osld_release_check.py"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "generated_numerical_tables",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "Counts regenerated from supplied release summary; full annotation verification SKIP without licensed inputs",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_source/tables/osld_data.tex",
+        "kind": "file",
+        "sha256": "0b38e498d3d3448551006c42371c2b6fe4389a9ebcd94c9bd2baf6ca816f89cf"
+      },
+      {
+        "path": "BGER_WWW27_source/data/osld_release_summary.json",
+        "kind": "file",
+        "sha256": "e10bdd83d126dbcb16479b460be25fdcd12f1fef88ecf7a636794cd2f64f4af2"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/code/osld_release_check.py",
+        "kind": "file",
+        "sha256": "0dcc6ae3317595f7995cde62184d546bdeef370ee579432e9e6f90eb18b90d7f"
+      }
+    ]
+  },
+  {
+    "claim": "Table 2",
+    "paper_page": 4,
+    "paths": [
+      "BGER_WWW27_source/tables/osld_main.tex",
+      "BGER_WWW27_source/data/osld_core_results.json",
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/results/core/pretest_freeze.json"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "osld_saved_reductions",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "Seed SD is not CI; wrong top-1 included",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_source/tables/osld_main.tex",
+        "kind": "file",
+        "sha256": "32a7b9215eb68ec4841615a78ec2335088bbcebb1c9a551bd91ca0a379a4f884"
+      },
+      {
+        "path": "BGER_WWW27_source/data/osld_core_results.json",
+        "kind": "file",
+        "sha256": "782d160ddccf2a385fc753cc30e81f526c3f4af26fb8b5f55ac517bf63315198"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/results/core/pretest_freeze.json",
+        "kind": "file",
+        "sha256": "4811481d13849bd36e1dcc8dba9630cd59ac5a500db9baa2798e314386b575f9"
+      }
+    ]
+  },
+  {
+    "claim": "Table 3",
+    "paper_page": 5,
+    "paths": [
+      "BGER_WWW27_source/tables/osld_controls.tex",
+      "BGER_WWW27_source/data/p0a_results.json",
+      "BGER_WWW27_source/data/p0b_results.json",
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/revision_20261020/p0a",
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/revision_20261020/p0b"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "osld_saved_reductions",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "Same BGER checkpoints at H/F; controls and hook exploratory",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_source/tables/osld_controls.tex",
+        "kind": "file",
+        "sha256": "b176a8a528a8f7d5533177ae37e271cf5e4eed0020888654d2f805d05e11a1e8"
+      },
+      {
+        "path": "BGER_WWW27_source/data/p0a_results.json",
+        "kind": "file",
+        "sha256": "bd34a4acef07dfb649942dceb0e9f4295543f1f37297fe8c6d9edbc13d6e5a3d"
+      },
+      {
+        "path": "BGER_WWW27_source/data/p0b_results.json",
+        "kind": "file",
+        "sha256": "aaded71b081f32175f982afddefd9cca0b559cdcb6257263b650758f1a06e2c7"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/revision_20261020/p0a",
+        "kind": "directory",
+        "sha256": null
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/revision_20261020/p0b",
+        "kind": "directory",
+        "sha256": null
+      }
+    ]
+  },
+  {
+    "claim": "Table 4",
+    "paper_page": 6,
+    "paths": [
+      "BGER_WWW27_source/tables/osld_frozen.tex",
+      "BGER_WWW27_source/data/p0c_results.json",
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/revision_20261020/p0c/weights_PROVENANCE.json",
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/revision_20261020/p0c/out"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "frozen_references",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "Official identifiers/digests, no weights/embeddings; annotation quartiles SKIP",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_source/tables/osld_frozen.tex",
+        "kind": "file",
+        "sha256": "27c895d8f3ebf02004d24b919156ce5e605b45844408976b62f01f20c882060b"
+      },
+      {
+        "path": "BGER_WWW27_source/data/p0c_results.json",
+        "kind": "file",
+        "sha256": "e556db82717378aaed24032303dc38bb0e777467e48166e13f13a0e6d3f17f4f"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/revision_20261020/p0c/weights_PROVENANCE.json",
+        "kind": "file",
+        "sha256": "2afed93d454307c17288568577dd2761a07fdcb32fd11b931d5bc4916c2bb6eb"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/revision_20261020/p0c/out",
+        "kind": "directory",
+        "sha256": null
+      }
+    ]
+  },
+  {
+    "claim": "Table 5",
+    "paper_page": 8,
+    "paths": [
+      "BGER_WWW27_source/tables/openlogo_main.tex",
+      "BGER_WWW27_reproducibility/openlogo/tables/per_seed_and_mean_SD.csv",
+      "BGER_WWW27_reproducibility/openlogo/tables/paired_contrasts.csv"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "openlogo_archive_only",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "Exploratory, conditional paired group percentile intervals; sample SD not CI",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_source/tables/openlogo_main.tex",
+        "kind": "file",
+        "sha256": "69b797b7d6bb8f38f48659c7c180df319dbc7733a60e96e0242e635c926b24cb"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/openlogo/tables/per_seed_and_mean_SD.csv",
+        "kind": "file",
+        "sha256": "b6e337c3ba5914845510c26e2c0c210cde80d8c22f147431dcfeb787cd0e6025"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/openlogo/tables/paired_contrasts.csv",
+        "kind": "file",
+        "sha256": "657a87397efe7af301f5257ab13b0000d303d6c015766f8e3bf3820d2f9f64db"
+      }
+    ]
+  },
+  {
+    "claim": "Table 6",
+    "paper_page": 10,
+    "paths": [
+      "BGER_WWW27_source/tables/openlogo_full.tex",
+      "BGER_WWW27_reproducibility/openlogo/tables",
+      "BGER_WWW27_reproducibility/openlogo/results/shared_group_bootstrap_draws.npz"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "openlogo_archive_only",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "H/D/C0/C1 and class-macro; raw neural shards absent",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_source/tables/openlogo_full.tex",
+        "kind": "file",
+        "sha256": "3ae253ab32d2b287d05e3cd314462d879e5f0db58f429ab1da6a7e9615f5b25e"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/openlogo/tables",
+        "kind": "directory",
+        "sha256": null
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/openlogo/results/shared_group_bootstrap_draws.npz",
+        "kind": "file",
+        "sha256": "32e0293559446ed224c1b61ff17babccf073b94d9ec5b3087a6a22ea22647ef7"
+      }
+    ]
+  },
+  {
+    "claim": "Table 7",
+    "paper_page": 10,
+    "paths": [
+      "BGER_WWW27_source/tables/osld_perseed.tex",
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/results/core/test",
+      "BGER_WWW27_source/data/osld_core_results.json"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "osld_saved_reductions",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "Fifteen selected models; fixed development thresholds",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_source/tables/osld_perseed.tex",
+        "kind": "file",
+        "sha256": "8fe6c1ca501d331b8a502b169f891b9b3c90020f133ec0eb350c526474292a7d"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/results/core/test",
+        "kind": "directory",
+        "sha256": null
+      },
+      {
+        "path": "BGER_WWW27_source/data/osld_core_results.json",
+        "kind": "file",
+        "sha256": "782d160ddccf2a385fc753cc30e81f526c3f4af26fb8b5f55ac517bf63315198"
+      }
+    ]
+  },
+  {
+    "claim": "Table 8",
+    "paper_page": 10,
+    "paths": [
+      "BGER_WWW27_source/tables/osld_size.tex",
+      "BGER_WWW27_source/data/osld_descriptive.json",
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/results/analysis/descriptive_extra.json"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "generated_numerical_tables",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "Saved subgroup values regenerated; raw annotation-defined bin reconstruction SKIP",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_source/tables/osld_size.tex",
+        "kind": "file",
+        "sha256": "2cec7f89519d6d924053c63cf4a0b3633f40ba23d3e539137593027dd4cbcf4f"
+      },
+      {
+        "path": "BGER_WWW27_source/data/osld_descriptive.json",
+        "kind": "file",
+        "sha256": "c9deabfe95ebf1fc2e081a7890e06c46591b163ea41bf0afbc14360f91f098cc"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/results/analysis/descriptive_extra.json",
+        "kind": "file",
+        "sha256": "c9deabfe95ebf1fc2e081a7890e06c46591b163ea41bf0afbc14360f91f098cc"
+      }
+    ]
+  },
+  {
+    "claim": "Table 9",
+    "paper_page": 11,
+    "paths": [
+      "BGER_WWW27_source/tables/main_results.tex",
+      "BGER_WWW27_reproducibility/cub/data/cub_ev_r101_rows.csv",
+      "BGER_WWW27_reproducibility/cub/per_image"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "cub_saved_records_and_bootstrap",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "Related classification task, not retrieval replication; lambda .5 CAM point post hoc",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_source/tables/main_results.tex",
+        "kind": "file",
+        "sha256": "2d6ed9ec6a004fc4a8748fdf06c33762e4091d86eaf6ab141d0cd0f6f8100068"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/cub/data/cub_ev_r101_rows.csv",
+        "kind": "file",
+        "sha256": "8538b42b6109cef8d4c5b0d792a8d813f074a42ec070d3968ca9587d9f1fe1bf"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/cub/per_image",
+        "kind": "directory",
+        "sha256": null
+      }
+    ]
+  },
+  {
+    "claim": "Table 10",
+    "paper_page": 11,
+    "paths": [
+      "BGER_WWW27_source/tables/paired.tex",
+      "BGER_WWW27_reproducibility/cub/data/cub_ev_r101_rows.csv",
+      "BGER_WWW27_reproducibility/cub/per_image"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "cub_saved_records_and_bootstrap",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "Same-seed system contrasts, not additive causal shares",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_source/tables/paired.tex",
+        "kind": "file",
+        "sha256": "46a2d090e4391d05de858fcac1aab09c897e18b9af1188fb8762b318bba2ba4a"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/cub/data/cub_ev_r101_rows.csv",
+        "kind": "file",
+        "sha256": "8538b42b6109cef8d4c5b0d792a8d813f074a42ec070d3968ca9587d9f1fe1bf"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/cub/per_image",
+        "kind": "directory",
+        "sha256": null
+      }
+    ]
+  },
+  {
+    "claim": "Table 11",
+    "paper_page": 11,
+    "paths": [
+      "BGER_WWW27_source/tables/detach.tex",
+      "BGER_WWW27_source/data/detach_numerics.json"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "generated_numerical_tables",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "Saved aggregates only; fresh checkpoint gradient recomputation SKIP",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_source/tables/detach.tex",
+        "kind": "file",
+        "sha256": "04bcad5a82953f0bbfc74898bb2d812b099fdd17a0a2f09cb8a582b568b881ef"
+      },
+      {
+        "path": "BGER_WWW27_source/data/detach_numerics.json",
+        "kind": "file",
+        "sha256": "24eb78fc4c35b7ef0298da6fce38733de1085833c26859c9a190d2de0198a424"
+      }
+    ]
+  },
+  {
+    "claim": "Figure 1",
+    "paper_page": 3,
+    "paths": [
+      "BGER_WWW27_source/figures/fig01_supervision_placement.pdf",
+      "BGER_WWW27_source/figures/fig01_supervision_placement.tex",
+      "BGER_WWW27_source/figures_src/fig01_artwork.tex",
+      "BGER_WWW27_source/figures_src/fig01_caption.tex"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "figure1_vector_build",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "Synthetic TikZ, no dataset pixels; independent arms and H/F hooks retained",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_source/figures/fig01_supervision_placement.pdf",
+        "kind": "file",
+        "sha256": "ebddee282ca8d11f49151c35ee062c4d088b6d8a4254504eec9522b9f50505c4"
+      },
+      {
+        "path": "BGER_WWW27_source/figures/fig01_supervision_placement.tex",
+        "kind": "file",
+        "sha256": "c753c4db1934a5123f30e6dc809c13e9e6843e062643b9a4c467bcb68d14b35b"
+      },
+      {
+        "path": "BGER_WWW27_source/figures_src/fig01_artwork.tex",
+        "kind": "file",
+        "sha256": "5eee16f4990b2f848dffc87b13c9b1af12c58de83831be407221e0a74fbf6f8d"
+      },
+      {
+        "path": "BGER_WWW27_source/figures_src/fig01_caption.tex",
+        "kind": "file",
+        "sha256": "2521b8d8853affafd862e8cb5f8cb41665e9459d9ebf0e05c863317316679b8e"
+      }
+    ]
+  },
+  {
+    "claim": "Figure 2",
+    "paper_page": 5,
+    "paths": [
+      "BGER_WWW27_source/figures/fig02_retrieval_vs_localization.pdf",
+      "BGER_WWW27_source/data/osld_core_results.json",
+      "BGER_WWW27_source/data/p0a_results.json"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "osld_saved_reductions",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "H/F same checkpoints; observed means and seed points, not CI",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_source/figures/fig02_retrieval_vs_localization.pdf",
+        "kind": "file",
+        "sha256": "13835651e79a569108b24417071bf6897d66df897cf1fce93b891fd5a090dfa7"
+      },
+      {
+        "path": "BGER_WWW27_source/data/osld_core_results.json",
+        "kind": "file",
+        "sha256": "782d160ddccf2a385fc753cc30e81f526c3f4af26fb8b5f55ac517bf63315198"
+      },
+      {
+        "path": "BGER_WWW27_source/data/p0a_results.json",
+        "kind": "file",
+        "sha256": "bd34a4acef07dfb649942dceb0e9f4295543f1f37297fe8c6d9edbc13d6e5a3d"
+      }
+    ]
+  },
+  {
+    "claim": "Figure 3",
+    "paper_page": 6,
+    "paths": [
+      "BGER_WWW27_source/figures/fig03_paired_effects.pdf",
+      "BGER_WWW27_source/figures/CROSS_DATASET_EFFECTS.json",
+      "BGER_WWW27_source/data/osld_contrasts_all.json",
+      "BGER_WWW27_source/data/openlogo_paired_contrasts.csv"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "openlogo_archive_only",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "Separate OSLD/OpenLogo effects; P/D/E scopes retained; not hook comparisons",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_source/figures/fig03_paired_effects.pdf",
+        "kind": "file",
+        "sha256": "c12dd7d3222117dc711d20e331016b7660395d213d343f5c3d1eb20722a3d702"
+      },
+      {
+        "path": "BGER_WWW27_source/figures/CROSS_DATASET_EFFECTS.json",
+        "kind": "file",
+        "sha256": "9974b0245576e914899d5a922008fcbbc70d17a7f00c2d09621946458030e44c"
+      },
+      {
+        "path": "BGER_WWW27_source/data/osld_contrasts_all.json",
+        "kind": "file",
+        "sha256": "b4b755b18a0bc2e6c37df174028592d8b737db6ef1bc7e1b001ac1ebd42c034b"
+      },
+      {
+        "path": "BGER_WWW27_source/data/openlogo_paired_contrasts.csv",
+        "kind": "file",
+        "sha256": "657a87397efe7af301f5257ab13b0000d303d6c015766f8e3bf3820d2f9f64db"
+      }
+    ]
+  },
+  {
+    "claim": "Figure 4",
+    "paper_page": 7,
+    "paths": [
+      "BGER_WWW27_source/figures/fig04_candidate_dependency.pdf",
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/results/analysis/candidate_sensitivity_A5.json",
+      "BGER_WWW27_source/data/osld_readout_analysis.json"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "osld_original_bootstrap_and_readout",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "OSLD candidate diagnostics; overlap/sensitivity is not causal faithfulness",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_source/figures/fig04_candidate_dependency.pdf",
+        "kind": "file",
+        "sha256": "50349c3dcb1ea841078a847f864f446ef56d59362e791531ebe3991f4a5c71f8"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/results/analysis/candidate_sensitivity_A5.json",
+        "kind": "file",
+        "sha256": "b6eb9e9d34ab392480729e2e225a4755cf11ee91cd5f17f7196ca9beb690010f"
+      },
+      {
+        "path": "BGER_WWW27_source/data/osld_readout_analysis.json",
+        "kind": "file",
+        "sha256": "99806e6a2312b9a61c543412f0b1d0100e27ca911e403e22e7f43854a90f8e8d"
+      }
+    ]
+  },
+  {
+    "claim": "Figure 5",
+    "paper_page": 7,
+    "paths": [
+      "BGER_WWW27_source/figures/fig05_size_strata.pdf",
+      "BGER_WWW27_source/data/osld_descriptive.json"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "generated_numerical_tables",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "Smallest original upper boundary .02046 (~2.05%); no new strata",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_source/figures/fig05_size_strata.pdf",
+        "kind": "file",
+        "sha256": "e320f8c0d1b4a0baf55a817b0d69f09473be9df77baca502b7f8981cc172fd90"
+      },
+      {
+        "path": "BGER_WWW27_source/data/osld_descriptive.json",
+        "kind": "file",
+        "sha256": "c9deabfe95ebf1fc2e081a7890e06c46591b163ea41bf0afbc14360f91f098cc"
+      }
+    ]
+  },
+  {
+    "claim": "Figure 6",
+    "paper_page": 12,
+    "paths": [
+      "BGER_WWW27_source/figures/osld_maps.pdf",
+      "BGER_WWW27_source/data/osld_core_results.json",
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/results/core/test/ce_s0/query_signed_maps.npz"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "generate_osld_results_tables",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "Four prespecified feature-grid examples, not product image pixels",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_source/figures/osld_maps.pdf",
+        "kind": "file",
+        "sha256": "19c0d6244e71722f9b860e9d999d65b5699c9dbf6961301a455924fd8c0b825f"
+      },
+      {
+        "path": "BGER_WWW27_source/data/osld_core_results.json",
+        "kind": "file",
+        "sha256": "782d160ddccf2a385fc753cc30e81f526c3f4af26fb8b5f55ac517bf63315198"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/results/core/test/ce_s0/query_signed_maps.npz",
+        "kind": "file",
+        "sha256": "5146a0c5a0635bf3dcb081adf48fa63eb70737b92defd09c80b81b877a5d0cb1"
+      }
+    ]
+  },
+  {
+    "claim": "Figure 7",
+    "paper_page": 12,
+    "paths": [
+      "BGER_WWW27_source/figures/fig06_coordinate_sensitivity.pdf",
+      "BGER_WWW27_reproducibility/openlogo/tables/per_seed_and_mean_SD.csv",
+      "BGER_WWW27_reproducibility/openlogo/tables/coordinate_mixture_bounds.csv"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "openlogo_archive_only",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "Mean, not CI; no official coordinate-semantic certification",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_source/figures/fig06_coordinate_sensitivity.pdf",
+        "kind": "file",
+        "sha256": "2bbd27ecab38c4de32eb4068f03547499393f03d8fefc85eeaddfe6326a5fc63"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/openlogo/tables/per_seed_and_mean_SD.csv",
+        "kind": "file",
+        "sha256": "b6e337c3ba5914845510c26e2c0c210cde80d8c22f147431dcfeb787cd0e6025"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/openlogo/tables/coordinate_mixture_bounds.csv",
+        "kind": "file",
+        "sha256": "bdd702b1a788fd81de8136d6c661885f1eb5a37df83c21c7d1f421669a4597d6"
+      }
+    ]
+  },
+  {
+    "claim": "Equations 1-3: pooling and stabilized cosine readout",
+    "paper_page": 2,
+    "paths": [
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/code/train_web_arms.py",
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/code/web_eval.py",
+      "BGER_WWW27_reproducibility/openlogo/reference_code/b_common.py",
+      "reproduce/numeric_contracts.py"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "synthetic_numeric_contracts",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "Identity at pooled F before postprocessing; no learned-model inference in fixtures",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/code/train_web_arms.py",
+        "kind": "file",
+        "sha256": "ceb98dc51474eef802c7391383d809a8f2ad34325e13bbae5e0a5e882738a2a6"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/code/web_eval.py",
+        "kind": "file",
+        "sha256": "82509523b9ad1257a8b97b0d4230b724c32ce0c63ab52d5dbc96ebf92dcb1336"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/openlogo/reference_code/b_common.py",
+        "kind": "file",
+        "sha256": "bc5c1f8a141c4a8adce5039b23879da7db4bc8595e06fa4a6751073d558363d3"
+      },
+      {
+        "path": "reproduce/numeric_contracts.py",
+        "kind": "file",
+        "sha256": "25b9a9ba18bc5647bc064a3a8043dba469518d4a3a76bed6fe9bccad521a512f"
+      }
+    ]
+  },
+  {
+    "claim": "OSLD H1/H2 original confirmatory family",
+    "paper_page": 4,
+    "paths": [
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/code/e1_analysis.py",
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/results/core/pretest_freeze.json",
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/results/core/primary_inference.json",
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/results/core/primary_bootstrap_replicates.npz"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "osld_original_bootstrap_and_readout",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "H1 non-inferiority holds; H2 superiority fails; conditional basic intervals and two-test Holm",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/code/e1_analysis.py",
+        "kind": "file",
+        "sha256": "7c1853b6556da565f4c01a2de9a5617ab8a98d1109dcbb827835e9a8ea0069bc"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/results/core/pretest_freeze.json",
+        "kind": "file",
+        "sha256": "4811481d13849bd36e1dcc8dba9630cd59ac5a500db9baa2798e314386b575f9"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/results/core/primary_inference.json",
+        "kind": "file",
+        "sha256": "0801d6a7ee712a921a13783152019e657a95ce38c90724847159762465f4b9de"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/results/core/primary_bootstrap_replicates.npz",
+        "kind": "file",
+        "sha256": "dac43d71bca29bc54a8da3eb0f9be48e7faaccd142ca9f8fe14379fa78787a4b"
+      }
+    ]
+  },
+  {
+    "claim": "Section 6.1 complete pooled-hook contrasts / expanded Table 1",
+    "paper_page": 5,
+    "paths": [
+      "BGER_WWW27_source/tables/osld_posthoc_all.tex",
+      "BGER_WWW27_source/data/p0a_results.json",
+      "BGER_WWW27_reproducibility/EXPANDED_TABLES.pdf"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "osld_saved_reductions",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "Saved hooks/contrasts checked; full annotation-dependent P0-A analysis SKIP",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_source/tables/osld_posthoc_all.tex",
+        "kind": "file",
+        "sha256": "6c7a034948f21060c688ccab57d4c47d0a406ccecfa94d49b49c06e041df9026"
+      },
+      {
+        "path": "BGER_WWW27_source/data/p0a_results.json",
+        "kind": "file",
+        "sha256": "bd34a4acef07dfb649942dceb0e9f4295543f1f37297fe8c6d9edbc13d6e5a3d"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/EXPANDED_TABLES.pdf",
+        "kind": "file",
+        "sha256": "dd186738b7d0bd03b53b4e970ccb332384acbf8ae52b25a52d74030224156279"
+      }
+    ]
+  },
+  {
+    "claim": "Section 7 candidate diagnostics / expanded Table 4",
+    "paper_page": 6,
+    "paths": [
+      "BGER_WWW27_source/tables/osld_a5.tex",
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/results/analysis/candidate_sensitivity_A5.json",
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/analysis/readout_identity_analysis.py"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "osld_original_bootstrap_and_readout",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "Fixed CE seed-0 candidates; empirical query-only dominance checked only for OSLD",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_source/tables/osld_a5.tex",
+        "kind": "file",
+        "sha256": "d2a3f58fd8bab569c823792ab9a414dd912cb797c6c011cb693e21f8cde303c1"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/results/analysis/candidate_sensitivity_A5.json",
+        "kind": "file",
+        "sha256": "b6eb9e9d34ab392480729e2e225a4755cf11ee91cd5f17f7196ca9beb690010f"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/analysis/readout_identity_analysis.py",
+        "kind": "file",
+        "sha256": "b769108318906596bdb658fe3329d20df33bdd20f402a9b2b1f650ac85817edf"
+      }
+    ]
+  },
+  {
+    "claim": "Appendix A expanded contrasts/development / expanded Tables 2-3",
+    "paper_page": 9,
+    "paths": [
+      "BGER_WWW27_source/tables/osld_contrasts_all.tex",
+      "BGER_WWW27_source/tables/osld_contrasts_artifact.tex",
+      "BGER_WWW27_source/tables/osld_dev.tex",
+      "BGER_WWW27_reproducibility/EXPANDED_TABLES.pdf"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "generated_numerical_tables",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "Saved-record recomputation; not raw-image/checkpoint reproduction",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_source/tables/osld_contrasts_all.tex",
+        "kind": "file",
+        "sha256": "48f65f5b0f2fee6e5f944c9aec5dd2cae54fe79793063771c7bf5e6ca2c10f20"
+      },
+      {
+        "path": "BGER_WWW27_source/tables/osld_contrasts_artifact.tex",
+        "kind": "file",
+        "sha256": "1d4e7348cafe1663fa0b18faa23573d1e58b62656567a8b80638e9c957c41ec0"
+      },
+      {
+        "path": "BGER_WWW27_source/tables/osld_dev.tex",
+        "kind": "file",
+        "sha256": "5d6834a3833c4b255e3958ee19645eadd7402b813c805d2c99657c7a3b81c2c9"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/EXPANDED_TABLES.pdf",
+        "kind": "file",
+        "sha256": "dd186738b7d0bd03b53b4e970ccb332384acbf8ae52b25a52d74030224156279"
+      }
+    ]
+  },
+  {
+    "claim": "Appendix B pooled hook, controls, frozen references, blocked Proxy",
+    "paper_page": 9,
+    "paths": [
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/revision_20261020/p0a/p0a_bger_pooled_readout.py",
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/revision_20261020/p0b/p0b_train_controls.py",
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/revision_20261020/p0c/p0c_frozen_baselines.py",
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/revision_20261020/p0c/out_proxy_anchor"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "osld_saved_reductions",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "No new training/inference; partial Proxy logs are not a test baseline",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/revision_20261020/p0a/p0a_bger_pooled_readout.py",
+        "kind": "file",
+        "sha256": "e2dbde0c24c7cc3354aca8be44041f00b91440929effe85c9a902d886a747dd4"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/revision_20261020/p0b/p0b_train_controls.py",
+        "kind": "file",
+        "sha256": "bce558fd0b718c7c09e693659b80e4dcfb36459f8593ce3c56539b9b19097c3b"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/revision_20261020/p0c/p0c_frozen_baselines.py",
+        "kind": "file",
+        "sha256": "8d0b4d641e792a10ae2be3b49655f2a2f0f3b78c687604fb820f0f02d8ec342d"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/revision_20261020/p0c/out_proxy_anchor",
+        "kind": "directory",
+        "sha256": null
+      }
+    ]
+  },
+  {
+    "claim": "Appendix C CUB expanded Tables 5-7",
+    "paper_page": 10,
+    "paths": [
+      "BGER_WWW27_source/tables/cub_osld_comparison.tex",
+      "BGER_WWW27_source/tables/grid.tex",
+      "BGER_WWW27_source/tables/all_seeds.tex",
+      "BGER_WWW27_reproducibility/cub/data/cub_ev_r101_rows.csv"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "cub_saved_records_and_bootstrap",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "Different classification task, model selection, pretraining and metrics",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_source/tables/cub_osld_comparison.tex",
+        "kind": "file",
+        "sha256": "453b9bd32bf0e332ee169f111f9afef5fbeddba3a661cf58d68980e4543934c4"
+      },
+      {
+        "path": "BGER_WWW27_source/tables/grid.tex",
+        "kind": "file",
+        "sha256": "2a8546da0b01c13bbafd4b31df92783fe2630c73e65d763da114bd01ffb186cc"
+      },
+      {
+        "path": "BGER_WWW27_source/tables/all_seeds.tex",
+        "kind": "file",
+        "sha256": "8140f8bd5cceb476425878c14abff134e9180d09ae92e7ce6f0fb41d476b8586"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/cub/data/cub_ev_r101_rows.csv",
+        "kind": "file",
+        "sha256": "8538b42b6109cef8d4c5b0d792a8d813f074a42ec070d3968ca9587d9f1fe1bf"
+      }
+    ]
+  },
+  {
+    "claim": "Appendix E actual box-loss implementations",
+    "paper_page": 11,
+    "paths": [
+      "BGER_WWW27_reproducibility/cub_training/scripts/cvpr2027/run_matched_cub.py",
+      "BGER_WWW27_reproducibility/logo_retrieval_osld/code/train_web_arms.py",
+      "BGER_WWW27_reproducibility/openlogo/reference_code/b_common.py"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "synthetic_numeric_contracts",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "CUB per-image clamped class fractions versus OSLD selected-batch weights; legacy pilot utility not substituted",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_reproducibility/cub_training/scripts/cvpr2027/run_matched_cub.py",
+        "kind": "file",
+        "sha256": "16be53b49347fd7cc8c6c692f7e4565fa2b42fba915cd853e9b547c182529882"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/logo_retrieval_osld/code/train_web_arms.py",
+        "kind": "file",
+        "sha256": "ceb98dc51474eef802c7391383d809a8f2ad34325e13bbae5e0a5e882738a2a6"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/openlogo/reference_code/b_common.py",
+        "kind": "file",
+        "sha256": "bc5c1f8a141c4a8adce5039b23879da7db4bc8595e06fa4a6751073d558363d3"
+      }
+    ]
+  },
+  {
+    "claim": "Appendix G retained OpenLogo C0/C1 targets and split/exclusions",
+    "paper_page": 11,
+    "paths": [
+      "BGER_WWW27_reproducibility/openlogo/protocol/manifests.json",
+      "BGER_WWW27_reproducibility/openlogo/protocol/labels.json",
+      "BGER_WWW27_reproducibility/openlogo/protocol/sampler_batches.json",
+      "BGER_WWW27_reproducibility/openlogo/audit/training_targets_both.npz",
+      "BGER_WWW27_reproducibility/openlogo/data_provenance"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "openlogo_archive_only",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "949/965 paired targets, declared groups; no raw image or official semantic certification",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_reproducibility/openlogo/protocol/manifests.json",
+        "kind": "file",
+        "sha256": "4489cf084f5b5f3f343e49a36b91f45c9a55276569744cf44e9f5d299beda76b"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/openlogo/protocol/labels.json",
+        "kind": "file",
+        "sha256": "33c137c799615e57cb137dac93f60475b41efd8f4641b46897a97d6be29eacbb"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/openlogo/protocol/sampler_batches.json",
+        "kind": "file",
+        "sha256": "0e74e9fcb8b91b0dc3ef33a98439fabea71f68ef2edfdd5a3c10d5681bc504e1"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/openlogo/audit/training_targets_both.npz",
+        "kind": "file",
+        "sha256": "ddac005109afcfed8129ce10fad0d649360f6e993651b09ea1e4fc710a2f68ee"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/openlogo/data_provenance",
+        "kind": "directory",
+        "sha256": null
+      }
+    ]
+  },
+  {
+    "claim": "Appendix G intervals, coordinate mixture and paired draws",
+    "paper_page": 12,
+    "paths": [
+      "BGER_WWW27_reproducibility/openlogo/tables/paired_contrasts.csv",
+      "BGER_WWW27_reproducibility/openlogo/tables/coordinate_mixture_bounds.csv",
+      "BGER_WWW27_reproducibility/openlogo/results/shared_group_bootstrap_draws.npz",
+      "BGER_WWW27_reproducibility/openlogo/recompute.py"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "openlogo_archive_only",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "Mixture bound is deterministic, not a CI; endpoints pointwise and not simultaneous",
+    "file_evidence": [
+      {
+        "path": "BGER_WWW27_reproducibility/openlogo/tables/paired_contrasts.csv",
+        "kind": "file",
+        "sha256": "657a87397efe7af301f5257ab13b0000d303d6c015766f8e3bf3820d2f9f64db"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/openlogo/tables/coordinate_mixture_bounds.csv",
+        "kind": "file",
+        "sha256": "bdd702b1a788fd81de8136d6c661885f1eb5a37df83c21c7d1f421669a4597d6"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/openlogo/results/shared_group_bootstrap_draws.npz",
+        "kind": "file",
+        "sha256": "32e0293559446ed224c1b61ff17babccf073b94d9ec5b3087a6a22ea22647ef7"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/openlogo/recompute.py",
+        "kind": "file",
+        "sha256": "5da65b8b52210999e44b98ae0333b9d2288a30ccd9cb5f8499c4e4acfe63c2ea"
+      }
+    ]
+  },
+  {
+    "claim": "Appendix H reproduction inventory",
+    "paper_page": 12,
+    "paths": [
+      "README_REPRODUCE.md",
+      "BGER_WWW27_reproducibility/DATA_ACCESS.md",
+      "BGER_WWW27_reproducibility/openlogo/README.md",
+      "RIGHTS_AND_ATTRIBUTION.md"
+    ],
+    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
+    "validation_layer": "release_manifest",
+    "status": "PENDING_CLEAN_CLONE",
+    "limitation": "Licensed images, checkpoint binaries, embeddings and raw neural shards absent; missing layers SKIP",
+    "file_evidence": [
+      {
+        "path": "README_REPRODUCE.md",
+        "kind": "file",
+        "sha256": "aad65e6c1bcc84aae23637e83c11429fd0a11ce02671f27b34a17ec0333ed71c"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/DATA_ACCESS.md",
+        "kind": "file",
+        "sha256": "4557384242c362f44494826a59250cf13968f59cd8abb8cf15d67eeed2b5c2b3"
+      },
+      {
+        "path": "BGER_WWW27_reproducibility/openlogo/README.md",
+        "kind": "file",
+        "sha256": "3965f78e11a781475c15d2bbd739a0ed0be793a0ae3408e5645d7236750437eb"
+      },
+      {
+        "path": "RIGHTS_AND_ATTRIBUTION.md",
+        "kind": "file",
+        "sha256": "2ce1078187a9704e592dd9ffe9db01a2bed4a35610e3b30134c199353b66c749"
+      }
+    ]
+  }
+]

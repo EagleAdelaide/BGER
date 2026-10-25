@@ -1,0 +1,816 @@
+{
+  "release_files": {
+    "product_images": 20023,
+    "logo_images": 20849
+  },
+  "undecodable": {
+    "product": [],
+    "logo": []
+  },
+  "logo_file_name_unparseable": [
+    "dockers.jpg"
+  ],
+  "gallery": {
+    "canonical_images_decodable": 20848,
+    "identities": 12140,
+    "templates_per_identity": {
+      "3": 1372,
+      "1": 7600,
+      "2": 2081,
+      "4": 710,
+      "5": 247,
+      "6": 62,
+      "7": 39,
+      "8": 20,
+      "13": 1,
+      "9": 5,
+      "12": 1,
+      "10": 2
+    }
+  },
+  "annotation_entries": {
+    "train": 15747,
+    "val": 1843,
+    "test": 2433
+  },
+  "product_files_without_annotation": [],
+  "product_files_without_annotation_n": 0,
+  "cohort_accounting": {
+    "train": {
+      "multiple_boxes": 3211,
+      "included_single_logo": 7367,
+      "single_box_unlabeled": 4852,
+      "invalid_coordinates": 15,
+      "no_logo": 302
+    },
+    "val": {
+      "multiple_boxes": 345,
+      "included_single_logo": 1295,
+      "invalid_coordinates": 2,
+      "no_logo": 201
+    },
+    "test": {
+      "included_single_logo": 1237,
+      "multiple_boxes": 996,
+      "no_logo": 200
+    }
+  },
+  "boxes_per_image_histogram": {
+    "train": {
+      "2": 2391,
+      "1": 12234,
+      "3": 543,
+      "4": 177,
+      "15": 1,
+      "5": 55,
+      "10": 2,
+      "6": 29,
+      "7": 8,
+      "8": 3,
+      "9": 1,
+      "12": 1,
+      "0": 302
+    },
+    "val": {
+      "2": 265,
+      "1": 1297,
+      "4": 22,
+      "9": 1,
+      "3": 50,
+      "5": 5,
+      "6": 1,
+      "7": 1,
+      "0": 201
+    },
+    "test": {
+      "1": 1237,
+      "3": 260,
+      "2": 600,
+      "5": 34,
+      "4": 63,
+      "12": 2,
+      "6": 26,
+      "8": 4,
+      "7": 5,
+      "10": 1,
+      "9": 1,
+      "0": 200
+    }
+  },
+  "unlabeled_boxes": {
+    "train": 8022,
+    "val": 211,
+    "test": 648
+  },
+  "labeled_identities_per_split": {
+    "train": 4143,
+    "val": 500,
+    "test": 500
+  },
+  "identity_overlap": {
+    "train&val": 0,
+    "train&test": 0,
+    "val&test": 0
+  },
+  "cohort_identities": {
+    "train": 3516,
+    "val": 453,
+    "test": 391
+  },
+  "gallery_identities_not_in_any_split": 6997,
+  "split_identities_without_template": {
+    "train": 0,
+    "val": 0,
+    "test": 0
+  },
+  "exact_pixel_duplicate_groups": 10,
+  "exact_pixel_duplicate_examples": [
+    [
+      "product-images/train00366.jpg",
+      "product-images/train01786.jpg"
+    ],
+    [
+      "product-images/train01061.jpg",
+      "product-images/train01094.jpg"
+    ],
+    [
+      "product-images/train02701.jpg",
+      "product-images/train03328.jpg"
+    ],
+    [
+      "product-images/train03965.jpg",
+      "product-images/train04697.jpg"
+    ],
+    [
+      "product-images/val00718.jpg",
+      "product-images/val00947.jpg"
+    ],
+    [
+      "logo-images/gain-3.jpg",
+      "logo-images/gain-5.jpg"
+    ],
+    [
+      "logo-images/green_eats-2.jpg",
+      "logo-images/green_toys-1.jpg"
+    ],
+    [
+      "logo-images/green_eats-3.jpg",
+      "logo-images/green_toys-2.jpg"
+    ],
+    [
+      "logo-images/green_eats-4.jpg",
+      "logo-images/green_toys-3.jpg"
+    ],
+    [
+      "logo-images/sirop_sport-1.jpg",
+      "logo-images/sirop_sport-2.jpg"
+    ]
+  ],
+  "cross_split_exact_product_duplicates": [],
+  "cross_split_exact_product_duplicates_n": 0,
+  "suspected_cross_split_near_duplicates_dhash_le4": [
+    [
+      "product-images/train00152.jpg",
+      "product-images/val00015.jpg",
+      4
+    ],
+    [
+      "product-images/train00189.jpg",
+      "product-images/val00015.jpg",
+      4
+    ],
+    [
+      "product-images/train00209.jpg",
+      "product-images/val00015.jpg",
+      4
+    ],
+    [
+      "product-images/train00256.jpg",
+      "product-images/val00015.jpg",
+      3
+    ],
+    [
+      "product-images/train00299.jpg",
+      "product-images/val00015.jpg",
+      4
+    ],
+    [
+      "product-images/train01544.jpg",
+      "product-images/val00015.jpg",
+      4
+    ],
+    [
+      "product-images/train01925.jpg",
+      "product-images/val00015.jpg",
+      3
+    ],
+    [
+      "product-images/train02095.jpg",
+      "product-images/val00015.jpg",
+      3
+    ],
+    [
+      "product-images/train02352.jpg",
+      "product-images/val00015.jpg",
+      3
+    ],
+    [
+      "product-images/train02885.jpg",
+      "product-images/val00015.jpg",
+      4
+    ],
+    [
+      "product-images/train02894.jpg",
+      "product-images/val00015.jpg",
+      4
+    ],
+    [
+      "product-images/train02923.jpg",
+      "product-images/val00015.jpg",
+      4
+    ],
+    [
+      "product-images/train03025.jpg",
+      "product-images/val00015.jpg",
+      3
+    ],
+    [
+      "product-images/train03509.jpg",
+      "product-images/val00015.jpg",
+      4
+    ],
+    [
+      "product-images/train03518.jpg",
+      "product-images/val00015.jpg",
+      3
+    ],
+    [
+      "product-images/train03525.jpg",
+      "product-images/val00015.jpg",
+      4
+    ],
+    [
+      "product-images/train03565.jpg",
+      "product-images/val00015.jpg",
+      3
+    ],
+    [
+      "product-images/train04290.jpg",
+      "product-images/val00015.jpg",
+      3
+    ],
+    [
+      "product-images/train04535.jpg",
+      "product-images/val00015.jpg",
+      4
+    ],
+    [
+      "product-images/train04556.jpg",
+      "product-images/val00015.jpg",
+      4
+    ],
+    [
+      "product-images/train05537.jpg",
+      "product-images/val00015.jpg",
+      4
+    ],
+    [
+      "product-images/train05652.jpg",
+      "product-images/val00015.jpg",
+      4
+    ],
+    [
+      "product-images/train05707.jpg",
+      "product-images/val00015.jpg",
+      4
+    ],
+    [
+      "product-images/train05782.jpg",
+      "product-images/val00015.jpg",
+      2
+    ],
+    [
+      "product-images/train05795.jpg",
+      "product-images/val00015.jpg",
+      3
+    ],
+    [
+      "product-images/train05831.jpg",
+      "product-images/val00015.jpg",
+      4
+    ],
+    [
+      "product-images/train05960.jpg",
+      "product-images/val00015.jpg",
+      3
+    ],
+    [
+      "product-images/train05996.jpg",
+      "product-images/val00015.jpg",
+      3
+    ],
+    [
+      "product-images/train06459.jpg",
+      "product-images/val00015.jpg",
+      3
+    ],
+    [
+      "product-images/train04291.jpg",
+      "product-images/val00020.jpg",
+      3
+    ],
+    [
+      "product-images/train05765.jpg",
+      "product-images/val00020.jpg",
+      4
+    ],
+    [
+      "product-images/train03163.jpg",
+      "product-images/val00038.jpg",
+      4
+    ],
+    [
+      "product-images/train05130.jpg",
+      "product-images/val00038.jpg",
+      4
+    ],
+    [
+      "product-images/train05562.jpg",
+      "product-images/val00038.jpg",
+      2
+    ],
+    [
+      "product-images/train07595.jpg",
+      "product-images/val00038.jpg",
+      4
+    ],
+    [
+      "product-images/train00214.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train00262.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train00282.jpg",
+      "product-images/val00040.jpg",
+      3
+    ],
+    [
+      "product-images/train00300.jpg",
+      "product-images/val00040.jpg",
+      3
+    ],
+    [
+      "product-images/train00342.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train00343.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train00386.jpg",
+      "product-images/val00040.jpg",
+      3
+    ],
+    [
+      "product-images/train00475.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train00489.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train00614.jpg",
+      "product-images/val00040.jpg",
+      3
+    ],
+    [
+      "product-images/train00762.jpg",
+      "product-images/val00040.jpg",
+      3
+    ],
+    [
+      "product-images/train00848.jpg",
+      "product-images/val00040.jpg",
+      3
+    ],
+    [
+      "product-images/train01102.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train01104.jpg",
+      "product-images/val00040.jpg",
+      3
+    ],
+    [
+      "product-images/train01189.jpg",
+      "product-images/val00040.jpg",
+      3
+    ],
+    [
+      "product-images/train01277.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train01364.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train01369.jpg",
+      "product-images/val00040.jpg",
+      3
+    ],
+    [
+      "product-images/train01440.jpg",
+      "product-images/val00040.jpg",
+      3
+    ],
+    [
+      "product-images/train01483.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train01539.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train01643.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train01645.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train01705.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train01811.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train02008.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train02113.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train02305.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train02386.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train02412.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train02426.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train02446.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train02752.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train02908.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train03017.jpg",
+      "product-images/val00040.jpg",
+      3
+    ],
+    [
+      "product-images/train03181.jpg",
+      "product-images/val00040.jpg",
+      3
+    ],
+    [
+      "product-images/train03394.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train03404.jpg",
+      "product-images/val00040.jpg",
+      3
+    ],
+    [
+      "product-images/train03440.jpg",
+      "product-images/val00040.jpg",
+      3
+    ],
+    [
+      "product-images/train03449.jpg",
+      "product-images/val00040.jpg",
+      3
+    ],
+    [
+      "product-images/train03482.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train03630.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train03634.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train03651.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train03729.jpg",
+      "product-images/val00040.jpg",
+      2
+    ],
+    [
+      "product-images/train03749.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train03784.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train03827.jpg",
+      "product-images/val00040.jpg",
+      3
+    ],
+    [
+      "product-images/train03876.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train03948.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train03949.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train03955.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train03979.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train03985.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train03999.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train04008.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train04011.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train04076.jpg",
+      "product-images/val00040.jpg",
+      3
+    ],
+    [
+      "product-images/train04134.jpg",
+      "product-images/val00040.jpg",
+      3
+    ],
+    [
+      "product-images/train04169.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train04226.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train04286.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train04383.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train04400.jpg",
+      "product-images/val00040.jpg",
+      4
+    ],
+    [
+      "product-images/train04472.jpg",
+      "product-images/val00040.jpg",
+      3
+    ]
+  ],
+  "suspected_cross_split_near_duplicates_dhash_le4_n": 23286,
+  "train_target_geometry": {
+    "n_train_cohort": 7367,
+    "zero_target_rate_old_avgpool_gt_half": 0.22302158273381295,
+    "zero_target_rate_any_overlap": 0.0,
+    "grid_occupancy_old_quantiles": {
+      "5": 0.0,
+      "25": 0.020408162847161293,
+      "50": 0.040816325694322586,
+      "75": 0.06122449040412903,
+      "95": 0.18367347121238708
+    },
+    "grid_occupancy_new_quantiles": {
+      "5": 0.040816325694322586,
+      "25": 0.08163265138864517,
+      "50": 0.12244898080825806,
+      "75": 0.18367347121238708,
+      "95": 0.30612245202064514
+    },
+    "box_area_fraction_quantiles": {
+      "5": 0.0102092,
+      "25": 0.021521230769230768,
+      "50": 0.03924062558884492,
+      "75": 0.07403340684410646,
+      "95": 0.16690143811771302
+    },
+    "note": "coarse 7x7 grid supervision, not a mask; evaluation always uses the original box"
+  },
+  "product_image_sizes_top": [
+    [
+      [
+        500,
+        500
+      ],
+      3845
+    ],
+    [
+      [
+        400,
+        400
+      ],
+      209
+    ],
+    [
+      [
+        300,
+        300
+      ],
+      207
+    ],
+    [
+      [
+        500,
+        375
+      ],
+      134
+    ],
+    [
+      [
+        450,
+        450
+      ],
+      99
+    ],
+    [
+      [
+        375,
+        500
+      ],
+      54
+    ],
+    [
+      [
+        350,
+        350
+      ],
+      52
+    ],
+    [
+      [
+        500,
+        333
+      ],
+      42
+    ],
+    [
+      [
+        480,
+        480
+      ],
+      38
+    ],
+    [
+      [
+        333,
+        500
+      ],
+      25
+    ]
+  ],
+  "boxes_touching_right_or_bottom_edge": 2,
+  "status": "TECHNICAL_CHECKS_PASS",
+  "protocol_sets": {
+    "train": {
+      "images": 13652,
+      "identities": 3516,
+      "with_box": 7367
+    },
+    "dev_query": {
+      "images": 1295,
+      "identities": 453,
+      "with_box": 1295
+    },
+    "dev_gallery": {
+      "images": 7272,
+      "identities": 3969,
+      "with_box": 0
+    },
+    "query": {
+      "images": 1237,
+      "identities": 391,
+      "with_box": 1237
+    },
+    "gallery": {
+      "images": 20848,
+      "identities": 12140,
+      "with_box": 0
+    }
+  },
+  "training_label_count": 3516,
+  "random_retrieval_reference": {
+    "dev": {
+      "gallery_size": 7272,
+      "random_R@1_reference": 0.00031240575795031495,
+      "queries_without_relevant_template": 0
+    },
+    "test": {
+      "gallery_size": 20848,
+      "random_R@1_reference": 0.00011404097626831086,
+      "queries_without_relevant_template": 0
+    }
+  },
+  "records_digest": "cd19f0f24960acf19a0c23ed33975e288d6c2fcc31cfd9eb8af49c7d9f65bf7f"
+}

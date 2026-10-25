@@ -1,0 +1,62 @@
+{
+  "protocol": "OpenLogo-Derived-ConventionStable-B-v1",
+  "locked_utc": "2026-10-22T07:03:58.068658+00:00",
+  "threshold_selection": "C0 derived development only",
+  "C1_retuning": false,
+  "no_test_outputs": true,
+  "files": {
+    "openlogo_b_convention_stable/outputs/dev/thresholds.json": "e5672c2e85a483eb29ff404d0177e614ee889e1dadab1dfec4c8576f317bc770",
+    "openlogo_b_convention_stable/outputs/ALL_TRAINING_COMPLETE.json": "15e51a9da179621c9cf1447e1b418e2208d3c48cd7bd233b10ad0b6e559dbd99",
+    "openlogo_b_convention_stable/protocol/PRE_GPU_FREEZE.json": "0df6710787d7b1f60e9760a06e6a6cf8f1576ab401b998984b878fb14a9ed257",
+    "openlogo_b_convention_stable/protocol/EXECUTION_CODE_FREEZE.json": "a55f35f44ae367853601282a6e7aaa87c6e23b5e16bb8faaa5bbff9101f8ab3e",
+    "openlogo_b_convention_stable/scripts/deliver.py": "0b25d42707e1d650ec3ed606ac50270e9cc8f507aaa2e56c4dc8121ec5965633",
+    "openlogo_b_convention_stable/scripts/resources.py": "da28557939a353043ec9e522837d781ca4ca2a8fdb46838b3652a6b0a58458cd",
+    "openlogo_b_convention_stable/scripts/gpu_driver.py": "529eccb7eae8d87c08f3bcc774b6f226e48b20534269f8df999f839a51310785",
+    "openlogo_b_convention_stable/scripts/analyze_results.py": "59c0be9705efe0c8d773b3c392a0d5bb67a297f0376c5808a2c684b58c94dff2",
+    "openlogo_b_convention_stable/scripts/test_contracts.py": "e2b26fa0b569afb26c8a2cf9599d1536021a0445cde097aa4673db90b143507d",
+    "openlogo_b_convention_stable/scripts/verify_final.py": "3433a5db850d34be9d4597816cc980a700f8603772d54d3d3aef7bf958da3d1f",
+    "openlogo_b_convention_stable/scripts/b_common.py": "f455e003f037ff37a7785fd1e311d01634e6e3c61f42be83f03772c8cc0c3c2f",
+    "openlogo_b_convention_stable/scripts/cpu_metrics.py": "d296552ec8151d543cf6eaa6bed304e2258421040ded5c7c99d62fb78d47b9a2",
+    "openlogo_b_convention_stable/scripts/cpu_gate.py": "1c981fa1586d4755ec214bb48c1b3c566402a5d8ce5c5550771f51d6c1d5ccfe",
+    "openlogo_b_convention_stable/outputs/models/ce_s0/checkpoint.pt": "f713f054f3042b64aa71b8ee9241742b6310b86839a6481e8e4202742588d5bc",
+    "openlogo_b_convention_stable/outputs/models/aux_s0/checkpoint.pt": "1d0e9bf2885ebc2ba2fdce018fc31f01803b6bec95ccfe646af70f5c98ae0c46",
+    "openlogo_b_convention_stable/outputs/models/bger_s0/checkpoint.pt": "840597f5277b7e90f3f88f8ccf2b5c25ca82676882107e144754b4ec1838996f",
+    "openlogo_b_convention_stable/outputs/models/cam_bce_s0/checkpoint.pt": "0b5f1ccb61529e0c1fae5a07e4647c05bc1e37486d26efd81b31504546a7209c",
+    "openlogo_b_convention_stable/outputs/models/ce_s1/checkpoint.pt": "3c8abfa5591418be28e95fa8c4efc220aec4234a27acd4d37cd6c16572bc3316",
+    "openlogo_b_convention_stable/outputs/models/aux_s1/checkpoint.pt": "2809702d5b0253cfa387e814e609a436f0bf541ca5b54079163d1d3862f6c1a8",
+    "openlogo_b_convention_stable/outputs/models/bger_s1/checkpoint.pt": "1b95d285b5ae10145a0b4f16f420cfc7bec639645e2a29817c1e2dd4647b1362",
+    "openlogo_b_convention_stable/outputs/models/cam_bce_s1/checkpoint.pt": "c3ff1978d44238755a768bbb14d3733aed41a4aa027f5f8639f50c0a1a2c06c1",
+    "openlogo_b_convention_stable/outputs/models/ce_s2/checkpoint.pt": "c5632e0b6fd4d4b0dc003c81b9bad6ea1647e6e7a2a5492ca9c75576a59570c9",
+    "openlogo_b_convention_stable/outputs/models/aux_s2/checkpoint.pt": "9c7034acc5cf853c0985fc85d0218fb5d73c56291646b07648146ec98fdb9609",
+    "openlogo_b_convention_stable/outputs/models/bger_s2/checkpoint.pt": "87e865ded6a60af66f5df46a65efd5345243dd6c251049c43807b275bf7940a1",
+    "openlogo_b_convention_stable/outputs/models/cam_bce_s2/checkpoint.pt": "748169c8a2359548551046bc76019f521d9ad82dc1e5deb1fe906759120e13ff"
+  },
+  "engineering_revision_utc": "2026-10-22T07:08:37.219789+00:00",
+  "superseded_binding_sha256": "d6477466f37588e596b674c5be49702fc0b9a43ec24b6a50a9b7d455a8ce51be",
+  "scientific_threshold_lock_utc_unchanged": "2026-10-22T07:03:58.068658+00:00",
+  "no_test_outputs_at_engineering_revision": true,
+  "engineering_changes": [
+    {
+      "path": "openlogo_b_convention_stable/protocol/EXECUTION_CODE_FREEZE.json",
+      "old_sha256": "b6574c0d1e3a69ab2e1c2b28056576f50f2161701e04a6e886adedee587e96b5",
+      "new_sha256": "a55f35f44ae367853601282a6e7aaa87c6e23b5e16bb8faaa5bbff9101f8ab3e"
+    },
+    {
+      "path": "openlogo_b_convention_stable/scripts/deliver.py",
+      "old_sha256": "715d5c403b2a8a6b00935808970c17214e72b923f2fd401a6af9522c1d5a95e6",
+      "new_sha256": "0b25d42707e1d650ec3ed606ac50270e9cc8f507aaa2e56c4dc8121ec5965633"
+    },
+    {
+      "path": "openlogo_b_convention_stable/scripts/gpu_driver.py",
+      "old_sha256": "2bc4e3271b7dccb3d90d21ce4fa95296431021535ace208526e9eade24f514b4",
+      "new_sha256": "529eccb7eae8d87c08f3bcc774b6f226e48b20534269f8df999f839a51310785"
+    },
+    {
+      "path": "openlogo_b_convention_stable/scripts/verify_final.py",
+      "old_sha256": "4f8eec3d60f2f1ed5f7cad264ec63331380ffb0714ac26bee596656d99007dee",
+      "new_sha256": "3433a5db850d34be9d4597816cc980a700f8603772d54d3d3aef7bf958da3d1f"
+    }
+  ],
+  "reason": "Recover failed CUDA-visibility guard on singlegpu node, preserve all failed reservations and logs. Scientific protocol, checkpoints, thresholds, metric/statistics code unchanged.",
+  "packaging_note": "Copy archived engineering binding directories recursively; no scientific execution changes"
+}

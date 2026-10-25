@@ -1,0 +1,17 @@
+\Description{An original synthetic bottle and matching geometric logo template
+illustrate whole-image product-to-template retrieval. The feature-grid icon
+is schematic, not an evaluated model output. The product is encoded by a
+backbone into spatial features H. Supervision placements are alternatives
+in separately trained models. CE, Aux-BCE and CAM-BCE pool H directly;
+BGER computes gate M and multiplies both H and M before pooling.
+The pooled embedding branches to a training-only identity classifier and
+to the pairwise cosine score. CE has no box loss. The template uses the same
+selected-arm encoder and pooling. Separate off-path auxiliary-gate and
+class-activation-proxy branches receive box BCE without feeding retrieval.
+Both Grad-CAM hooks, at spatial H and BGER F before pooling, explain the
+deployed pairwise score s(q,d), holding the template embedding z_d fixed,
+not training-class logits. A subordinate ABN inset distinguishes attention-branch
+class logits with CE from spatial attention logits a with box BCE. A equals
+sigmoid(a), and (1+A) times stage-3 features G feeds perception stage 4 and
+pooling. The bottle's dashed box is an annotation overlay, not a test-time
+input or crop. Retrieval uses whole images without box or class-label inputs.}

@@ -1,0 +1,12 @@
+{
+ "identity": "OSLD_P0B_EXPLORATORY",
+ "tag": "gate_only_l0_s1",
+ "checkpoint_sha256": "f590c2b1684c4084ca3d7b106ed7d543d190f695f5dcc66e0d231b7a7400e974",
+ "thresholds": {
+  "primary": 0.65,
+  "secondary": 0.85
+ },
+ "dev_recall1": 0.044015444015444015,
+ "dev_loc": 0.0416988416988417,
+ "locked_utc": "2026-10-20T07:14:03.012560+00:00"
+}

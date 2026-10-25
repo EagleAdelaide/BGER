@@ -1,0 +1,1446 @@
+{
+  "protocol": "OpenLogo-Derived-ConventionStable-B-v1",
+  "completed_utc": "2026-10-22T06:38:52.946550+00:00",
+  "models": [
+    {
+      "protocol": "OpenLogo-Derived-ConventionStable-B-v1",
+      "arm": "ce",
+      "seed": 0,
+      "epochs": 15,
+      "steps": 225,
+      "initial_state_hash": "df8c0fe0419960c6b087d32907989bab54024b013d7e7f383643c34b7dadc975",
+      "checkpoint": "openlogo_b_convention_stable/outputs/models/ce_s0/checkpoint.pt",
+      "checkpoint_sha256": "f713f054f3042b64aa71b8ee9241742b6310b86839a6481e8e4202742588d5bc",
+      "final_state_hash": "112f6f360f34c1478e1cb9c59995f4172abee6d2055408c832cb912290249406",
+      "history": [
+        {
+          "epoch": 1,
+          "lr": 0.01,
+          "batches": 15,
+          "mean_ce": 3.1862715085347495,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 2,
+          "lr": 0.009890738003669028,
+          "batches": 15,
+          "mean_ce": 1.2245306054751077,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 3,
+          "lr": 0.009567727288213004,
+          "batches": 15,
+          "mean_ce": 0.4103594034910202,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 4,
+          "lr": 0.009045084971874737,
+          "batches": 15,
+          "mean_ce": 0.17044810677568117,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 5,
+          "lr": 0.008345653031794291,
+          "batches": 15,
+          "mean_ce": 0.12257510585089525,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 6,
+          "lr": 0.0075,
+          "batches": 15,
+          "mean_ce": 0.09306425731629134,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 7,
+          "lr": 0.006545084971874737,
+          "batches": 15,
+          "mean_ce": 0.09875837241609892,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 8,
+          "lr": 0.0055226423163382676,
+          "batches": 15,
+          "mean_ce": 0.09095037654042244,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 9,
+          "lr": 0.0044773576836617335,
+          "batches": 15,
+          "mean_ce": 0.08986313622444868,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 10,
+          "lr": 0.003454915028125263,
+          "batches": 15,
+          "mean_ce": 0.08013933716962734,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 11,
+          "lr": 0.0025000000000000014,
+          "batches": 15,
+          "mean_ce": 0.08061830544223388,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 12,
+          "lr": 0.0016543469682057106,
+          "batches": 15,
+          "mean_ce": 0.07909543340404829,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 13,
+          "lr": 0.0009549150281252633,
+          "batches": 15,
+          "mean_ce": 0.07982320372636119,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 14,
+          "lr": 0.0004322727117869951,
+          "batches": 15,
+          "mean_ce": 0.08112484384328127,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 15,
+          "lr": 0.00010926199633097155,
+          "batches": 15,
+          "mean_ce": 0.08083929012839992,
+          "mean_box_bce": 0.0
+        }
+      ],
+      "wall_seconds": 56.45569300198986,
+      "complete": true
+    },
+    {
+      "protocol": "OpenLogo-Derived-ConventionStable-B-v1",
+      "arm": "aux",
+      "seed": 0,
+      "epochs": 15,
+      "steps": 225,
+      "initial_state_hash": "df8c0fe0419960c6b087d32907989bab54024b013d7e7f383643c34b7dadc975",
+      "checkpoint": "openlogo_b_convention_stable/outputs/models/aux_s0/checkpoint.pt",
+      "checkpoint_sha256": "1d0e9bf2885ebc2ba2fdce018fc31f01803b6bec95ccfe646af70f5c98ae0c46",
+      "final_state_hash": "6cf80d837fec7dd88053dc718b692a8816746230df3e050cb1837430f32dc55d",
+      "history": [
+        {
+          "epoch": 1,
+          "lr": 0.01,
+          "batches": 15,
+          "mean_ce": 3.180990711847941,
+          "mean_box_bce": 0.5030124306678772
+        },
+        {
+          "epoch": 2,
+          "lr": 0.009890738003669028,
+          "batches": 15,
+          "mean_ce": 1.2298343261082967,
+          "mean_box_bce": 0.3245917538801829
+        },
+        {
+          "epoch": 3,
+          "lr": 0.009567727288213004,
+          "batches": 15,
+          "mean_ce": 0.4187995423873266,
+          "mean_box_bce": 0.26404635707537333
+        },
+        {
+          "epoch": 4,
+          "lr": 0.009045084971874737,
+          "batches": 15,
+          "mean_ce": 0.17315420433878898,
+          "mean_box_bce": 0.21812779704729715
+        },
+        {
+          "epoch": 5,
+          "lr": 0.008345653031794291,
+          "batches": 15,
+          "mean_ce": 0.12493548678855101,
+          "mean_box_bce": 0.17183538476626078
+        },
+        {
+          "epoch": 6,
+          "lr": 0.0075,
+          "batches": 15,
+          "mean_ce": 0.09521262608468532,
+          "mean_box_bce": 0.14216023087501525
+        },
+        {
+          "epoch": 7,
+          "lr": 0.006545084971874737,
+          "batches": 15,
+          "mean_ce": 0.10006265404323737,
+          "mean_box_bce": 0.11719396263360977
+        },
+        {
+          "epoch": 8,
+          "lr": 0.0055226423163382676,
+          "batches": 15,
+          "mean_ce": 0.09215548454473416,
+          "mean_box_bce": 0.10098868658145269
+        },
+        {
+          "epoch": 9,
+          "lr": 0.0044773576836617335,
+          "batches": 15,
+          "mean_ce": 0.09111259579658508,
+          "mean_box_bce": 0.08901814619700114
+        },
+        {
+          "epoch": 10,
+          "lr": 0.003454915028125263,
+          "batches": 15,
+          "mean_ce": 0.08105588108301162,
+          "mean_box_bce": 0.07894639919201533
+        },
+        {
+          "epoch": 11,
+          "lr": 0.0025000000000000014,
+          "batches": 15,
+          "mean_ce": 0.08142322562634945,
+          "mean_box_bce": 0.07349458585182826
+        },
+        {
+          "epoch": 12,
+          "lr": 0.0016543469682057106,
+          "batches": 15,
+          "mean_ce": 0.07990904152393341,
+          "mean_box_bce": 0.07166399012009303
+        },
+        {
+          "epoch": 13,
+          "lr": 0.0009549150281252633,
+          "batches": 15,
+          "mean_ce": 0.08071778950591882,
+          "mean_box_bce": 0.06664344767729441
+        },
+        {
+          "epoch": 14,
+          "lr": 0.0004322727117869951,
+          "batches": 15,
+          "mean_ce": 0.08164784560600917,
+          "mean_box_bce": 0.0666402796904246
+        },
+        {
+          "epoch": 15,
+          "lr": 0.00010926199633097155,
+          "batches": 15,
+          "mean_ce": 0.08128080287327369,
+          "mean_box_bce": 0.0631321981549263
+        }
+      ],
+      "wall_seconds": 56.20495164999738,
+      "complete": true
+    },
+    {
+      "protocol": "OpenLogo-Derived-ConventionStable-B-v1",
+      "arm": "bger",
+      "seed": 0,
+      "epochs": 15,
+      "steps": 225,
+      "initial_state_hash": "df8c0fe0419960c6b087d32907989bab54024b013d7e7f383643c34b7dadc975",
+      "checkpoint": "openlogo_b_convention_stable/outputs/models/bger_s0/checkpoint.pt",
+      "checkpoint_sha256": "840597f5277b7e90f3f88f8ccf2b5c25ca82676882107e144754b4ec1838996f",
+      "final_state_hash": "30ee3b2d127ac98b36731e95c08f5d86040a18fb09f5f7abef7856582e7c7535",
+      "history": [
+        {
+          "epoch": 1,
+          "lr": 0.01,
+          "batches": 15,
+          "mean_ce": 3.477163632710775,
+          "mean_box_bce": 0.5598253925641378
+        },
+        {
+          "epoch": 2,
+          "lr": 0.009890738003669028,
+          "batches": 15,
+          "mean_ce": 1.7968331495920817,
+          "mean_box_bce": 0.526089072227478
+        },
+        {
+          "epoch": 3,
+          "lr": 0.009567727288213004,
+          "batches": 15,
+          "mean_ce": 0.7304088314374287,
+          "mean_box_bce": 0.4795132954915365
+        },
+        {
+          "epoch": 4,
+          "lr": 0.009045084971874737,
+          "batches": 15,
+          "mean_ce": 0.3186130960782369,
+          "mean_box_bce": 0.39083560307820636
+        },
+        {
+          "epoch": 5,
+          "lr": 0.008345653031794291,
+          "batches": 15,
+          "mean_ce": 0.19939276129007338,
+          "mean_box_bce": 0.31762763659159343
+        },
+        {
+          "epoch": 6,
+          "lr": 0.0075,
+          "batches": 15,
+          "mean_ce": 0.14658408934871356,
+          "mean_box_bce": 0.2668087691068649
+        },
+        {
+          "epoch": 7,
+          "lr": 0.006545084971874737,
+          "batches": 15,
+          "mean_ce": 0.13862514818708102,
+          "mean_box_bce": 0.23723162412643434
+        },
+        {
+          "epoch": 8,
+          "lr": 0.0055226423163382676,
+          "batches": 15,
+          "mean_ce": 0.12569488013784091,
+          "mean_box_bce": 0.21795084774494172
+        },
+        {
+          "epoch": 9,
+          "lr": 0.0044773576836617335,
+          "batches": 15,
+          "mean_ce": 0.12871136590838433,
+          "mean_box_bce": 0.19626142978668212
+        },
+        {
+          "epoch": 10,
+          "lr": 0.003454915028125263,
+          "batches": 15,
+          "mean_ce": 0.1194284737110138,
+          "mean_box_bce": 0.1847816636164983
+        },
+        {
+          "epoch": 11,
+          "lr": 0.0025000000000000014,
+          "batches": 15,
+          "mean_ce": 0.119784302636981,
+          "mean_box_bce": 0.1724100152651469
+        },
+        {
+          "epoch": 12,
+          "lr": 0.0016543469682057106,
+          "batches": 15,
+          "mean_ce": 0.11784113434453805,
+          "mean_box_bce": 0.1694878856341044
+        },
+        {
+          "epoch": 13,
+          "lr": 0.0009549150281252633,
+          "batches": 15,
+          "mean_ce": 0.11603494820495447,
+          "mean_box_bce": 0.15693059762318928
+        },
+        {
+          "epoch": 14,
+          "lr": 0.0004322727117869951,
+          "batches": 15,
+          "mean_ce": 0.12164380053679148,
+          "mean_box_bce": 0.16202069024244944
+        },
+        {
+          "epoch": 15,
+          "lr": 0.00010926199633097155,
+          "batches": 15,
+          "mean_ce": 0.12278596349060536,
+          "mean_box_bce": 0.1547772059837977
+        }
+      ],
+      "wall_seconds": 56.1451086790039,
+      "complete": true
+    },
+    {
+      "protocol": "OpenLogo-Derived-ConventionStable-B-v1",
+      "arm": "cam_bce",
+      "seed": 0,
+      "epochs": 15,
+      "steps": 225,
+      "initial_state_hash": "df8c0fe0419960c6b087d32907989bab54024b013d7e7f383643c34b7dadc975",
+      "checkpoint": "openlogo_b_convention_stable/outputs/models/cam_bce_s0/checkpoint.pt",
+      "checkpoint_sha256": "0b5f1ccb61529e0c1fae5a07e4647c05bc1e37486d26efd81b31504546a7209c",
+      "final_state_hash": "f0429b42e9aaa8cbe97df032413ed3dcedc8d3dbf9b4dc397eba2ebcf910dd7a",
+      "history": [
+        {
+          "epoch": 1,
+          "lr": 0.01,
+          "batches": 15,
+          "mean_ce": 3.1438082218170167,
+          "mean_box_bce": 0.8129690408706665
+        },
+        {
+          "epoch": 2,
+          "lr": 0.009890738003669028,
+          "batches": 15,
+          "mean_ce": 1.3041909337043762,
+          "mean_box_bce": 1.034940528869629
+        },
+        {
+          "epoch": 3,
+          "lr": 0.009567727288213004,
+          "batches": 15,
+          "mean_ce": 0.5640934586524964,
+          "mean_box_bce": 0.8577211578687032
+        },
+        {
+          "epoch": 4,
+          "lr": 0.009045084971874737,
+          "batches": 15,
+          "mean_ce": 0.2921562830607096,
+          "mean_box_bce": 0.6512577215830485
+        },
+        {
+          "epoch": 5,
+          "lr": 0.008345653031794291,
+          "batches": 15,
+          "mean_ce": 0.2096574862798055,
+          "mean_box_bce": 0.48495108683904015
+        },
+        {
+          "epoch": 6,
+          "lr": 0.0075,
+          "batches": 15,
+          "mean_ce": 0.1607096975048383,
+          "mean_box_bce": 0.356011970837911
+        },
+        {
+          "epoch": 7,
+          "lr": 0.006545084971874737,
+          "batches": 15,
+          "mean_ce": 0.14715616206328075,
+          "mean_box_bce": 0.28483259280522666
+        },
+        {
+          "epoch": 8,
+          "lr": 0.0055226423163382676,
+          "batches": 15,
+          "mean_ce": 0.12285754531621933,
+          "mean_box_bce": 0.23916040162245433
+        },
+        {
+          "epoch": 9,
+          "lr": 0.0044773576836617335,
+          "batches": 15,
+          "mean_ce": 0.11277501930793127,
+          "mean_box_bce": 0.20560341477394103
+        },
+        {
+          "epoch": 10,
+          "lr": 0.003454915028125263,
+          "batches": 15,
+          "mean_ce": 0.09923632293939591,
+          "mean_box_bce": 0.18743112285931904
+        },
+        {
+          "epoch": 11,
+          "lr": 0.0025000000000000014,
+          "batches": 15,
+          "mean_ce": 0.0878893032670021,
+          "mean_box_bce": 0.17541363835334778
+        },
+        {
+          "epoch": 12,
+          "lr": 0.0016543469682057106,
+          "batches": 15,
+          "mean_ce": 0.08204159637292226,
+          "mean_box_bce": 0.16704826653003693
+        },
+        {
+          "epoch": 13,
+          "lr": 0.0009549150281252633,
+          "batches": 15,
+          "mean_ce": 0.08020957261323929,
+          "mean_box_bce": 0.16112098495165508
+        },
+        {
+          "epoch": 14,
+          "lr": 0.0004322727117869951,
+          "batches": 15,
+          "mean_ce": 0.07876233557860056,
+          "mean_box_bce": 0.15855243702729543
+        },
+        {
+          "epoch": 15,
+          "lr": 0.00010926199633097155,
+          "batches": 15,
+          "mean_ce": 0.07702759876847268,
+          "mean_box_bce": 0.15688763757546742
+        }
+      ],
+      "wall_seconds": 55.35095936899597,
+      "complete": true
+    },
+    {
+      "protocol": "OpenLogo-Derived-ConventionStable-B-v1",
+      "arm": "ce",
+      "seed": 1,
+      "epochs": 15,
+      "steps": 225,
+      "initial_state_hash": "a1f380a7e7a9d84ece6271588bd5b7ef05164698ad48b259f40e9a62499dea02",
+      "checkpoint": "openlogo_b_convention_stable/outputs/models/ce_s1/checkpoint.pt",
+      "checkpoint_sha256": "3c8abfa5591418be28e95fa8c4efc220aec4234a27acd4d37cd6c16572bc3316",
+      "final_state_hash": "5f97eec84bb801f1e476e541b10500b2a6efd8fe132a6a1c4fcca3d321c7aab2",
+      "history": [
+        {
+          "epoch": 1,
+          "lr": 0.01,
+          "batches": 15,
+          "mean_ce": 3.137110408147176,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 2,
+          "lr": 0.009890738003669028,
+          "batches": 15,
+          "mean_ce": 1.2434088746706644,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 3,
+          "lr": 0.009567727288213004,
+          "batches": 15,
+          "mean_ce": 0.3956100563208262,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 4,
+          "lr": 0.009045084971874737,
+          "batches": 15,
+          "mean_ce": 0.17591191778580348,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 5,
+          "lr": 0.008345653031794291,
+          "batches": 15,
+          "mean_ce": 0.10708606876432895,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 6,
+          "lr": 0.0075,
+          "batches": 15,
+          "mean_ce": 0.10379515700042248,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 7,
+          "lr": 0.006545084971874737,
+          "batches": 15,
+          "mean_ce": 0.09228902676453193,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 8,
+          "lr": 0.0055226423163382676,
+          "batches": 15,
+          "mean_ce": 0.0890403633316358,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 9,
+          "lr": 0.0044773576836617335,
+          "batches": 15,
+          "mean_ce": 0.07738862782716752,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 10,
+          "lr": 0.003454915028125263,
+          "batches": 15,
+          "mean_ce": 0.07676287175466617,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 11,
+          "lr": 0.0025000000000000014,
+          "batches": 15,
+          "mean_ce": 0.07418425859262547,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 12,
+          "lr": 0.0016543469682057106,
+          "batches": 15,
+          "mean_ce": 0.07433672851572434,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 13,
+          "lr": 0.0009549150281252633,
+          "batches": 15,
+          "mean_ce": 0.07414950222397844,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 14,
+          "lr": 0.0004322727117869951,
+          "batches": 15,
+          "mean_ce": 0.07321708981568614,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 15,
+          "lr": 0.00010926199633097155,
+          "batches": 15,
+          "mean_ce": 0.066453297312061,
+          "mean_box_bce": 0.0
+        }
+      ],
+      "wall_seconds": 55.09838569400017,
+      "complete": true
+    },
+    {
+      "protocol": "OpenLogo-Derived-ConventionStable-B-v1",
+      "arm": "aux",
+      "seed": 1,
+      "epochs": 15,
+      "steps": 225,
+      "initial_state_hash": "a1f380a7e7a9d84ece6271588bd5b7ef05164698ad48b259f40e9a62499dea02",
+      "checkpoint": "openlogo_b_convention_stable/outputs/models/aux_s1/checkpoint.pt",
+      "checkpoint_sha256": "2809702d5b0253cfa387e814e609a436f0bf541ca5b54079163d1d3862f6c1a8",
+      "final_state_hash": "e60846905b3e710dc7c45ad34db67192cad7eb8a19ce93296c20e2a9507ed9a1",
+      "history": [
+        {
+          "epoch": 1,
+          "lr": 0.01,
+          "batches": 15,
+          "mean_ce": 3.1372416337331135,
+          "mean_box_bce": 0.49925843079884846
+        },
+        {
+          "epoch": 2,
+          "lr": 0.009890738003669028,
+          "batches": 15,
+          "mean_ce": 1.246080998579661,
+          "mean_box_bce": 0.3175574024518331
+        },
+        {
+          "epoch": 3,
+          "lr": 0.009567727288213004,
+          "batches": 15,
+          "mean_ce": 0.3976388821999232,
+          "mean_box_bce": 0.256729327638944
+        },
+        {
+          "epoch": 4,
+          "lr": 0.009045084971874737,
+          "batches": 15,
+          "mean_ce": 0.17939763615528742,
+          "mean_box_bce": 0.20900304118792215
+        },
+        {
+          "epoch": 5,
+          "lr": 0.008345653031794291,
+          "batches": 15,
+          "mean_ce": 0.10925163800517718,
+          "mean_box_bce": 0.17036616404851276
+        },
+        {
+          "epoch": 6,
+          "lr": 0.0075,
+          "batches": 15,
+          "mean_ce": 0.10564259886741638,
+          "mean_box_bce": 0.13826097200314205
+        },
+        {
+          "epoch": 7,
+          "lr": 0.006545084971874737,
+          "batches": 15,
+          "mean_ce": 0.09374511670321226,
+          "mean_box_bce": 0.11621925383806228
+        },
+        {
+          "epoch": 8,
+          "lr": 0.0055226423163382676,
+          "batches": 15,
+          "mean_ce": 0.09052514129628737,
+          "mean_box_bce": 0.10039429664611817
+        },
+        {
+          "epoch": 9,
+          "lr": 0.0044773576836617335,
+          "batches": 15,
+          "mean_ce": 0.07868952540059884,
+          "mean_box_bce": 0.08648017048835754
+        },
+        {
+          "epoch": 10,
+          "lr": 0.003454915028125263,
+          "batches": 15,
+          "mean_ce": 0.07781253128002087,
+          "mean_box_bce": 0.07828178703784942
+        },
+        {
+          "epoch": 11,
+          "lr": 0.0025000000000000014,
+          "batches": 15,
+          "mean_ce": 0.07505855821073056,
+          "mean_box_bce": 0.07429467489322027
+        },
+        {
+          "epoch": 12,
+          "lr": 0.0016543469682057106,
+          "batches": 15,
+          "mean_ce": 0.0749809393659234,
+          "mean_box_bce": 0.06835444743434588
+        },
+        {
+          "epoch": 13,
+          "lr": 0.0009549150281252633,
+          "batches": 15,
+          "mean_ce": 0.0745751245568196,
+          "mean_box_bce": 0.06761503641804059
+        },
+        {
+          "epoch": 14,
+          "lr": 0.0004322727117869951,
+          "batches": 15,
+          "mean_ce": 0.07350850024571022,
+          "mean_box_bce": 0.0627171499033769
+        },
+        {
+          "epoch": 15,
+          "lr": 0.00010926199633097155,
+          "batches": 15,
+          "mean_ce": 0.06686669376989206,
+          "mean_box_bce": 0.06675155386328697
+        }
+      ],
+      "wall_seconds": 55.24251432300662,
+      "complete": true
+    },
+    {
+      "protocol": "OpenLogo-Derived-ConventionStable-B-v1",
+      "arm": "bger",
+      "seed": 1,
+      "epochs": 15,
+      "steps": 225,
+      "initial_state_hash": "a1f380a7e7a9d84ece6271588bd5b7ef05164698ad48b259f40e9a62499dea02",
+      "checkpoint": "openlogo_b_convention_stable/outputs/models/bger_s1/checkpoint.pt",
+      "checkpoint_sha256": "1b95d285b5ae10145a0b4f16f420cfc7bec639645e2a29817c1e2dd4647b1362",
+      "final_state_hash": "ff4e79a042980df2e6fc41ce0b52bc92353ebfc65b35e6c5c3e878f99255762c",
+      "history": [
+        {
+          "epoch": 1,
+          "lr": 0.01,
+          "batches": 15,
+          "mean_ce": 3.4400266488393147,
+          "mean_box_bce": 0.5568711002667744
+        },
+        {
+          "epoch": 2,
+          "lr": 0.009890738003669028,
+          "batches": 15,
+          "mean_ce": 1.7864317417144775,
+          "mean_box_bce": 0.5395982066790262
+        },
+        {
+          "epoch": 3,
+          "lr": 0.009567727288213004,
+          "batches": 15,
+          "mean_ce": 0.711805502573649,
+          "mean_box_bce": 0.4719368735949198
+        },
+        {
+          "epoch": 4,
+          "lr": 0.009045084971874737,
+          "batches": 15,
+          "mean_ce": 0.32953210870424904,
+          "mean_box_bce": 0.3861057202021281
+        },
+        {
+          "epoch": 5,
+          "lr": 0.008345653031794291,
+          "batches": 15,
+          "mean_ce": 0.18576922863721848,
+          "mean_box_bce": 0.31548582315444945
+        },
+        {
+          "epoch": 6,
+          "lr": 0.0075,
+          "batches": 15,
+          "mean_ce": 0.1551297610004743,
+          "mean_box_bce": 0.27290742297967274
+        },
+        {
+          "epoch": 7,
+          "lr": 0.006545084971874737,
+          "batches": 15,
+          "mean_ce": 0.13429058256248633,
+          "mean_box_bce": 0.24300947586695354
+        },
+        {
+          "epoch": 8,
+          "lr": 0.0055226423163382676,
+          "batches": 15,
+          "mean_ce": 0.1328963761528333,
+          "mean_box_bce": 0.21391238967577617
+        },
+        {
+          "epoch": 9,
+          "lr": 0.0044773576836617335,
+          "batches": 15,
+          "mean_ce": 0.12213269583880901,
+          "mean_box_bce": 0.19899054865042368
+        },
+        {
+          "epoch": 10,
+          "lr": 0.003454915028125263,
+          "batches": 15,
+          "mean_ce": 0.12252319740752379,
+          "mean_box_bce": 0.1814053773880005
+        },
+        {
+          "epoch": 11,
+          "lr": 0.0025000000000000014,
+          "batches": 15,
+          "mean_ce": 0.11961335353553296,
+          "mean_box_bce": 0.17435793181260426
+        },
+        {
+          "epoch": 12,
+          "lr": 0.0016543469682057106,
+          "batches": 15,
+          "mean_ce": 0.11619503038624922,
+          "mean_box_bce": 0.16419408818085987
+        },
+        {
+          "epoch": 13,
+          "lr": 0.0009549150281252633,
+          "batches": 15,
+          "mean_ce": 0.12330642354985079,
+          "mean_box_bce": 0.16259384651978812
+        },
+        {
+          "epoch": 14,
+          "lr": 0.0004322727117869951,
+          "batches": 15,
+          "mean_ce": 0.12349028922617436,
+          "mean_box_bce": 0.15632619261741637
+        },
+        {
+          "epoch": 15,
+          "lr": 0.00010926199633097155,
+          "batches": 15,
+          "mean_ce": 0.11062798835337162,
+          "mean_box_bce": 0.16005880137284598
+        }
+      ],
+      "wall_seconds": 55.71189903699269,
+      "complete": true
+    },
+    {
+      "protocol": "OpenLogo-Derived-ConventionStable-B-v1",
+      "arm": "cam_bce",
+      "seed": 1,
+      "epochs": 15,
+      "steps": 225,
+      "initial_state_hash": "a1f380a7e7a9d84ece6271588bd5b7ef05164698ad48b259f40e9a62499dea02",
+      "checkpoint": "openlogo_b_convention_stable/outputs/models/cam_bce_s1/checkpoint.pt",
+      "checkpoint_sha256": "c3ff1978d44238755a768bbb14d3733aed41a4aa027f5f8639f50c0a1a2c06c1",
+      "final_state_hash": "7b5646dcfa8e933c37e8fb80da294424da0a833c590da03a888285ab40888b7d",
+      "history": [
+        {
+          "epoch": 1,
+          "lr": 0.01,
+          "batches": 15,
+          "mean_ce": 3.107943852742513,
+          "mean_box_bce": 0.8095905939737956
+        },
+        {
+          "epoch": 2,
+          "lr": 0.009890738003669028,
+          "batches": 15,
+          "mean_ce": 1.3294888496398927,
+          "mean_box_bce": 1.0299793561299642
+        },
+        {
+          "epoch": 3,
+          "lr": 0.009567727288213004,
+          "batches": 15,
+          "mean_ce": 0.5450210412343343,
+          "mean_box_bce": 0.8869447708129883
+        },
+        {
+          "epoch": 4,
+          "lr": 0.009045084971874737,
+          "batches": 15,
+          "mean_ce": 0.3024797101815542,
+          "mean_box_bce": 0.6425337036450703
+        },
+        {
+          "epoch": 5,
+          "lr": 0.008345653031794291,
+          "batches": 15,
+          "mean_ce": 0.19668839524189632,
+          "mean_box_bce": 0.4717292050520579
+        },
+        {
+          "epoch": 6,
+          "lr": 0.0075,
+          "batches": 15,
+          "mean_ce": 0.16773967494567235,
+          "mean_box_bce": 0.35890866120656334
+        },
+        {
+          "epoch": 7,
+          "lr": 0.006545084971874737,
+          "batches": 15,
+          "mean_ce": 0.136962395409743,
+          "mean_box_bce": 0.28914669156074524
+        },
+        {
+          "epoch": 8,
+          "lr": 0.0055226423163382676,
+          "batches": 15,
+          "mean_ce": 0.12136289030313492,
+          "mean_box_bce": 0.23878192504247028
+        },
+        {
+          "epoch": 9,
+          "lr": 0.0044773576836617335,
+          "batches": 15,
+          "mean_ce": 0.10314045002063116,
+          "mean_box_bce": 0.21121698021888732
+        },
+        {
+          "epoch": 10,
+          "lr": 0.003454915028125263,
+          "batches": 15,
+          "mean_ce": 0.09009975542624792,
+          "mean_box_bce": 0.19189766546090445
+        },
+        {
+          "epoch": 11,
+          "lr": 0.0025000000000000014,
+          "batches": 15,
+          "mean_ce": 0.08087078829606374,
+          "mean_box_bce": 0.17648841838041943
+        },
+        {
+          "epoch": 12,
+          "lr": 0.0016543469682057106,
+          "batches": 15,
+          "mean_ce": 0.0775218682984511,
+          "mean_box_bce": 0.16814450124899546
+        },
+        {
+          "epoch": 13,
+          "lr": 0.0009549150281252633,
+          "batches": 15,
+          "mean_ce": 0.07390362670024236,
+          "mean_box_bce": 0.16363932092984518
+        },
+        {
+          "epoch": 14,
+          "lr": 0.0004322727117869951,
+          "batches": 15,
+          "mean_ce": 0.07066712751984597,
+          "mean_box_bce": 0.15993359784285227
+        },
+        {
+          "epoch": 15,
+          "lr": 0.00010926199633097155,
+          "batches": 15,
+          "mean_ce": 0.0698000783721606,
+          "mean_box_bce": 0.16070757110913594
+        }
+      ],
+      "wall_seconds": 55.30832266299694,
+      "complete": true
+    },
+    {
+      "protocol": "OpenLogo-Derived-ConventionStable-B-v1",
+      "arm": "ce",
+      "seed": 2,
+      "epochs": 15,
+      "steps": 225,
+      "initial_state_hash": "d055bd2f6edd78e188feafdd2e1b847a29c2c9ce06d07072d94412b40833084b",
+      "checkpoint": "openlogo_b_convention_stable/outputs/models/ce_s2/checkpoint.pt",
+      "checkpoint_sha256": "c5632e0b6fd4d4b0dc003c81b9bad6ea1647e6e7a2a5492ca9c75576a59570c9",
+      "final_state_hash": "2667ab0e23253221a4835c13793f628a41ce6ac4f27a492ade74fde02e1173ea",
+      "history": [
+        {
+          "epoch": 1,
+          "lr": 0.01,
+          "batches": 15,
+          "mean_ce": 3.173830572764079,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 2,
+          "lr": 0.009890738003669028,
+          "batches": 15,
+          "mean_ce": 1.2164451122283935,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 3,
+          "lr": 0.009567727288213004,
+          "batches": 15,
+          "mean_ce": 0.4161726733048757,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 4,
+          "lr": 0.009045084971874737,
+          "batches": 15,
+          "mean_ce": 0.1634511396288872,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 5,
+          "lr": 0.008345653031794291,
+          "batches": 15,
+          "mean_ce": 0.12394521447519462,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 6,
+          "lr": 0.0075,
+          "batches": 15,
+          "mean_ce": 0.10244227269043525,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 7,
+          "lr": 0.006545084971874737,
+          "batches": 15,
+          "mean_ce": 0.09981504939496517,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 8,
+          "lr": 0.0055226423163382676,
+          "batches": 15,
+          "mean_ce": 0.08773877117782831,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 9,
+          "lr": 0.0044773576836617335,
+          "batches": 15,
+          "mean_ce": 0.08620750432213148,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 10,
+          "lr": 0.003454915028125263,
+          "batches": 15,
+          "mean_ce": 0.08247652382900318,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 11,
+          "lr": 0.0025000000000000014,
+          "batches": 15,
+          "mean_ce": 0.08024968092019359,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 12,
+          "lr": 0.0016543469682057106,
+          "batches": 15,
+          "mean_ce": 0.08163889612381657,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 13,
+          "lr": 0.0009549150281252633,
+          "batches": 15,
+          "mean_ce": 0.08049437648927173,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 14,
+          "lr": 0.0004322727117869951,
+          "batches": 15,
+          "mean_ce": 0.07239680284013351,
+          "mean_box_bce": 0.0
+        },
+        {
+          "epoch": 15,
+          "lr": 0.00010926199633097155,
+          "batches": 15,
+          "mean_ce": 0.07911063488572836,
+          "mean_box_bce": 0.0
+        }
+      ],
+      "wall_seconds": 55.23926989499887,
+      "complete": true
+    },
+    {
+      "protocol": "OpenLogo-Derived-ConventionStable-B-v1",
+      "arm": "aux",
+      "seed": 2,
+      "epochs": 15,
+      "steps": 225,
+      "initial_state_hash": "d055bd2f6edd78e188feafdd2e1b847a29c2c9ce06d07072d94412b40833084b",
+      "checkpoint": "openlogo_b_convention_stable/outputs/models/aux_s2/checkpoint.pt",
+      "checkpoint_sha256": "9c7034acc5cf853c0985fc85d0218fb5d73c56291646b07648146ec98fdb9609",
+      "final_state_hash": "d2e25a606957c7c6005a16231de52461d74865d0a83fd6c6ee16d0ad95ec12d6",
+      "history": [
+        {
+          "epoch": 1,
+          "lr": 0.01,
+          "batches": 15,
+          "mean_ce": 3.171890926361084,
+          "mean_box_bce": 0.501214724779129
+        },
+        {
+          "epoch": 2,
+          "lr": 0.009890738003669028,
+          "batches": 15,
+          "mean_ce": 1.2205487330754599,
+          "mean_box_bce": 0.32234457731246946
+        },
+        {
+          "epoch": 3,
+          "lr": 0.009567727288213004,
+          "batches": 15,
+          "mean_ce": 0.4230656603972117,
+          "mean_box_bce": 0.26617945631345113
+        },
+        {
+          "epoch": 4,
+          "lr": 0.009045084971874737,
+          "batches": 15,
+          "mean_ce": 0.1672609731554985,
+          "mean_box_bce": 0.21817123691240947
+        },
+        {
+          "epoch": 5,
+          "lr": 0.008345653031794291,
+          "batches": 15,
+          "mean_ce": 0.1270462352782488,
+          "mean_box_bce": 0.1742115279038747
+        },
+        {
+          "epoch": 6,
+          "lr": 0.0075,
+          "batches": 15,
+          "mean_ce": 0.10457743667066097,
+          "mean_box_bce": 0.1420696993668874
+        },
+        {
+          "epoch": 7,
+          "lr": 0.006545084971874737,
+          "batches": 15,
+          "mean_ce": 0.10184840398530165,
+          "mean_box_bce": 0.11944695214430491
+        },
+        {
+          "epoch": 8,
+          "lr": 0.0055226423163382676,
+          "batches": 15,
+          "mean_ce": 0.08932278379797935,
+          "mean_box_bce": 0.09916678021351497
+        },
+        {
+          "epoch": 9,
+          "lr": 0.0044773576836617335,
+          "batches": 15,
+          "mean_ce": 0.08720226672788461,
+          "mean_box_bce": 0.0878671238819758
+        },
+        {
+          "epoch": 10,
+          "lr": 0.003454915028125263,
+          "batches": 15,
+          "mean_ce": 0.08327785357832909,
+          "mean_box_bce": 0.08161924928426742
+        },
+        {
+          "epoch": 11,
+          "lr": 0.0025000000000000014,
+          "batches": 15,
+          "mean_ce": 0.08121633231639862,
+          "mean_box_bce": 0.07176358277599017
+        },
+        {
+          "epoch": 12,
+          "lr": 0.0016543469682057106,
+          "batches": 15,
+          "mean_ce": 0.08209283469865719,
+          "mean_box_bce": 0.06975649123390516
+        },
+        {
+          "epoch": 13,
+          "lr": 0.0009549150281252633,
+          "batches": 15,
+          "mean_ce": 0.08078528785457213,
+          "mean_box_bce": 0.064276934415102
+        },
+        {
+          "epoch": 14,
+          "lr": 0.0004322727117869951,
+          "batches": 15,
+          "mean_ce": 0.07278389415393273,
+          "mean_box_bce": 0.06693498492240905
+        },
+        {
+          "epoch": 15,
+          "lr": 0.00010926199633097155,
+          "batches": 15,
+          "mean_ce": 0.07954787351191044,
+          "mean_box_bce": 0.06387018437186877
+        }
+      ],
+      "wall_seconds": 55.80706937899231,
+      "complete": true
+    },
+    {
+      "protocol": "OpenLogo-Derived-ConventionStable-B-v1",
+      "arm": "bger",
+      "seed": 2,
+      "epochs": 15,
+      "steps": 225,
+      "initial_state_hash": "d055bd2f6edd78e188feafdd2e1b847a29c2c9ce06d07072d94412b40833084b",
+      "checkpoint": "openlogo_b_convention_stable/outputs/models/bger_s2/checkpoint.pt",
+      "checkpoint_sha256": "87e865ded6a60af66f5df46a65efd5345243dd6c251049c43807b275bf7940a1",
+      "final_state_hash": "90cfb2be821d4634ae26d7852d5d904ac64e033580ab52caa33a0f21c0475416",
+      "history": [
+        {
+          "epoch": 1,
+          "lr": 0.01,
+          "batches": 15,
+          "mean_ce": 3.475616375605265,
+          "mean_box_bce": 0.548546693722407
+        },
+        {
+          "epoch": 2,
+          "lr": 0.009890738003669028,
+          "batches": 15,
+          "mean_ce": 1.8087657769521077,
+          "mean_box_bce": 0.5296720445156098
+        },
+        {
+          "epoch": 3,
+          "lr": 0.009567727288213004,
+          "batches": 15,
+          "mean_ce": 0.7407977104187011,
+          "mean_box_bce": 0.47662472327550254
+        },
+        {
+          "epoch": 4,
+          "lr": 0.009045084971874737,
+          "batches": 15,
+          "mean_ce": 0.321981014808019,
+          "mean_box_bce": 0.3900839289029439
+        },
+        {
+          "epoch": 5,
+          "lr": 0.008345653031794291,
+          "batches": 15,
+          "mean_ce": 0.19868262459834415,
+          "mean_box_bce": 0.3232469360033671
+        },
+        {
+          "epoch": 6,
+          "lr": 0.0075,
+          "batches": 15,
+          "mean_ce": 0.14887740438183147,
+          "mean_box_bce": 0.2746902664502462
+        },
+        {
+          "epoch": 7,
+          "lr": 0.006545084971874737,
+          "batches": 15,
+          "mean_ce": 0.14022865469257037,
+          "mean_box_bce": 0.2369735449552536
+        },
+        {
+          "epoch": 8,
+          "lr": 0.0055226423163382676,
+          "batches": 15,
+          "mean_ce": 0.12517632842063903,
+          "mean_box_bce": 0.21752817730108898
+        },
+        {
+          "epoch": 9,
+          "lr": 0.0044773576836617335,
+          "batches": 15,
+          "mean_ce": 0.12491264070073764,
+          "mean_box_bce": 0.19375083347161612
+        },
+        {
+          "epoch": 10,
+          "lr": 0.003454915028125263,
+          "batches": 15,
+          "mean_ce": 0.12051030000050862,
+          "mean_box_bce": 0.18299546241760253
+        },
+        {
+          "epoch": 11,
+          "lr": 0.0025000000000000014,
+          "batches": 15,
+          "mean_ce": 0.1162603810429573,
+          "mean_box_bce": 0.17018293738365173
+        },
+        {
+          "epoch": 12,
+          "lr": 0.0016543469682057106,
+          "batches": 15,
+          "mean_ce": 0.12423712424933911,
+          "mean_box_bce": 0.16448361078898113
+        },
+        {
+          "epoch": 13,
+          "lr": 0.0009549150281252633,
+          "batches": 15,
+          "mean_ce": 0.12220003716647625,
+          "mean_box_bce": 0.15943357547124226
+        },
+        {
+          "epoch": 14,
+          "lr": 0.0004322727117869951,
+          "batches": 15,
+          "mean_ce": 0.11045239083468913,
+          "mean_box_bce": 0.15987667739391326
+        },
+        {
+          "epoch": 15,
+          "lr": 0.00010926199633097155,
+          "batches": 15,
+          "mean_ce": 0.12134744065503279,
+          "mean_box_bce": 0.1580849180618922
+        }
+      ],
+      "wall_seconds": 55.739682221988915,
+      "complete": true
+    },
+    {
+      "protocol": "OpenLogo-Derived-ConventionStable-B-v1",
+      "arm": "cam_bce",
+      "seed": 2,
+      "epochs": 15,
+      "steps": 225,
+      "initial_state_hash": "d055bd2f6edd78e188feafdd2e1b847a29c2c9ce06d07072d94412b40833084b",
+      "checkpoint": "openlogo_b_convention_stable/outputs/models/cam_bce_s2/checkpoint.pt",
+      "checkpoint_sha256": "748169c8a2359548551046bc76019f521d9ad82dc1e5deb1fe906759120e13ff",
+      "final_state_hash": "560a8a2bb543a52e1adde7c56c453fe8c81a1eda745f565f4f35202447229a9c",
+      "history": [
+        {
+          "epoch": 1,
+          "lr": 0.01,
+          "batches": 15,
+          "mean_ce": 3.148139985402425,
+          "mean_box_bce": 0.8034445126851399
+        },
+        {
+          "epoch": 2,
+          "lr": 0.009890738003669028,
+          "batches": 15,
+          "mean_ce": 1.3012708306312561,
+          "mean_box_bce": 1.0457053701082866
+        },
+        {
+          "epoch": 3,
+          "lr": 0.009567727288213004,
+          "batches": 15,
+          "mean_ce": 0.5564897159735361,
+          "mean_box_bce": 0.8948188304901123
+        },
+        {
+          "epoch": 4,
+          "lr": 0.009045084971874737,
+          "batches": 15,
+          "mean_ce": 0.29043618341286975,
+          "mean_box_bce": 0.6344149808088938
+        },
+        {
+          "epoch": 5,
+          "lr": 0.008345653031794291,
+          "batches": 15,
+          "mean_ce": 0.20711568544308345,
+          "mean_box_bce": 0.4884300371011098
+        },
+        {
+          "epoch": 6,
+          "lr": 0.0075,
+          "batches": 15,
+          "mean_ce": 0.16382417877515157,
+          "mean_box_bce": 0.3667069415251414
+        },
+        {
+          "epoch": 7,
+          "lr": 0.006545084971874737,
+          "batches": 15,
+          "mean_ce": 0.14139213114976884,
+          "mean_box_bce": 0.2911792357762655
+        },
+        {
+          "epoch": 8,
+          "lr": 0.0055226423163382676,
+          "batches": 15,
+          "mean_ce": 0.11991977492968241,
+          "mean_box_bce": 0.24481797218322754
+        },
+        {
+          "epoch": 9,
+          "lr": 0.0044773576836617335,
+          "batches": 15,
+          "mean_ce": 0.1019311711192131,
+          "mean_box_bce": 0.21472934087117512
+        },
+        {
+          "epoch": 10,
+          "lr": 0.003454915028125263,
+          "batches": 15,
+          "mean_ce": 0.08802533596754074,
+          "mean_box_bce": 0.1926782061656316
+        },
+        {
+          "epoch": 11,
+          "lr": 0.0025000000000000014,
+          "batches": 15,
+          "mean_ce": 0.08366851136088371,
+          "mean_box_bce": 0.17784585257371266
+        },
+        {
+          "epoch": 12,
+          "lr": 0.0016543469682057106,
+          "batches": 15,
+          "mean_ce": 0.0780912367006143,
+          "mean_box_bce": 0.17083799640337627
+        },
+        {
+          "epoch": 13,
+          "lr": 0.0009549150281252633,
+          "batches": 15,
+          "mean_ce": 0.0739238791167736,
+          "mean_box_bce": 0.1645740936199824
+        },
+        {
+          "epoch": 14,
+          "lr": 0.0004322727117869951,
+          "batches": 15,
+          "mean_ce": 0.07334353178739547,
+          "mean_box_bce": 0.1619795948266983
+        },
+        {
+          "epoch": 15,
+          "lr": 0.00010926199633097155,
+          "batches": 15,
+          "mean_ce": 0.0712596503396829,
+          "mean_box_bce": 0.16158592800299326
+        }
+      ],
+      "wall_seconds": 55.606137421011226,
+      "complete": true
+    }
+  ]
+}

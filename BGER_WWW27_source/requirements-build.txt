@@ -1,0 +1,10 @@
+# CPU figure/table generation and saved-record numerical checks (Python >=3.9)
+numpy==1.26.4
+matplotlib==3.9.4
+# Optional rendered-PDF inspection used in the V2 QA
+PyMuPDF==1.26.5
+# Tier 2 prior recomputation additionally uses the supplementary environment's
+# torch/scipy dependencies; see supplementary requirements.txt.
+
+# New OpenLogo archive-only endpoint recomputation
+pandas==2.3.3

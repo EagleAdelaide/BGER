@@ -1,0 +1,46 @@
+{
+  "initial_charged": 0,
+  "created_utc": "2026-10-20T06:19:50.435539+00:00",
+  "cap_allocated_gpu_seconds": 37800,
+  "task_caps_gpu_seconds": {
+    "p0a_bger_pooled_readout": 5400,
+    "p0b_gate_controls": 14400,
+    "p0c_frozen_baselines": 1800,
+    "p0c_proxy_anchor": 16200
+  },
+  "basis": "Author approval 2026-10-20: independent revision allocation <=10.5 GPU-h with per-task caps (P0-A 1.5, P0-B 4.0, P0-C frozen 0.5, P0-C Proxy Anchor 4.5). Full walltime x GPUs charged at job start; reserved, charged and actual elapsed recorded separately. Core (54,000/75,600), B0, B1 budgets frozen and non-transferable.",
+  "reservations": [
+    {
+      "task": "p0a_bger_pooled_readout",
+      "utc": "2026-10-20T06:26:55.280924+00:00",
+      "reserved_gpu_seconds": 5400,
+      "state": "RESERVED_FULL_ALLOCATION_INCLUDING_FAILURES",
+      "actual_elapsed_seconds": 1396,
+      "final_state": "COMPLETED"
+    },
+    {
+      "task": "p0b_gate_controls",
+      "utc": "2026-10-20T06:28:30.624753+00:00",
+      "reserved_gpu_seconds": 14400,
+      "state": "RESERVED_FULL_ALLOCATION_INCLUDING_FAILURES",
+      "actual_elapsed_seconds": 10238,
+      "final_state": "COMPLETED"
+    },
+    {
+      "task": "p0c_frozen_baselines",
+      "utc": "2026-10-20T06:37:59.228143+00:00",
+      "reserved_gpu_seconds": 1800,
+      "state": "RESERVED_FULL_ALLOCATION_INCLUDING_FAILURES",
+      "actual_elapsed_seconds": 514,
+      "final_state": "COMPLETED"
+    },
+    {
+      "task": "p0c_proxy_anchor",
+      "utc": "2026-10-20T06:45:23.895800+00:00",
+      "reserved_gpu_seconds": 16200,
+      "state": "RESERVED_FULL_ALLOCATION_INCLUDING_FAILURES",
+      "actual_elapsed_seconds": 16207,
+      "final_state": "TIMEOUT"
+    }
+  ]
+}

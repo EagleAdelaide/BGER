@@ -1,0 +1,20 @@
+{
+  "fig03_paired_effects": [
+    "fig03_paired_effects.pdf",
+    "fig03_paired_effects.svg",
+    "fig03_paired_effects.png"
+  ],
+  "fig06_coordinate_sensitivity": [
+    "fig06_coordinate_sensitivity.pdf",
+    "fig06_coordinate_sensitivity.svg",
+    "fig06_coordinate_sensitivity.png"
+  ],
+  "inputs": {
+    "openlogo_per_seed_and_mean_SD.csv": "b6e337c3ba5914845510c26e2c0c210cde80d8c22f147431dcfeb787cd0e6025",
+    "openlogo_coordinate_mixture_bounds.csv": "bdd702b1a788fd81de8136d6c661885f1eb5a37df83c21c7d1f421669a4597d6",
+    "openlogo_paired_contrasts.csv": "657a87397efe7af301f5257ab13b0000d303d6c015766f8e3bf3820d2f9f64db",
+    "osld_core_results.json": "782d160ddccf2a385fc753cc30e81f526c3f4af26fb8b5f55ac517bf63315198",
+    "osld_contrasts_all.json": "b4b755b18a0bc2e6c37df174028592d8b737db6ef1bc7e1b001ac1ebd42c034b"
+  },
+  "script_sha256": "621c7e99c9a968fdbdff9b8e6e0df8bb38a07c8d232f4404496743fcdb6e8fef"
+}

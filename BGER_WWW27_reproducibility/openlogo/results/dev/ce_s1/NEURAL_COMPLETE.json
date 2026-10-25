@@ -1,0 +1,106 @@
+{
+  "protocol": "OpenLogo-Derived-ConventionStable-B-v1",
+  "phase": "dev",
+  "arm": "ce",
+  "seed": 1,
+  "checkpoint_sha256": "3c8abfa5591418be28e95fa8c4efc220aec4234a27acd4d37cd6c16572bc3316",
+  "n_queries": 1466,
+  "n_gallery": 108,
+  "query_records_digest": "04f96c32b4157180b15ef268afb84c53bac9f008288bcfbe2e86b6e0a489b2e8",
+  "gallery_records_digest": "a9266571175b2cc0b021b816359e4da62f386a1fccf2ea7e69dcbfeac0e57f16",
+  "views": [
+    "own_top1",
+    "CEseed0_positive",
+    "CEseed0_negative"
+  ],
+  "readouts": [
+    "H",
+    "decomposition"
+  ],
+  "sides": [
+    "query",
+    "gallery"
+  ],
+  "ranking_sha256": "991b098b522fda5c63102ad8bf03bcd5b98f8f8a3879013d0114d8226f6ee57f",
+  "fixed_pairs_sha256": "26e0d87812ace28d06ebcd4871c744f46d2e540459462b72830dc30fae35d45c",
+  "chunks": [
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/ce_s1/neural_0000.npz",
+      "sha256": "09eb7e1751d93821f87010d0882cf3a79143339156e3668ff2714c3caa4fdb27",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/ce_s1/neural_0001.npz",
+      "sha256": "d9562b4c6ee5404febd0465ab5d0be3bf7f39f74503622ddf29c4920ce1adf4a",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/ce_s1/neural_0002.npz",
+      "sha256": "59527dfe92be81fdf79dc960329f7e68707ee956a2284c5e25303e69be153b96",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/ce_s1/neural_0003.npz",
+      "sha256": "eec2b441a92cb2d57d94f6bf36f376db9676d9d9e0a39f716e148279ef29f05d",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/ce_s1/neural_0004.npz",
+      "sha256": "d2dd8c72564619987b3dc83eaeb4822a7853c0be606ca94db72e7d828d083b74",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/ce_s1/neural_0005.npz",
+      "sha256": "5c79d2109cc58e588f18bbdee94854a04975c738c39364e0585cd92311e0147a",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/ce_s1/neural_0006.npz",
+      "sha256": "922e937ca976fc979058eb3fd293629421b5d9e06c660cd4960379fad4db2448",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/ce_s1/neural_0007.npz",
+      "sha256": "167f10d1314196756cbc7b56d583778117267aaff875c6ea5fb05c63eed346b3",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/ce_s1/neural_0008.npz",
+      "sha256": "0bb13a0e64087c0a3a7e742ffdb0003b1551965bd95cfcec964d60de8d108daa",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/ce_s1/neural_0009.npz",
+      "sha256": "d34eedad2222449d6417b1b7a0a1277db9f8472a74f7b5f3ca8a120ffe31c6e8",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/ce_s1/neural_0010.npz",
+      "sha256": "bc1387ea0466f9b6e7b3babe1ff93b89870a351663a69e7741d45690b2ebbe2a",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/ce_s1/neural_0011.npz",
+      "sha256": "87abcaf78b2174c06f61f5caae8523aa68e4936be21c357776bbea632578542f",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/ce_s1/neural_0012.npz",
+      "sha256": "79da6e9003e803da4a943ad35e8f8e8b1fa43c3067f521e0766acce5fc9177b9",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/ce_s1/neural_0013.npz",
+      "sha256": "bea306f5f427bd13ebdf85497687f3df80bbb441343b11df5794523fcf2a1548",
+      "n_queries": 100
+    },
+    {
+      "path": "openlogo_b_convention_stable/outputs/dev/ce_s1/neural_0014.npz",
+      "sha256": "ec825fdeaecc6b660f58c1e094994e4c876c219f58e3e038115e12935beaf0e3",
+      "n_queries": 66
+    }
+  ],
+  "eval_state_unchanged": true,
+  "completed_utc": "2026-10-22T06:46:59.440767+00:00",
+  "wall_seconds": 42.51604422800301
+}

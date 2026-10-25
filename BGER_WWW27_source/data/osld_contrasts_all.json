@@ -1,0 +1,394 @@
+{
+ "abn_box-ce/R1": {
+  "point": -0.0010778765831312292,
+  "basic_ci": [
+   -0.009490828646848363,
+   0.007408408507378866
+  ],
+  "exploratory": true
+ },
+ "abn_box-ce/R10": {
+  "point": 0.019132309350579357,
+  "basic_ci": [
+   0.005997047927724271,
+   0.032174440020957554
+  ],
+  "exploratory": true
+ },
+ "abn_box-ce/mAP": {
+  "point": 0.00410884708536996,
+  "basic_ci": [
+   -0.0018400299667800084,
+   0.0103237840362633
+  ],
+  "exploratory": true
+ },
+ "abn_box-ce/primary/J": {
+  "point": -0.0021557531662624637,
+  "basic_ci": [
+   -0.00607391490479916,
+   0.001972412547794981
+  ],
+  "exploratory": true
+ },
+ "abn_box-ce/primary/Q": {
+  "point": 0.005119913769873349,
+  "basic_ci": [
+   -0.002302360270457774,
+   0.012373246343165497
+  ],
+  "exploratory": true
+ },
+ "abn_box-ce/primary/query/EIB": {
+  "point": 0.019344136406542436,
+  "basic_ci": [
+   0.014842369100548852,
+   0.02363454614795727
+  ],
+  "exploratory": true
+ },
+ "abn_box-ce/secondary/Q": {
+  "point": 0.01913230935057937,
+  "basic_ci": [
+   0.006532166986158404,
+   0.03118895241414063
+  ],
+  "exploratory": true
+ },
+ "aux-ce/R1": {
+  "point": -0.0016168148746968439,
+  "basic_ci": [
+   -0.008762937596502556,
+   0.005501475166266777
+  ],
+  "exploratory": true
+ },
+ "aux-ce/R10": {
+  "point": 0.0018862840204796616,
+  "basic_ci": [
+   -0.009217824458309303,
+   0.012522956007105906
+  ],
+  "exploratory": true
+ },
+ "aux-ce/mAP": {
+  "point": -2.987428613655113e-05,
+  "basic_ci": [
+   -0.004343921395962633,
+   0.004246278748240311
+  ],
+  "exploratory": true
+ },
+ "aux-ce/primary/J": {
+  "point": 0.0005389382915656146,
+  "basic_ci": [
+   -0.003333525252323219,
+   0.004395933047709017
+  ],
+  "exploratory": true
+ },
+ "aux-ce/primary/Q": {
+  "point": 0.01832390191323094,
+  "basic_ci": [
+   0.009190362859959958,
+   0.026687341940227614
+  ],
+  "exploratory": true
+ },
+ "aux-ce/primary/query/EIB": {
+  "point": 0.01414506021678967,
+  "basic_ci": [
+   0.009666674341894981,
+   0.018202971198690694
+  ],
+  "exploratory": true
+ },
+ "aux-ce/secondary/Q": {
+  "point": 0.01994071678792779,
+  "basic_ci": [
+   0.008373446846926792,
+   0.0309353832441323
+  ],
+  "exploratory": true
+ },
+ "bger-abn_box/R1": {
+  "point": 0.026407976286715165,
+  "basic_ci": [
+   0.015227914589337574,
+   0.036500619261916736
+  ],
+  "exploratory": true
+ },
+ "bger-abn_box/R10": {
+  "point": 0.04527081649151171,
+  "basic_ci": [
+   0.02829732871744258,
+   0.06150947411304766
+  ],
+  "exploratory": true
+ },
+ "bger-abn_box/mAP": {
+  "point": 0.02598890447834437,
+  "basic_ci": [
+   0.017648939033125616,
+   0.033451539647266
+  ],
+  "exploratory": true
+ },
+ "bger-abn_box/primary/J": {
+  "point": -0.0026946914578280783,
+  "basic_ci": [
+   -0.0061629288211524445,
+   0.0009914926861373128
+  ],
+  "exploratory": true
+ },
+ "bger-abn_box/primary/Q": {
+  "point": -0.019671247642144972,
+  "basic_ci": [
+   -0.028021816832161397,
+   -0.010440321275615023
+  ],
+  "exploratory": true
+ },
+ "bger-abn_box/primary/query/EIB": {
+  "point": -0.016039490987855384,
+  "basic_ci": [
+   -0.021229666075678465,
+   -0.010439077226208827
+  ],
+  "exploratory": true
+ },
+ "bger-abn_box/secondary/Q": {
+  "point": 0.14497440043115062,
+  "basic_ci": [
+   0.12432641285208865,
+   0.1642897520839865
+  ],
+  "exploratory": true
+ },
+ "bger-aux/R1": {
+  "point": 0.02694691457828078,
+  "basic_ci": [
+   0.016948678460020454,
+   0.0361903497630047
+  ],
+  "exploratory": true
+ },
+ "bger-aux/R10": {
+  "point": 0.06251684182161141,
+  "basic_ci": [
+   0.044408444502183037,
+   0.0799048449395519
+  ],
+  "exploratory": true
+ },
+ "bger-aux/mAP": {
+  "point": 0.030127625849850882,
+  "basic_ci": [
+   0.021415865756994973,
+   0.03803071101916586
+  ],
+  "exploratory": true
+ },
+ "bger-aux/primary/J": {
+  "point": -0.005389382915656157,
+  "basic_ci": [
+   -0.009366425998177172,
+   -0.001035198053371239
+  ],
+  "exploratory": true
+ },
+ "bger-aux/primary/Q": {
+  "point": -0.03287523578550256,
+  "basic_ci": [
+   -0.043023521490988606,
+   -0.02168262483024542
+  ],
+  "exploratory": true
+ },
+ "bger-aux/primary/query/EIB": {
+  "point": -0.010840414798102618,
+  "basic_ci": [
+   -0.01680820470125682,
+   -0.0043462778943407845
+  ],
+  "exploratory": true
+ },
+ "bger-aux/secondary/Q": {
+  "point": 0.1441659929938022,
+  "basic_ci": [
+   0.12340054466107384,
+   0.16371554846834402
+  ],
+  "exploratory": true
+ },
+ "bger-cam_bce/R1": {
+  "point": 0.014820803018054426,
+  "basic_ci": [
+   0.00471445856614236,
+   0.024591201593274138
+  ],
+  "exploratory": true
+ },
+ "bger-cam_bce/R10": {
+  "point": 0.029641606036108853,
+  "basic_ci": [
+   0.013340524916561292,
+   0.0455227277063153
+  ],
+  "exploratory": true
+ },
+ "bger-cam_bce/mAP": {
+  "point": 0.016437538705489793,
+  "basic_ci": [
+   0.008801287231834341,
+   0.02388590914260994
+  ],
+  "exploratory": true
+ },
+ "bger-cam_bce/primary/J": {
+  "point": -0.025330099703583936,
+  "basic_ci": [
+   -0.034566497878547695,
+   -0.015114724249557843
+  ],
+  "exploratory": true
+ },
+ "bger-cam_bce/primary/Q": {
+  "point": -0.15467528967933172,
+  "basic_ci": [
+   -0.17868677733912117,
+   -0.1290270497667393
+  ],
+  "exploratory": true
+ },
+ "bger-cam_bce/primary/query/EIB": {
+  "point": -0.08133412243397527,
+  "basic_ci": [
+   -0.09296445440110007,
+   -0.06846052150627924
+  ],
+  "exploratory": true
+ },
+ "bger-cam_bce/secondary/Q": {
+  "point": -0.10482349770951227,
+  "basic_ci": [
+   -0.13081197291828334,
+   -0.07891684562527282
+  ],
+  "exploratory": true
+ },
+ "bger-ce/R1": {
+  "point": 0.025330099703583936,
+  "basic_ci": [
+   0.014108063414723024,
+   0.03565010623946601
+  ],
+  "exploratory": true
+ },
+ "bger-ce/R10": {
+  "point": 0.06440312584209107,
+  "basic_ci": [
+   0.04871967159760204,
+   0.07947298638834012
+  ],
+  "exploratory": true
+ },
+ "bger-ce/mAP": {
+  "point": 0.03009775156371433,
+  "basic_ci": [
+   0.021403561928332364,
+   0.038337131606055605
+  ],
+  "exploratory": true
+ },
+ "bger-ce/primary/J": {
+  "point": -0.004850444624090542,
+  "basic_ci": [
+   -0.008855598559140395,
+   -0.000691695628331726
+  ],
+  "exploratory": true
+ },
+ "bger-ce/primary/Q": {
+  "point": -0.014551333872271623,
+  "basic_ci": [
+   -0.022396415419829764,
+   -0.006375079885923774
+  ],
+  "exploratory": true
+ },
+ "bger-ce/primary/query/EIB": {
+  "point": 0.003304645418687052,
+  "basic_ci": [
+   -0.0017094561822352927,
+   0.008717864283950652
+  ],
+  "exploratory": true
+ },
+ "bger-ce/secondary/Q": {
+  "point": 0.16410670978172998,
+  "basic_ci": [
+   0.1415941163925726,
+   0.18535715919422702
+  ],
+  "exploratory": true
+ },
+ "cam_bce-ce/R1": {
+  "point": 0.01050929668552951,
+  "basic_ci": [
+   0.0017476210252701692,
+   0.018861895803584702
+  ],
+  "exploratory": true
+ },
+ "cam_bce-ce/R10": {
+  "point": 0.034761519805982216,
+  "basic_ci": [
+   0.021623796581418886,
+   0.046796067033565564
+  ],
+  "exploratory": true
+ },
+ "cam_bce-ce/mAP": {
+  "point": 0.013660212858224538,
+  "basic_ci": [
+   0.0067740682487363695,
+   0.020208272135800717
+  ],
+  "exploratory": true
+ },
+ "cam_bce-ce/primary/J": {
+  "point": 0.020479655079493397,
+  "basic_ci": [
+   0.01146072408746325,
+   0.02834677163361932
+  ],
+  "exploratory": true
+ },
+ "cam_bce-ce/primary/Q": {
+  "point": 0.1401239558070601,
+  "basic_ci": [
+   0.11710277239845213,
+   0.16159966014400917
+  ],
+  "exploratory": true
+ },
+ "cam_bce-ce/primary/query/EIB": {
+  "point": 0.08463876785266232,
+  "basic_ci": [
+   0.07397802131870244,
+   0.09437131941724383
+  ],
+  "exploratory": true
+ },
+ "cam_bce-ce/secondary/Q": {
+  "point": 0.26893020749124225,
+  "basic_ci": [
+   0.23494920506863026,
+   0.30138252715426295
+  ],
+  "exploratory": true
+ }
+}

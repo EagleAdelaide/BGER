@@ -1,0 +1,11 @@
+# Versions used for the recorded runs and checks (Python 3.11.15, Linux x86_64).
+# Tier A needs only the Python standard library (+ matplotlib for the figure);
+# Tier B needs numpy; Tiers C/D and the retrieval code need the full list.
+numpy==2.4.4
+scipy==1.17.1
+pillow==12.2.0
+matplotlib==3.10.9
+torch==2.4.1          # recorded runs used the +cu118 build on NVIDIA A100-40GB
+torchvision==0.19.1
+opencv-python-headless==4.10.0.84   # imported by cub_training/metrics/maxboxacc_v2.py
+pytest==8.3.5         # tests only

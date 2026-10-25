@@ -1,0 +1,54 @@
+{
+ "contrasts": {
+  "R": {
+   "point": 0.025330099703583936,
+   "per_seed_point": [
+    0.030719482619240096,
+    0.028294260307194827,
+    0.016976556184316895
+   ],
+   "null_boundary": -0.01,
+   "basic_two_sided_ci": [
+    0.01410806341472301,
+    0.03565010623946601
+   ],
+   "basic_one_sided_lower": 0.015913157095417664,
+   "p_one_sided_centered_bootstrap": 9.999000099990002e-05,
+   "bootstrap_degenerate": false,
+   "reject_unadjusted": true,
+   "p_holm": 0.00019998000199980003,
+   "reject_holm": true
+  },
+  "Q": {
+   "point": -0.014551333872271624,
+   "per_seed_point": [
+    -0.01131770412287793,
+    -0.018593371059013743,
+    -0.0137429264349232
+   ],
+   "null_boundary": 0.0,
+   "basic_two_sided_ci": [
+    -0.022396415419829764,
+    -0.006375079885923774
+   ],
+   "basic_one_sided_lower": -0.021147512665616812,
+   "p_one_sided_centered_bootstrap": 0.9997000299970003,
+   "bootstrap_degenerate": false,
+   "reject_unadjusted": false,
+   "p_holm": 0.9997000299970003,
+   "reject_holm": false
+  }
+ },
+ "n_seeds": 3,
+ "n_queries": 1237,
+ "n_products": 391,
+ "n_boot": 10000,
+ "seed": 0,
+ "all_family_rejected": false,
+ "scope": "fixed trained models and fixed gallery; query logo-identity clusters only (OSLD adapter stores the identity in product_id)",
+ "method": "basic CIs; centered bootstrap upper-tail p; Holm; asymptotic approximation",
+ "identity": "OSLD_E1_CORE",
+ "margin_rationale": "Design tolerance: at most one additional top-1 error per 100 queries; not a field standard or CUB certification",
+ "intervals": "Unadjusted basic intervals; not simultaneous confidence intervals",
+ "scientific_inference": true
+}

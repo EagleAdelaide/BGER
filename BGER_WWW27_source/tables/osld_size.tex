@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\caption{Query localization (top block) and Recall@1 (bottom block) by box-area quartile of the test queries (Q1 smallest; edges 0.33, 2.05, 4.07, 7.71, 52.69\% of the image; 309, 309, 309, 310 queries), and localization for correct and wrong own top-1 templates (\%, seed-averaged). Pre-specified descriptive breakdown.}
+\label{tab:osld-size}
+\begin{tabular}{lcccccc}
+\toprule
+Arm & Q1 & Q2 & Q3 & Q4 & Correct & Wrong\\
+\midrule
+CE & 0.0 & 0.6 & 3.9 & 9.5 & 23.0 & 2.7\\
+Aux-BCE & 0.0 & 1.2 & 6.3 & 13.9 & 26.0 & 4.6\\
+BGER & 0.2 & 1.1 & 3.2 & 3.7 & 6.6 & 1.8\\
+CAM-BCE & 0.2 & 4.9 & 27.9 & 37.0 & 60.1 & 15.3\\
+ABN-box & 0.3 & 0.5 & 5.5 & 9.7 & 18.0 & 3.5\\
+\midrule
+CE R@1 & 0.3 & 1.0 & 2.9 & 11.1 & & \\
+Aux-BCE R@1 & 0.1 & 0.9 & 4.0 & 9.7 & & \\
+BGER R@1 & 0.4 & 2.0 & 8.1 & 14.8 & & \\
+CAM-BCE R@1 & 0.3 & 1.6 & 4.3 & 13.2 & & \\
+ABN-box R@1 & 0.4 & 1.1 & 4.2 & 9.1 & & \\
+\bottomrule
+\end{tabular}
+\end{table}

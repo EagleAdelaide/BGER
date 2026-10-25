@@ -1,0 +1,35 @@
+[
+  {
+    "seed": 0,
+    "source_sha256": "9cc58118c93cf5700abfe13e4b3144cfd4222c9d68f3bacc2a99439c0d7531f7",
+    "standard_V2": 0.7190196755264067,
+    "detached_V2": 0.7174088137153377,
+    "detached_head_weight_map_max_error": 5.960464477539062e-07,
+    "detached_head_weight_map_mean_max_error": 2.418082460766214e-07,
+    "detached_head_raw_span_at_most_normalization_epsilon": 0,
+    "detach_forward_max_error": 0.0,
+    "zero_detached_maps": 0
+  },
+  {
+    "seed": 1,
+    "source_sha256": "100da6f9445ea631f022fabe717f06438f44fe986bcd4944949f48ae11470fbd",
+    "standard_V2": 0.7118858589345299,
+    "detached_V2": 0.7097572201127603,
+    "detached_head_weight_map_max_error": 5.364418029785156e-07,
+    "detached_head_weight_map_mean_max_error": 2.4096468707220613e-07,
+    "detached_head_raw_span_at_most_normalization_epsilon": 0,
+    "detach_forward_max_error": 0.0,
+    "zero_detached_maps": 0
+  },
+  {
+    "seed": 2,
+    "source_sha256": "86255b9ecb2f78714749d64a50b577d41f0a32904a4ef4f7f30bde48def06124",
+    "standard_V2": 0.7211483143481763,
+    "detached_V2": 0.7180991830629386,
+    "detached_head_weight_map_max_error": 1.0132789611816406e-06,
+    "detached_head_weight_map_mean_max_error": 2.4067149888164714e-07,
+    "detached_head_raw_span_at_most_normalization_epsilon": 0,
+    "detach_forward_max_error": 0.0,
+    "zero_detached_maps": 0
+  }
+]

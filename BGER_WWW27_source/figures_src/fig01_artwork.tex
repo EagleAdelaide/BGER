@@ -1,0 +1,23 @@
+% Original schematic artwork for Figure 1. Vector paths only; no imported pixels.
+% Coordinates are arbitrary illustration units, unrelated to any dataset annotation.
+\tikzset{
+ pics/figone emblem/.style={code={
+   \foreach \ang in {90,210,330}{
+     \begin{scope}[rotate=\ang]
+       \path[fill=figTeal,draw=none] (0,.02) .. controls (-.17,.18) and (-.14,.42) .. (0,.49)
+          .. controls (.14,.42) and (.17,.18) .. (0,.02) -- cycle;
+     \end{scope}}
+   \fill[figWarm] (0,0) circle[radius=.065];
+ }},
+ pics/figone product/.style={code={
+   \path[draw=figInk,fill=figBottle,line width=.5pt,rounded corners=2pt]
+     (-.32,0) -- (.32,0) -- (.32,1.13)
+     .. controls (.32,1.28) and (.14,1.33) .. (.14,1.43)
+     -- (-.14,1.43) .. controls (-.14,1.33) and (-.32,1.28) .. (-.32,1.13) -- cycle;
+   \path[draw=figInk,fill=figInk!80,rounded corners=.6pt] (-.17,1.42) rectangle (.17,1.62);
+   \foreach \xx in {-.12,-.06,0,.06,.12}{\draw[white!60!figInk,line width=.25pt] (\xx,1.44)--(\xx,1.60);}
+   \path[fill=white,draw=figInk!18,line width=.25pt] (-.30,.35) rectangle (.30,.94);
+   \pic[scale=.49] at (0,.63) {figone emblem};
+   \draw[white,line width=.65pt] (-.245,.09)--(-.245,.29);
+ }}
+}

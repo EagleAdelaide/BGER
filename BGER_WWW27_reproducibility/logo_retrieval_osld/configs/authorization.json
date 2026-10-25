@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "B1": {
+    "status": "SEALED_COMPLETE",
+    "cumulative_gpu_seconds": 817,
+    "cap_gpu_seconds": 5400
+  },
+  "B0": {
+    "conditional_authorization": true,
+    "cap_allocated_gpu_seconds": 1800,
+    "initial_charged_gpu_seconds": 0,
+    "note": "Same cumulative 1800 allocated GPU-s B0 cap, now used for OSLD (replaces the unused In-shop B0); shared ledger, no reset"
+  },
+  "core": {
+    "approved": false,
+    "approval_reference": null,
+    "note": "distribution setting: a site enables core with its own approval and allocation plan; the study used a 75,600 allocated GPU-s plan"
+  },
+  "data": {
+    "status": "BLOCKED_DATA_ACCESS",
+    "receipt": null,
+    "note": "set to VERIFIED_ACCESS_AND_DATA with a hashed receipt after obtaining OSLD under its license"
+  },
+  "engineering": {
+    "receipt": null
+  },
+  "applications": "UNCHANGED_UNSIGNED_UNSENT",
+  "other_research": "FROZEN",
+  "budget_ledger_root": "<site-specific allocation-ledger directory; required only for b0/core>"
+}

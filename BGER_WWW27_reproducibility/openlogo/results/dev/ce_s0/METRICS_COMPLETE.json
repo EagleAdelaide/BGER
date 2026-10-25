@@ -1,0 +1,27 @@
+{
+  "protocol": "OpenLogo-Derived-ConventionStable-B-v1",
+  "phase": "dev",
+  "arm": "ce",
+  "seed": 0,
+  "n_queries": 1466,
+  "thresholds": {
+    "indices": [
+      4,
+      15
+    ],
+    "values": [
+      0.25,
+      0.7999999999999999
+    ],
+    "readouts": [
+      "H",
+      "decomposition"
+    ],
+    "rule": "C0 development own-top1 IoU>=.5, maximum count, first grid point on ties"
+  },
+  "C0_C1_same_neural_maps": true,
+  "thresholds_retuned_C1": false,
+  "metrics_sha256": "95855c43b5b864a37d9044fbb61e922b5ba587ab019056d5b674b30a81c57116",
+  "neural_manifest_sha256": "c8aca674be24d9ff2a0a59dac113dce4f5e8a82063abe8d9d8eadcd89b987fae",
+  "completed_utc": "2026-10-22T06:48:49.965547+00:00"
+}

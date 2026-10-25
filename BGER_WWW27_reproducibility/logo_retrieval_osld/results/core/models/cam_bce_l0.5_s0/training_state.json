@@ -1,0 +1,14 @@
+{
+ "identity": "OSLD_E1_CORE",
+ "arm": "cam_bce",
+ "lam": 0.5,
+ "seed": 0,
+ "completed_epochs": 15,
+ "next_batch": 0,
+ "optimizer_steps": 3195,
+ "zero_grid_targets": 0,
+ "initial_state_hash": "c12166ad26eb6d959da2a5be85a2ffd9795182b7c2ab89af89db479d71bd7898",
+ "checkpoint_sha256": "671a19ca7672c8377554a4b434c6d60b63ee9283e3978cd51b22faba04dbf6ea",
+ "complete": true,
+ "sample_order_sha256": "c7373769d1e2389e58d0a1a43a6edb0ab1f04ae712f84a90544ab8938685e6c6"
+}

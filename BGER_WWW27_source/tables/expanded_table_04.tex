@@ -1,0 +1,27 @@
+\begingroup
+\captionsetup{type=table}
+\centering\footnotesize\setlength{\tabcolsep}{2.4pt}
+\caption{Fixed-candidate diagnostic (query side; seed-averaged; same CE-seed-0 $d^+$ and $d^-$ for all arms). \emph{Change between candidates}: raw magnitude (median $|\ln|$ ratio of the maps' maximum absolute values), normalized shape (L1 distance of ReLU-normalized maps, 0--2; mean defined correlation, undefined count) and the thresholded verdict (rate of differing localization verdicts, \%, with the bounds implied by the two hit rates). \emph{Localization}: hit rate for $d^+/d^-$ and a centre prior evaluated at each arm's locked threshold (\%; not tuned for the prior). No single column ranks overall candidate dependence; descriptive, not a faithfulness measure.}
+\label{tab:osld-a5}
+\begin{tabular}{lcccccc}
+\toprule
+& \multicolumn{4}{c}{Change between candidates} & \multicolumn{2}{c}{Localization}\\
+\cmidrule(lr){2-5}\cmidrule(lr){6-7}
+Arm & Raw & L1 & Corr.\ (undef.) & Verdict [bounds] & $d^+/d^-$ & Prior\\
+\midrule
+\multicolumn{7}{l}{\emph{Primary (Grad-CAM)}}\\
+CE & 0.43 & 1.25 & 0.19 (0) & 7.9 [4.6, 10.2] & 7.4/2.8 & 4.0\\
+Aux-BCE & 0.44 & 1.25 & 0.19 (0) & 10.0 [5.1, 12.7] & 8.9/3.8 & 4.3\\
+BGER & 0.42 & 1.22 & 0.25 (0) & 4.4 [3.4, 4.8] & 4.1/0.7 & 3.1\\
+CAM-BCE & 0.51 & 1.16 & 0.33 (0) & 18.8 [10.6, 43.5] & 27.0/16.4 & 3.3\\
+ABN-box & 0.45 & 1.31 & 0.13 (0) & 7.6 [4.5, 9.3] & 6.9/2.4 & 5.1\\
+\multicolumn{7}{l}{\emph{Secondary (decomposition)}}\\
+CE & 0.21 & 0.12 & 0.92 (0) & 9.9 [2.0, 24.1] & 13.0/11.1 & 5.6\\
+Aux-BCE & 0.17 & 0.12 & 0.92 (0) & 10.3 [3.5, 27.7] & 15.6/12.1 & 5.6\\
+BGER & 0.16 & 0.08 & 0.99 (0) & 10.1 [1.3, 54.8] & 28.1/26.8 & 5.8\\
+CAM-BCE & 0.17 & 0.12 & 0.97 (0) & 8.3 [3.4, 79.1] & 41.3/37.8 & 6.0\\
+ABN-box & 0.18 & 0.14 & 0.92 (0) & 10.3 [2.7, 26.0] & 14.3/11.6 & 4.7\\
+\bottomrule
+\end{tabular}
+\par
+\endgroup

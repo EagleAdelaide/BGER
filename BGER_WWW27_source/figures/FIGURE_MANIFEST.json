@@ -1,0 +1,73 @@
+{
+  "fig02_retrieval_vs_localization": {
+    "inputs": {
+      "osld_core_results.json": "782d160ddccf2a385fc753cc30e81f526c3f4af26fb8b5f55ac517bf63315198",
+      "osld_readout_analysis.json": "99806e6a2312b9a61c543412f0b1d0100e27ca911e403e22e7f43854a90f8e8d",
+      "p0a_results.json": "bd34a4acef07dfb649942dceb0e9f4295543f1f37297fe8c6d9edbc13d6e5a3d"
+    },
+    "files": [
+      "fig02_retrieval_vs_localization.pdf",
+      "fig02_retrieval_vs_localization.svg",
+      "fig02_retrieval_vs_localization.png"
+    ]
+  },
+  "fig03_paired_effects": {
+    "inputs": {
+      "openlogo_per_seed_and_mean_SD.csv": "b6e337c3ba5914845510c26e2c0c210cde80d8c22f147431dcfeb787cd0e6025",
+      "openlogo_coordinate_mixture_bounds.csv": "bdd702b1a788fd81de8136d6c661885f1eb5a37df83c21c7d1f421669a4597d6",
+      "openlogo_paired_contrasts.csv": "657a87397efe7af301f5257ab13b0000d303d6c015766f8e3bf3820d2f9f64db",
+      "osld_core_results.json": "782d160ddccf2a385fc753cc30e81f526c3f4af26fb8b5f55ac517bf63315198",
+      "osld_contrasts_all.json": "b4b755b18a0bc2e6c37df174028592d8b737db6ef1bc7e1b001ac1ebd42c034b"
+    },
+    "generator": "scripts/make_openlogo.py",
+    "script_sha256": "621c7e99c9a968fdbdff9b8e6e0df8bb38a07c8d232f4404496743fcdb6e8fef",
+    "files": [
+      "fig03_paired_effects.pdf",
+      "fig03_paired_effects.svg",
+      "fig03_paired_effects.png"
+    ],
+    "supersedes": "The original OSLD-only Figure 3 is replaced by the separate-dataset contrast view; all OSLD contrast records remain unchanged."
+  },
+  "fig04_candidate_dependency": {
+    "inputs": {
+      "osld_readout_analysis.json": "99806e6a2312b9a61c543412f0b1d0100e27ca911e403e22e7f43854a90f8e8d"
+    },
+    "files": [
+      "fig04_candidate_dependency.pdf",
+      "fig04_candidate_dependency.svg",
+      "fig04_candidate_dependency.png"
+    ]
+  },
+  "fig05_size_strata": {
+    "inputs": {
+      "osld_descriptive.json": "c9deabfe95ebf1fc2e081a7890e06c46591b163ea41bf0afbc14360f91f098cc"
+    },
+    "files": [
+      "fig05_size_strata.pdf",
+      "fig05_size_strata.svg",
+      "fig05_size_strata.png"
+    ]
+  },
+  "_meta": {
+    "script_sha256": "4c0a8ea55c4d41ff1562c7e87a81d7ce432553b0126811478c2dfbed0ebbf673",
+    "matplotlib": "3.9.4",
+    "numpy": "1.26.4",
+    "p0a_included": true,
+    "p0b_included": true
+  },
+  "fig06_coordinate_sensitivity": {
+    "inputs": {
+      "openlogo_per_seed_and_mean_SD.csv": "b6e337c3ba5914845510c26e2c0c210cde80d8c22f147431dcfeb787cd0e6025",
+      "openlogo_coordinate_mixture_bounds.csv": "bdd702b1a788fd81de8136d6c661885f1eb5a37df83c21c7d1f421669a4597d6",
+      "openlogo_paired_contrasts.csv": "657a87397efe7af301f5257ab13b0000d303d6c015766f8e3bf3820d2f9f64db",
+      "osld_core_results.json": "782d160ddccf2a385fc753cc30e81f526c3f4af26fb8b5f55ac517bf63315198",
+      "osld_contrasts_all.json": "b4b755b18a0bc2e6c37df174028592d8b737db6ef1bc7e1b001ac1ebd42c034b"
+    },
+    "generator": "scripts/make_openlogo.py",
+    "files": [
+      "fig06_coordinate_sensitivity.pdf",
+      "fig06_coordinate_sensitivity.svg",
+      "fig06_coordinate_sensitivity.png"
+    ]
+  }
+}

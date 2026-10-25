@@ -1,0 +1,44 @@
+[
+  {
+    "source": "tables/osld_posthoc_all.tex",
+    "sha256": "6c7a034948f21060c688ccab57d4c47d0a406ccecfa94d49b49c06e041df9026",
+    "output": "tables/expanded_table_01.tex",
+    "changes": "non-floating local wrapper only; all caption, numeric, label and tabular content unchanged"
+  },
+  {
+    "source": "tables/osld_contrasts_artifact.tex",
+    "sha256": "1d4e7348cafe1663fa0b18faa23573d1e58b62656567a8b80638e9c957c41ec0",
+    "output": "tables/expanded_table_02.tex",
+    "changes": "non-floating local wrapper only; all caption, numeric, label and tabular content unchanged"
+  },
+  {
+    "source": "tables/osld_dev.tex",
+    "sha256": "5d6834a3833c4b255e3958ee19645eadd7402b813c805d2c99657c7a3b81c2c9",
+    "output": "tables/expanded_table_03.tex",
+    "changes": "non-floating local wrapper only; all caption, numeric, label and tabular content unchanged"
+  },
+  {
+    "source": "tables/osld_a5.tex",
+    "sha256": "d2a3f58fd8bab569c823792ab9a414dd912cb797c6c011cb693e21f8cde303c1",
+    "output": "tables/expanded_table_04.tex",
+    "changes": "non-floating local wrapper only; all caption, numeric, label and tabular content unchanged"
+  },
+  {
+    "source": "tables/cub_osld_comparison.tex",
+    "sha256": "453b9bd32bf0e332ee169f111f9afef5fbeddba3a661cf58d68980e4543934c4",
+    "output": "tables/expanded_table_05.tex",
+    "changes": "non-floating local wrapper only; all caption, numeric, label and tabular content unchanged"
+  },
+  {
+    "source": "tables/grid.tex",
+    "sha256": "2a8546da0b01c13bbafd4b31df92783fe2630c73e65d763da114bd01ffb186cc",
+    "output": "tables/expanded_table_06.tex",
+    "changes": "non-floating local wrapper only; all caption, numeric, label and tabular content unchanged"
+  },
+  {
+    "source": "tables/all_seeds.tex",
+    "sha256": "8140f8bd5cceb476425878c14abff134e9180d09ae92e7ce6f0fb41d476b8586",
+    "output": "tables/expanded_table_07.tex",
+    "changes": "non-floating local wrapper only; all caption, numeric, label and tabular content unchanged"
+  }
+]

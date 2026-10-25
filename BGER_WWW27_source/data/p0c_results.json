@@ -1,0 +1,220 @@
+{
+  "identity": "OSLD_P0C_FROZEN_REFERENCE",
+  "provenance": {
+    "dinov2_vitb14": {
+      "source": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_pretrain.pth",
+      "code": "https://github.com/facebookresearch/dinov2 (main, downloaded 2026-10-20, used via torch.hub source=local)",
+      "license": "Apache-2.0 (dinov2 repository and weights)",
+      "sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+      "bytes": 346378731
+    },
+    "openclip_vitb32": {
+      "source": "HF hub laion/CLIP-ViT-B-32-laion2B-s34B-b79K (open_clip pretrained tag laion2b_s34b_b79k), snapshot 1a25a446712ba5ee05982a381eed697ef9b435cf, file open_clip_pytorch_model.bin",
+      "code": "open_clip_torch 2.26.1 (MIT) in env arc_rev (clone of arc; torch 2.4.1+cu118 unchanged)",
+      "license": "MIT (OpenCLIP code and LAION-2B weights as published)",
+      "sha256": "1bd3c7172de5b207ceac554f5ab5266166f3b9baccc9af5989bc801016d080ad",
+      "bytes": 605219813
+    },
+    "downloaded_utc": "2026-10-20T07:06Z",
+    "by": "login node curl / open_clip.download_pretrained; no GPU"
+  },
+  "weights_sha256_at_run": {
+    "open_clip_vitb32_laion2b_s34b_b79k.bin": "1bd3c7172de5b207ceac554f5ab5266166f3b9baccc9af5989bc801016d080ad",
+    "PROVENANCE.json": "a7aca901280461e79151c2efa7bdd352f5f4548ba1f406b7dc4ee6eccf7f6c9b",
+    "dinov2_vitb14_pretrain.pth": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73"
+  },
+  "params": {
+    "dinov2_vitb14": 86580480,
+    "openclip_vitb32": 151277313
+  },
+  "open_clip_version": "2.26.1",
+  "torch": "2.4.1+cu118",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "audit": {
+    "dinov2_vitb14__study": {
+      "query_ids_identical": true,
+      "query_products_identical": true,
+      "gallery_size": 20848,
+      "gallery_size_matches_core": true,
+      "top1_from_gallery": true,
+      "relevance_rule": "product_id equality (logo identity), as in the five arms",
+      "n_queries": 1237,
+      "mean_correct_equals_recall1": true
+    },
+    "dinov2_vitb14__native": {
+      "query_ids_identical": true,
+      "query_products_identical": true,
+      "gallery_size": 20848,
+      "gallery_size_matches_core": true,
+      "top1_from_gallery": true,
+      "relevance_rule": "product_id equality (logo identity), as in the five arms",
+      "n_queries": 1237,
+      "mean_correct_equals_recall1": true
+    },
+    "openclip_vitb32__study": {
+      "query_ids_identical": true,
+      "query_products_identical": true,
+      "gallery_size": 20848,
+      "gallery_size_matches_core": true,
+      "top1_from_gallery": true,
+      "relevance_rule": "product_id equality (logo identity), as in the five arms",
+      "n_queries": 1237,
+      "mean_correct_equals_recall1": true
+    },
+    "openclip_vitb32__native": {
+      "query_ids_identical": true,
+      "query_products_identical": true,
+      "gallery_size": 20848,
+      "gallery_size_matches_core": true,
+      "top1_from_gallery": true,
+      "relevance_rule": "product_id equality (logo identity), as in the five arms",
+      "n_queries": 1237,
+      "mean_correct_equals_recall1": true
+    }
+  },
+  "results": {
+    "dinov2_vitb14__study": {
+      "model": "dinov2_vitb14",
+      "preprocessing": "study",
+      "embedding_dim": 768,
+      "recall1": 0.0274858528698464,
+      "recall10": 0.07679870654810024,
+      "mAP": 0.03524211461218845,
+      "ms_per_image": 3.063308941662136,
+      "R1_by_box_area_quartile": [
+        0.032362459546925564,
+        0.006472491909385114,
+        0.016181229773462782,
+        0.054838709677419356
+      ],
+      "contrast_vs_BGER_R1": {
+        "point": -0.03610886553489625,
+        "basic_ci": [
+          -0.060380639181670984,
+          -0.015349466309372194
+        ],
+        "exploratory": true
+      },
+      "contrast_vs_CE_R1": {
+        "point": -0.010778765831312313,
+        "basic_ci": [
+          -0.0330722850053322,
+          0.00728379753130852
+        ],
+        "exploratory": true
+      }
+    },
+    "dinov2_vitb14__native": {
+      "model": "dinov2_vitb14",
+      "preprocessing": "native",
+      "embedding_dim": 768,
+      "recall1": 0.03556992724333064,
+      "recall10": 0.09054163298302344,
+      "mAP": 0.04012043254482049,
+      "ms_per_image": 2.9392015294357208,
+      "R1_by_box_area_quartile": [
+        0.025889967637540454,
+        0.009708737864077669,
+        0.032362459546925564,
+        0.07419354838709677
+      ],
+      "contrast_vs_BGER_R1": {
+        "point": -0.028024791161412016,
+        "basic_ci": [
+          -0.05286760550557601,
+          -0.006645343305566542
+        ],
+        "exploratory": true
+      },
+      "contrast_vs_CE_R1": {
+        "point": -0.0026946914578280757,
+        "basic_ci": [
+          -0.02495577153266343,
+          0.015443950417677177
+        ],
+        "exploratory": true
+      }
+    },
+    "openclip_vitb32__study": {
+      "model": "openclip_vitb32",
+      "preprocessing": "study",
+      "embedding_dim": 512,
+      "recall1": 0.5052546483427648,
+      "recall10": 0.6936135812449474,
+      "mAP": 0.521062817105183,
+      "ms_per_image": 0.7799906835368189,
+      "R1_by_box_area_quartile": [
+        0.313915857605178,
+        0.4110032362459547,
+        0.5857605177993528,
+        0.7096774193548387
+      ],
+      "contrast_vs_BGER_R1": {
+        "point": 0.4416599299380221,
+        "basic_ci": [
+          0.3907145179354876,
+          0.49111569368311286
+        ],
+        "exploratory": true
+      },
+      "contrast_vs_CE_R1": {
+        "point": 0.4669900296416061,
+        "basic_ci": [
+          0.4171315855235683,
+          0.5152622678721692
+        ],
+        "exploratory": true
+      }
+    },
+    "openclip_vitb32__native": {
+      "model": "openclip_vitb32",
+      "preprocessing": "native",
+      "embedding_dim": 512,
+      "recall1": 0.35004042037186744,
+      "recall10": 0.5270816491511722,
+      "mAP": 0.33134417274002037,
+      "ms_per_image": 0.8098524675289376,
+      "R1_by_box_area_quartile": [
+        0.21359223300970873,
+        0.2459546925566343,
+        0.3818770226537217,
+        0.5580645161290323
+      ],
+      "contrast_vs_BGER_R1": {
+        "point": 0.2864457019671248,
+        "basic_ci": [
+          0.2331668387641736,
+          0.3368139052774374
+        ],
+        "exploratory": true
+      },
+      "contrast_vs_CE_R1": {
+        "point": 0.3117758016707087,
+        "basic_ci": [
+          0.2597182570510237,
+          0.3627059790400222
+        ],
+        "exploratory": true
+      }
+    }
+  },
+  "quartile_edges": [
+    0.003328,
+    0.02046,
+    0.040748,
+    0.07706666666666667,
+    0.5269090909090909
+  ],
+  "quartile_counts": [
+    309,
+    309,
+    309,
+    310
+  ],
+  "notes": [
+    "Frozen encoders: no training, no boxes, no OSLD data seen in our pipeline; same 1,237 queries, 20,848 templates, identity relevance, FP32 stabilized cosine ranking with the study tie-break.",
+    "Preprocessing variants: study = deterministic whole-image 224x224 bilinear resize (same as the five arms); native = each model's evaluation transform with centre crop (can remove logos). Both run; neither chosen on test.",
+    "Pretraining overlap with OSLD cannot be excluded: LAION-2B (OpenCLIP) and LVD-142M (DINOv2) are web-crawled and OSLD product/template images come from the Web; no deduplication against OSLD was possible.",
+    "Architecture, objective (contrastive image-text / self-distillation) and pretraining data differ from the five ResNet-50 identity-classification arms; these are references, not matched arms."
+  ]
+}

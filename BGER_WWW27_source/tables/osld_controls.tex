@@ -1,0 +1,13 @@
+\begin{table}[t]
+\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\caption{Gate controls and readout hooks (\%, mean$\pm$SD, seeds 0--2). Above the rule: matched-study references at $H$. Below: exploratory pooled-$F$ readout of the same BGER checkpoints, then two gate controls trained under the frozen recipe. All gates except Aux-BCE are on the pooling path. Shifted boxes retain size but use random train-only positions (mean true-box IoU \pbShiftIoU). Localization thresholds are validation-locked.}
+\label{tab:controls}\begin{tabular}{lccc}\toprule
+Arm / readout & R@1 & $\bar L^{\mathrm q}$ & $Jq@1$\\\midrule
+CE & 3.8\,$\pm$\,0.6 & 3.5\,$\pm$\,0.5 & 0.9\,$\pm$\,0.2\\
+Aux-BCE (off path) & 3.7\,$\pm$\,0.3 & 5.3\,$\pm$\,0.7 & 0.9\,$\pm$\,0.2\\
+BGER-H (true boxes) & 6.4\,$\pm$\,0.7 & 2.0\,$\pm$\,0.2 & 0.4\,$\pm$\,0.1\\
+\midrule
+BGER-F (same models) & 6.4\,$\pm$\,0.7 & 2.3\,$\pm$\,0.8 & 0.5\,$\pm$\,0.2\\
+Gate-only (no boxes) & 3.1\,$\pm$\,0.4 & 4.0\,$\pm$\,0.3 & 0.7\,$\pm$\,0.2\\
+Gate (shifted boxes) & 3.3\,$\pm$\,0.7 & 3.1\,$\pm$\,0.5 & 0.8\,$\pm$\,0.4\\
+\bottomrule\end{tabular}\end{table}

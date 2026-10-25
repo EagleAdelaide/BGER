@@ -1,0 +1,2 @@
+{"utc": "2026-10-16T10:19:31.250964+00:00", "mode": "core", "gpu": "NVIDIA A100-SXM4-40GB", "gpu_total_bytes": 42409000960, "complete_checkpoints": [], "complete_evaluations": []}
+{"utc": "2026-10-16T11:20:26.187447+00:00", "mode": "core", "gpu": "NVIDIA A100-SXM4-40GB", "gpu_total_bytes": 42409000960, "complete_checkpoints": ["aux_l0.5_s0", "aux_l2_s0", "ce_l0_s0"], "complete_evaluations": ["models/aux_l0.5_s0/dev", "models/aux_l2_s0/dev", "models/ce_l0_s0/dev"]}

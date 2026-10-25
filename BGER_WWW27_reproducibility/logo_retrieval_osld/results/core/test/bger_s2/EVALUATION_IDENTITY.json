@@ -1,0 +1,18 @@
+{
+ "stage": "test",
+ "checkpoint_sha256": "b3df23921aaaee99857e1ea9935483cdff5e45c30acb3071212d3b8489efc169",
+ "source_digest": "b41f35bd1a72b57cc1556e5b6a2dbf3b4ed4cfe177d6a91aeddb25dbdc4e7d50",
+ "fixed_pair_manifest_sha256": "f6576ec65f2f632a8b18514c60d57462da2276bfa6c822fab8b60d7586d56a66",
+ "pretest_freeze_sha256": "096ec6facbb1880f1c6f7a4d6f6885cad3643ccb4ae30509bc0e187cedd6027f",
+ "identity": "OSLD_E1_CORE",
+ "query_records": "decb8d44148202f2812835cae9e44381a19718e7513417776f492eb15ceae117",
+ "gallery_records": "6df9ce38cf2b8928ebe08f526ef62e38035bf755a7588fba5f883afdc67103bd",
+ "n_queries": 1237,
+ "n_gallery": 20848,
+ "thresholds": {
+  "primary": 0.5499999999999999,
+  "secondary": 0.7999999999999999
+ },
+ "fixed_pairs": "b5e1d9d8b23bfb62837a252e8f33aa4d34c66330405fc409740141813837fefe",
+ "pair_chunk": 100
+}

@@ -1,0 +1,55 @@
+{
+  "archives": [
+    {
+      "archive": "openlogo.tar",
+      "author_link": "https://drive.google.com/open?id=1p1BWofDJOKXqCtO0JPT5VyuIPOsuxOuj",
+      "bytes": 4714932224,
+      "sha256": "878d7512eaf5ab6fc97a9cb4bccd9023f8f61fd4ad9f9a49762ee9aa573323c0",
+      "path": "DATA_ROOT/osld_openlogo_transfer_audit/local_data/archives/openlogo.tar",
+      "status": "DOWNLOADED_FROM_AUTHOR_LINK",
+      "started_utc": "2026-10-22T03:59:08Z",
+      "finished_utc": "2026-10-22T04:03:14Z",
+      "content_disposition": "attachment; filename=\"openlogo.tar\"",
+      "last_modified": "Sun, 05 Aug 2018 12:05:58 GMT",
+      "official_publisher_checksum_provided": false,
+      "hash_note": "SHA256 computed locally during full download; author-linked HTTPS provenance and successful safe extraction recorded; not a signed publisher checksum"
+    },
+    {
+      "archive": "352_logo_exemplars.tar",
+      "author_link": "https://drive.google.com/open?id=1BXlU4aIu5d9f1hZBosZaWYRNzF72UGaj",
+      "bytes": 7424000,
+      "sha256": "7e19531ee609cbb96e307158af7647289311f22a4a509c2743faa1a29ea30b7d",
+      "path": "DATA_ROOT/osld_openlogo_transfer_audit/local_data/archives/352_logo_exemplars.tar",
+      "status": "DOWNLOADED_FROM_AUTHOR_LINK",
+      "started_utc": "2026-10-22T03:59:08Z",
+      "finished_utc": "2026-10-22T03:59:11Z",
+      "content_disposition": "attachment; filename=\"352_logo_exemplars.tar\"",
+      "last_modified": "Thu, 09 May 2019 10:51:44 GMT",
+      "official_publisher_checksum_provided": false,
+      "hash_note": "SHA256 computed locally during full download; author-linked HTTPS provenance and successful safe extraction recorded; not a signed publisher checksum"
+    },
+    {
+      "archive": "supplyment_imageset.rar",
+      "author_link": "https://drive.google.com/open?id=1s4_DS4mSZIyAe3UnRpp_faYak_Cjx-lS",
+      "bytes": 204990,
+      "sha256": "939e2c093195f6a8bf089f89f521e6a83d2db5c4e76fb5976011df15193d004b",
+      "path": "DATA_ROOT/osld_openlogo_transfer_audit/local_data/archives/supplyment_imageset.rar",
+      "status": "DOWNLOADED_FROM_AUTHOR_LINK",
+      "started_utc": "2026-10-22T03:59:08Z",
+      "finished_utc": "2026-10-22T03:59:11Z",
+      "content_disposition": "attachment; filename=\"supplyment_imageset.rar\"",
+      "last_modified": "Fri, 28 Jun 2019 11:16:32 GMT",
+      "official_publisher_checksum_provided": false,
+      "hash_note": "SHA256 computed locally during full download; author-linked HTTPS provenance and successful safe extraction recorded; not a signed publisher checksum"
+    }
+  ],
+  "terms_evidence": "receipts/official_release_access_and_terms.json",
+  "internal_use_only": true,
+  "licensed_pixels_or_raw_annotations_in_handoff": false,
+  "native_osld_receipt_path": "DATA_ROOT/e1_osld/receipts/OSLD_DATA_RECEIPT.json",
+  "extraction_receipts": [
+    "receipts/main_extraction.json",
+    "receipts/exemplar_extraction.json",
+    "receipts/setting1_extraction.json"
+  ]
+}

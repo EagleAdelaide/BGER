@@ -1,0 +1,49 @@
+{
+  "scope": "Anonymous derivative; original evidence and original hashes remain internal and unchanged. Historical freeze hashes are historical bindings, not assertions about modified export metadata. SHA256SUMS binds the present export. Scientific arrays, rankings, thresholds and table values are unchanged.",
+  "modified_exports": [
+    {
+      "path": "audit/GATE_RESULT.json",
+      "original_sha256": "e1b57a93ef0520aa1dd318f2223eb0a8a7e88078adcb1e172f7602af3f321448",
+      "export_sha256": "9008e00155f5c1e1017915666dadc8ce958d41da9c74d7732a05fd8dde46e2f5"
+    },
+    {
+      "path": "data_provenance/official_archive_receipts_REUSED.json",
+      "original_sha256": "3d409b255ec05dcbf1bc886021ff3ab11eecf043411595f502382a2ab4d27d78",
+      "export_sha256": "85ef1050eaaf1a0ca2816a62fece6d56ae1a6ebe733811ddbf2b3b99280efd84"
+    },
+    {
+      "path": "protocol/config.json",
+      "original_sha256": "16bdc338a005905ba24425647aa661c57ccd39315557c535103fe6e091bdf430",
+      "export_sha256": "144619e9bb15188354cfbfc9f9719f7ddf87a628922a5bdba824a3f6c7353aef"
+    },
+    {
+      "path": "results/SAVED_NEURAL_OUTPUT_LOCATIONS.json",
+      "original_sha256": "f44452d17aa35648ee33fa03e3d968a6b6f4ccf4404b334204c2e5f0d6591044",
+      "export_sha256": "8d7bb77d50dd0269dec9f56fd1fef63f650fce29189b75bfbd8f243689e8f4ba"
+    },
+    {
+      "path": "results/dev/ALL_METRICS_COMPLETE.json",
+      "original_sha256": "2dd2387ecde9fd31b34acfcebcc3416db7aa3e761e85320d9a49f38f8bf1e874",
+      "export_sha256": "8d72f6e5c41e181b83f85682eed68c1f52c68900db9889c368d18874b959cf0b"
+    },
+    {
+      "path": "results/test/ALL_METRICS_COMPLETE.json",
+      "original_sha256": "584751c9fd6026ec58e001dc5e4d3d9b42fd8eec48b653229c79d80c8bf1a68d",
+      "export_sha256": "4bc52f415e24c183b53ea98d0dd4a996fa0530c3bd78df71ae46823930c5e235"
+    },
+    {
+      "path": "reference_code/b_common.py",
+      "original_sha256": "f455e003f037ff37a7785fd1e311d01634e6e3c61f42be83f03772c8cc0c3c2f",
+      "export_sha256": "bc5c1f8a141c4a8adce5039b23879da7db4bc8595e06fa4a6751073d558363d3",
+      "change": "explicit portable data/run bindings"
+    },
+    {
+      "path": "reference_code/resources.py",
+      "original_sha256": "da28557939a353043ec9e522837d781ca4ca2a8fdb46838b3652a6b0a58458cd",
+      "export_sha256": "0cb77ec22db132af338db6052ef3878e27baf7def49d38ec52ba7b974406f3ae",
+      "change": "historical GPU scheduler execution disabled"
+    }
+  ],
+  "absent_checkpoint_binding": "results/CHECKPOINTS.csv paths are relative to --checkpoint-root; binaries not bundled.",
+  "missing_original_scheduler_records": "Identifiers and private host/account details omitted; failure and total usage disclosed in PROTOCOL_NOTES.md."
+}

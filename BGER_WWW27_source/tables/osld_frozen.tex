@@ -1,0 +1,11 @@
+\begin{table}[t]\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\caption{Frozen retrieval references (\%), identical queries, gallery and relevance rule; without OSLD-specific fine-tuning or box supervision. Q1/Q4: R@1 in the smallest/largest box-area quartile. Whole: bilinear whole-image resize; crop: implemented bicubic resize/centre crop, labelled \texttt{native} in records (Section~\ref{sec:frozen}). Both variants reported. Architecture, objective and pretraining differ from the matched arms; pretraining overlap is unknown. Score localization was not evaluated for these references.}
+\label{tab:frozen}\begin{tabular}{lccccc}\toprule
+Model / input & R@1 & R@10 & mAP & Q1 & Q4\\\midrule
+OpenCLIP whole & 50.5 & 69.4 & 52.1 & 31.4 & 71.0\\
+OpenCLIP crop & 35.0 & 52.7 & 33.1 & 21.4 & 55.8\\
+DINOv2 whole & 2.7 & 7.7 & 3.5 & 3.2 & 5.5\\
+DINOv2 crop & 3.6 & 9.1 & 4.0 & 2.6 & 7.4\\
+\midrule
+BGER & 6.4 & 17.1 & 7.1 & \osSizeBgerRA & \osSizeBgerRD\\
+\bottomrule\end{tabular}\end{table}

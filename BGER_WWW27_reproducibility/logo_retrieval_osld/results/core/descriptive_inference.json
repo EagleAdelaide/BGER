@@ -1,0 +1,2334 @@
+{
+ "identity": "OSLD_E1_CORE",
+ "points": {
+  "abn_box/R1": {
+   "point": 0.037186742118027485,
+   "basic_ci": [
+    0.02667555408161411,
+    0.04648824349768195
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "abn_box/R10": {
+   "point": 0.12557262193478846,
+   "basic_ci": [
+    0.10097163275846582,
+    0.14820406739898864
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "abn_box/mAP": {
+   "point": 0.04494449925980974,
+   "basic_ci": [
+    0.035567108333935615,
+    0.05339795099683234
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "abn_box/primary/Q": {
+   "point": 0.04015090272163837,
+   "basic_ci": [
+    0.0308764927245258,
+    0.04826020456750474
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "abn_box/primary/J": {
+   "point": 0.006736728644570197,
+   "basic_ci": [
+    0.003196749998846147,
+    0.009688788514899148
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "abn_box/primary/query/EIB": {
+   "point": 0.12681993775939066,
+   "basic_ci": [
+    0.1140533221671334,
+    0.1385159705228508
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "abn_box/primary/query/V2": {
+   "point": 0.07733764483966586,
+   "basic_ci": [
+    0.06505332393223417,
+    0.08564089058459388
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "abn_box/secondary/Q": {
+   "point": 0.12799784424683375,
+   "basic_ci": [
+    0.10463801804247144,
+    0.14928036677834586
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "abn_box/secondary/J": {
+   "point": 0.011856642414443546,
+   "basic_ci": [
+    0.006922592165367083,
+    0.0161055634131405
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "abn_box/secondary/query/EIB": {
+   "point": 0.10252469694936829,
+   "basic_ci": [
+    0.09309393221173283,
+    0.11118239950266372
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "abn_box/secondary/query/V2": {
+   "point": 0.180454504625887,
+   "basic_ci": [
+    0.15609673747295233,
+    0.20271181996762877
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "abn_box/fixed_positive/primary/query/EIB": {
+   "point": 0.18090135843822722,
+   "basic_ci": [
+    0.16471847700233416,
+    0.1960429088541157
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "abn_box/fixed_positive/primary/query/V2": {
+   "point": 0.13239917362795295,
+   "basic_ci": [
+    0.1167486380687123,
+    0.14496262792329656
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "abn_box/fixed_positive/primary/query/Loc": {
+   "point": 0.06898410132039881,
+   "basic_ci": [
+    0.055459749589610155,
+    0.08145868588362576
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "abn_box/fixed_positive/secondary/query/EIB": {
+   "point": 0.11028526967321742,
+   "basic_ci": [
+    0.10043336028371051,
+    0.11929484516627416
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "abn_box/fixed_positive/secondary/query/V2": {
+   "point": 0.2166531932093775,
+   "basic_ci": [
+    0.1910563253183689,
+    0.24043953916644456
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "abn_box/fixed_positive/secondary/query/Loc": {
+   "point": 0.14335758555645378,
+   "basic_ci": [
+    0.11975906360216745,
+    0.16506130966517954
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "abn_box/fixed_negative/primary/query/EIB": {
+   "point": 0.08901496877085027,
+   "basic_ci": [
+    0.07724394787223327,
+    0.09942716726693189
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "abn_box/fixed_negative/primary/query/V2": {
+   "point": 0.04931285367825384,
+   "basic_ci": [
+    0.03902170276752443,
+    0.056446326384431825
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "abn_box/fixed_negative/primary/query/Loc": {
+   "point": 0.0239827539746699,
+   "basic_ci": [
+    0.01717553883421377,
+    0.0300768978393863
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "abn_box/fixed_negative/secondary/query/EIB": {
+   "point": 0.09911113981198248,
+   "basic_ci": [
+    0.08965672784655644,
+    0.10770340979931906
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "abn_box/fixed_negative/secondary/query/V2": {
+   "point": 0.16590317075361538,
+   "basic_ci": [
+    0.14219021953482333,
+    0.18667559982748524
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "abn_box/fixed_negative/secondary/query/Loc": {
+   "point": 0.116410670978173,
+   "basic_ci": [
+    0.09548780231590989,
+    0.13527279981221568
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/R1": {
+   "point": 0.03664780382646187,
+   "basic_ci": [
+    0.025523969649099996,
+    0.046708118237676184
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/R10": {
+   "point": 0.10832659660468877,
+   "basic_ci": [
+    0.08343920610768496,
+    0.13113050600433945
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/mAP": {
+   "point": 0.04080577788830323,
+   "basic_ci": [
+    0.030640026562152388,
+    0.049952808534706246
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/primary/Q": {
+   "point": 0.05335489086499596,
+   "basic_ci": [
+    0.041777811995679995,
+    0.06364493907037871
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/primary/J": {
+   "point": 0.009431420102398275,
+   "basic_ci": [
+    0.0049736558076334345,
+    0.013251250028466067
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/primary/query/EIB": {
+   "point": 0.12162086156963789,
+   "basic_ci": [
+    0.10779126020802349,
+    0.1340269504741417
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/primary/query/V2": {
+   "point": 0.0868588879906584,
+   "basic_ci": [
+    0.07353996080879441,
+    0.09754417037729891
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/secondary/Q": {
+   "point": 0.12880625168418217,
+   "basic_ci": [
+    0.10500171980859341,
+    0.1508671335474288
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/secondary/J": {
+   "point": 0.014820803018054433,
+   "basic_ci": [
+    0.008791554939540203,
+    0.02012603510185281
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/secondary/query/EIB": {
+   "point": 0.09891856863624976,
+   "basic_ci": [
+    0.08922777609353881,
+    0.10776837203019712
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/secondary/query/V2": {
+   "point": 0.1704841462319231,
+   "basic_ci": [
+    0.1457545583342881,
+    0.1933766577214945
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/fixed_positive/primary/query/EIB": {
+   "point": 0.1836218858986205,
+   "basic_ci": [
+    0.1668498744816246,
+    0.19950143687375954
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/fixed_positive/primary/query/V2": {
+   "point": 0.15368723614479476,
+   "basic_ci": [
+    0.13550383156713833,
+    0.1682870130554728
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/fixed_positive/primary/query/Loc": {
+   "point": 0.08919428725410941,
+   "basic_ci": [
+    0.07233977718244311,
+    0.10416458003650904
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/fixed_positive/secondary/query/EIB": {
+   "point": 0.10789354820703971,
+   "basic_ci": [
+    0.09785365982562794,
+    0.11707099675935256
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/fixed_positive/secondary/query/V2": {
+   "point": 0.21171292553669271,
+   "basic_ci": [
+    0.18512046713693414,
+    0.23508004279736766
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/fixed_positive/secondary/query/Loc": {
+   "point": 0.15629210455402856,
+   "basic_ci": [
+    0.13021846606287152,
+    0.18021223019884844
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/fixed_negative/primary/query/EIB": {
+   "point": 0.10119184562688191,
+   "basic_ci": [
+    0.08868994813867322,
+    0.11257309386720729
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/fixed_negative/primary/query/V2": {
+   "point": 0.06440312584209108,
+   "basic_ci": [
+    0.052676111375697596,
+    0.07316911626473058
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/fixed_negative/primary/query/Loc": {
+   "point": 0.03799514955537591,
+   "basic_ci": [
+    0.028761111096810447,
+    0.04637264749824464
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/fixed_negative/secondary/query/EIB": {
+   "point": 0.09745500839436973,
+   "basic_ci": [
+    0.08781265090576688,
+    0.10622792601443719
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/fixed_negative/secondary/query/V2": {
+   "point": 0.16105272612952484,
+   "basic_ci": [
+    0.1368871946216499,
+    0.1828186065250434
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "aux/fixed_negative/secondary/query/Loc": {
+   "point": 0.12099164645648074,
+   "basic_ci": [
+    0.09825735075829145,
+    0.14198395063461372
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/R1": {
+   "point": 0.06359471840474265,
+   "basic_ci": [
+    0.048313528172619385,
+    0.07753826021670805
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/R10": {
+   "point": 0.17084343842630018,
+   "basic_ci": [
+    0.14230417733251186,
+    0.19816472929128245
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/mAP": {
+   "point": 0.07093340373815411,
+   "basic_ci": [
+    0.05735539810442582,
+    0.08335505862490519
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/primary/Q": {
+   "point": 0.020479655079493397,
+   "basic_ci": [
+    0.014869884768892106,
+    0.025554263678243105
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/primary/J": {
+   "point": 0.004042037186742118,
+   "basic_ci": [
+    0.0013184262170568934,
+    0.006268315442235537
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/primary/query/EIB": {
+   "point": 0.11078044677153527,
+   "basic_ci": [
+    0.10080575847822885,
+    0.11993377012691706
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/primary/query/V2": {
+   "point": 0.051109314650139216,
+   "basic_ci": [
+    0.042002986025424675,
+    0.05655351060158662
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/secondary/Q": {
+   "point": 0.27297224467798437,
+   "basic_ci": [
+    0.2373645783263183,
+    0.30656850838883026
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/secondary/J": {
+   "point": 0.031797359202371325,
+   "basic_ci": [
+    0.02242980303911018,
+    0.0400098127443653
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/secondary/query/EIB": {
+   "point": 0.17201115190700889,
+   "basic_ci": [
+    0.1583079359065847,
+    0.18473173157905912
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/secondary/query/V2": {
+   "point": 0.31626695410042216,
+   "basic_ci": [
+    0.28551286715517243,
+    0.3437286015113879
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/fixed_positive/primary/query/EIB": {
+   "point": 0.13818952719325284,
+   "basic_ci": [
+    0.1261084659693406,
+    0.1494067618324216
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/fixed_positive/primary/query/V2": {
+   "point": 0.08380490433845326,
+   "basic_ci": [
+    0.07083860198634519,
+    0.09204783511486911
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/fixed_positive/primary/query/Loc": {
+   "point": 0.04068984101320399,
+   "basic_ci": [
+    0.031911469037480746,
+    0.0485846063595187
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/fixed_positive/secondary/query/EIB": {
+   "point": 0.17487182832489565,
+   "basic_ci": [
+    0.1610812829542179,
+    0.18778988189362514
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/fixed_positive/secondary/query/V2": {
+   "point": 0.32974041138956256,
+   "basic_ci": [
+    0.2980770693229594,
+    0.3581006097412919
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/fixed_positive/secondary/query/Loc": {
+   "point": 0.2807868499056858,
+   "basic_ci": [
+    0.24530422941768992,
+    0.31396935137083787
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/fixed_negative/primary/query/EIB": {
+   "point": 0.07474916166009933,
+   "basic_ci": [
+    0.06588693499950155,
+    0.08256728974161667
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/fixed_negative/primary/query/V2": {
+   "point": 0.028114614210006286,
+   "basic_ci": [
+    0.021221550900032866,
+    0.032545552629624434
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/fixed_negative/primary/query/Loc": {
+   "point": 0.007006197790353005,
+   "basic_ci": [
+    0.0033551783113006956,
+    0.01010723519018997
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/fixed_negative/secondary/query/EIB": {
+   "point": 0.16863686959545557,
+   "basic_ci": [
+    0.15500385642397954,
+    0.1812440683703186
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/fixed_negative/secondary/query/V2": {
+   "point": 0.30369172729722443,
+   "basic_ci": [
+    0.27356639489529166,
+    0.3307436173912303
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "bger/fixed_negative/secondary/query/Loc": {
+   "point": 0.2675828617623282,
+   "basic_ci": [
+    0.23113641949535269,
+    0.30119186224101246
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/R1": {
+   "point": 0.048773915386688224,
+   "basic_ci": [
+    0.03464256375398077,
+    0.06158381843742157
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/R10": {
+   "point": 0.14120183239019132,
+   "basic_ci": [
+    0.11308673354297044,
+    0.16742634205303525
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/mAP": {
+   "point": 0.05449586503266432,
+   "basic_ci": [
+    0.041780315813352994,
+    0.06630772247087616
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/primary/Q": {
+   "point": 0.17515494475882512,
+   "basic_ci": [
+    0.1479694742842104,
+    0.20008594179736916
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/primary/J": {
+   "point": 0.029372136890326056,
+   "basic_ci": [
+    0.018721787534485758,
+    0.03878926982687571
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/primary/query/EIB": {
+   "point": 0.19211456920551054,
+   "basic_ci": [
+    0.17160507615344234,
+    0.2109665933356495
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/primary/query/V2": {
+   "point": 0.19114344740860503,
+   "basic_ci": [
+    0.1672855683505159,
+    0.21051145020663645
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/secondary/Q": {
+   "point": 0.37779574238749664,
+   "basic_ci": [
+    0.3348596855718292,
+    0.41800916568167373
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/secondary/J": {
+   "point": 0.029372136890326056,
+   "basic_ci": [
+    0.019181858422976303,
+    0.038517111910621606
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/secondary/query/EIB": {
+   "point": 0.1688894377778533,
+   "basic_ci": [
+    0.15306412414093992,
+    0.18363958859989646
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/secondary/query/V2": {
+   "point": 0.38561034761519813,
+   "basic_ci": [
+    0.351816711351655,
+    0.4158679558243918
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/fixed_positive/primary/query/EIB": {
+   "point": 0.2771313926430365,
+   "basic_ci": [
+    0.2524378049401549,
+    0.30056469024553245
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/fixed_positive/primary/query/V2": {
+   "point": 0.30315278900565884,
+   "basic_ci": [
+    0.27277134560268523,
+    0.32852780023353895
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/fixed_positive/primary/query/Loc": {
+   "point": 0.2702775532201563,
+   "basic_ci": [
+    0.23440831055155975,
+    0.3034636305139453
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/fixed_positive/secondary/query/EIB": {
+   "point": 0.1808861373729167,
+   "basic_ci": [
+    0.16447548613596666,
+    0.19624627841311812
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/fixed_positive/secondary/query/V2": {
+   "point": 0.413275846582233,
+   "basic_ci": [
+    0.3801293824187272,
+    0.4436447716574971
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/fixed_positive/secondary/query/Loc": {
+   "point": 0.4125572621934788,
+   "basic_ci": [
+    0.3695924477098745,
+    0.45431061529697714
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/fixed_negative/primary/query/EIB": {
+   "point": 0.18743640832742448,
+   "basic_ci": [
+    0.16663069098535938,
+    0.2064501607264991
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/fixed_negative/primary/query/V2": {
+   "point": 0.1776699901194647,
+   "basic_ci": [
+    0.15394380479006353,
+    0.19620058141905314
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/fixed_negative/primary/query/Loc": {
+   "point": 0.1643761789275128,
+   "basic_ci": [
+    0.13787924417873568,
+    0.18860440652061794
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/fixed_negative/secondary/query/EIB": {
+   "point": 0.1684942394956886,
+   "basic_ci": [
+    0.15251741669815447,
+    0.18341747457596666
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/fixed_negative/secondary/query/V2": {
+   "point": 0.38228689481721007,
+   "basic_ci": [
+    0.3487520738086258,
+    0.41265461946901966
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "cam_bce/fixed_negative/secondary/query/Loc": {
+   "point": 0.37833468067906223,
+   "basic_ci": [
+    0.33652696427191486,
+    0.4180027454657659
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/R1": {
+   "point": 0.038264618701158715,
+   "basic_ci": [
+    0.02652854641282048,
+    0.04872920458223649
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/R10": {
+   "point": 0.1064403125842091,
+   "basic_ci": [
+    0.08190767523788345,
+    0.12882061870910153
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/mAP": {
+   "point": 0.04083565217443978,
+   "basic_ci": [
+    0.03017752878562841,
+    0.05007941069624267
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/primary/Q": {
+   "point": 0.03503098895176502,
+   "basic_ci": [
+    0.026995320236974686,
+    0.042284200125752264
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/primary/J": {
+   "point": 0.00889248181083266,
+   "basic_ci": [
+    0.004400522395075886,
+    0.012695956192457395
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/primary/query/EIB": {
+   "point": 0.10747580135284822,
+   "basic_ci": [
+    0.09524658171353009,
+    0.11845929223517554
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/primary/query/V2": {
+   "point": 0.066379232911165,
+   "basic_ci": [
+    0.05545128160759512,
+    0.07425270817102257
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/secondary/Q": {
+   "point": 0.10886553489625438,
+   "basic_ci": [
+    0.08810104615184686,
+    0.12769282829110468
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/secondary/J": {
+   "point": 0.0137429264349232,
+   "basic_ci": [
+    0.008062576466459057,
+    0.018801728488253146
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/secondary/query/EIB": {
+   "point": 0.09609015912895397,
+   "basic_ci": [
+    0.08632325831894602,
+    0.1048860303453279
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/secondary/query/V2": {
+   "point": 0.15036378334680678,
+   "basic_ci": [
+    0.12729182225488372,
+    0.17081838625406637
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/fixed_positive/primary/query/EIB": {
+   "point": 0.17315003807859267,
+   "basic_ci": [
+    0.15666694833798053,
+    0.18814346673844368
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/fixed_positive/primary/query/V2": {
+   "point": 0.13410581155124404,
+   "basic_ci": [
+    0.11773783724553522,
+    0.14720719056369658
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/fixed_positive/primary/query/Loc": {
+   "point": 0.07383454594448935,
+   "basic_ci": [
+    0.059682590158822144,
+    0.08659258694888305
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/fixed_positive/secondary/query/EIB": {
+   "point": 0.10503687550117705,
+   "basic_ci": [
+    0.09487121222842597,
+    0.11422469100298611
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/fixed_positive/secondary/query/V2": {
+   "point": 0.19195185484595345,
+   "basic_ci": [
+    0.16594745843049538,
+    0.2151468719119368
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/fixed_positive/secondary/query/Loc": {
+   "point": 0.130423066558879,
+   "basic_ci": [
+    0.10711132462756334,
+    0.15162299707787708
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/fixed_negative/primary/query/EIB": {
+   "point": 0.0995976247775052,
+   "basic_ci": [
+    0.08790808264677001,
+    0.11011477100371997
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/fixed_negative/primary/query/V2": {
+   "point": 0.05578011317704123,
+   "basic_ci": [
+    0.04507061551236559,
+    0.06337806954932984
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/fixed_negative/primary/query/Loc": {
+   "point": 0.02802479116141202,
+   "basic_ci": [
+    0.020656358511429752,
+    0.03443228848775599
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/fixed_negative/secondary/query/EIB": {
+   "point": 0.09557651150336473,
+   "basic_ci": [
+    0.08585061891932277,
+    0.10430630592014993
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/fixed_negative/secondary/query/V2": {
+   "point": 0.14847749932632712,
+   "basic_ci": [
+    0.12507364799789217,
+    0.16899701934088407
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  },
+  "ce/fixed_negative/secondary/query/Loc": {
+   "point": 0.11075181891673404,
+   "basic_ci": [
+    0.08883851807488721,
+    0.13047599046779254
+   ],
+   "exploratory": true,
+   "uncertainty": "fixed models/gallery, query logo-identity clusters; unadjusted"
+  }
+ },
+ "paired_contrasts": {
+  "bger-ce/R1": {
+   "point": 0.025330099703583936,
+   "basic_ci": [
+    0.014108063414723024,
+    0.03565010623946601
+   ],
+   "exploratory": true
+  },
+  "bger-ce/R10": {
+   "point": 0.06440312584209107,
+   "basic_ci": [
+    0.04871967159760204,
+    0.07947298638834012
+   ],
+   "exploratory": true
+  },
+  "bger-ce/mAP": {
+   "point": 0.03009775156371433,
+   "basic_ci": [
+    0.021403561928332364,
+    0.038337131606055605
+   ],
+   "exploratory": true
+  },
+  "bger-ce/primary/Q": {
+   "point": -0.014551333872271623,
+   "basic_ci": [
+    -0.022396415419829764,
+    -0.006375079885923774
+   ],
+   "exploratory": true
+  },
+  "bger-ce/primary/J": {
+   "point": -0.004850444624090542,
+   "basic_ci": [
+    -0.008855598559140395,
+    -0.000691695628331726
+   ],
+   "exploratory": true
+  },
+  "bger-ce/primary/query/EIB": {
+   "point": 0.003304645418687052,
+   "basic_ci": [
+    -0.0017094561822352927,
+    0.008717864283950652
+   ],
+   "exploratory": true
+  },
+  "bger-ce/primary/query/V2": {
+   "point": -0.015269918261025785,
+   "basic_ci": [
+    -0.02251959495596303,
+    -0.008554127539748765
+   ],
+   "exploratory": true
+  },
+  "bger-ce/secondary/Q": {
+   "point": 0.16410670978172998,
+   "basic_ci": [
+    0.1415941163925726,
+    0.18535715919422702
+   ],
+   "exploratory": true
+  },
+  "bger-ce/secondary/J": {
+   "point": 0.018054432767448125,
+   "basic_ci": [
+    0.01099844695027356,
+    0.02445041394970074
+   ],
+   "exploratory": true
+  },
+  "bger-ce/secondary/query/EIB": {
+   "point": 0.07592099277805492,
+   "basic_ci": [
+    0.07109080449486353,
+    0.0806756581252994
+   ],
+   "exploratory": true
+  },
+  "bger-ce/secondary/query/V2": {
+   "point": 0.16590317075361538,
+   "basic_ci": [
+    0.15126118765911334,
+    0.178702389255049
+   ],
+   "exploratory": true
+  },
+  "bger-ce/fixed_positive/primary/query/EIB": {
+   "point": -0.03496051088533983,
+   "basic_ci": [
+    -0.04115066663320431,
+    -0.028478818502648058
+   ],
+   "exploratory": true
+  },
+  "bger-ce/fixed_positive/primary/query/V2": {
+   "point": -0.05030090721279078,
+   "basic_ci": [
+    -0.06042083753897606,
+    -0.04120379277204871
+   ],
+   "exploratory": true
+  },
+  "bger-ce/fixed_positive/primary/query/Loc": {
+   "point": -0.03314470493128536,
+   "basic_ci": [
+    -0.04544021662067408,
+    -0.020184271941575987
+   ],
+   "exploratory": true
+  },
+  "bger-ce/fixed_positive/secondary/query/EIB": {
+   "point": 0.0698349528237186,
+   "basic_ci": [
+    0.06554080682224991,
+    0.07413465737056994
+   ],
+   "exploratory": true
+  },
+  "bger-ce/fixed_positive/secondary/query/V2": {
+   "point": 0.1377885565436091,
+   "basic_ci": [
+    0.12473861959986185,
+    0.15003159312077524
+   ],
+   "exploratory": true
+  },
+  "bger-ce/fixed_positive/secondary/query/Loc": {
+   "point": 0.1503637833468068,
+   "basic_ci": [
+    0.1279567618448458,
+    0.1713947419949004
+   ],
+   "exploratory": true
+  },
+  "bger-ce/fixed_negative/primary/query/EIB": {
+   "point": -0.024848463117405864,
+   "basic_ci": [
+    -0.030159513796998775,
+    -0.01918862417438859
+   ],
+   "exploratory": true
+  },
+  "bger-ce/fixed_negative/primary/query/V2": {
+   "point": -0.027665498967034942,
+   "basic_ci": [
+    -0.034492127458585584,
+    -0.019902712437637263
+   ],
+   "exploratory": true
+  },
+  "bger-ce/fixed_negative/primary/query/Loc": {
+   "point": -0.021018593371059015,
+   "basic_ci": [
+    -0.027587839713539883,
+    -0.013707789337580767
+   ],
+   "exploratory": true
+  },
+  "bger-ce/fixed_negative/secondary/query/EIB": {
+   "point": 0.07306035809209084,
+   "basic_ci": [
+    0.06839059649253319,
+    0.0776522758613688
+   ],
+   "exploratory": true
+  },
+  "bger-ce/fixed_negative/secondary/query/V2": {
+   "point": 0.15521422797089732,
+   "basic_ci": [
+    0.14101336312915655,
+    0.16839052751785522
+   ],
+   "exploratory": true
+  },
+  "bger-ce/fixed_negative/secondary/query/Loc": {
+   "point": 0.15683104284559418,
+   "basic_ci": [
+    0.13361487586959503,
+    0.1783703906535456
+   ],
+   "exploratory": true
+  },
+  "aux-ce/R1": {
+   "point": -0.0016168148746968439,
+   "basic_ci": [
+    -0.008762937596502556,
+    0.005501475166266777
+   ],
+   "exploratory": true
+  },
+  "aux-ce/R10": {
+   "point": 0.0018862840204796616,
+   "basic_ci": [
+    -0.009217824458309303,
+    0.012522956007105906
+   ],
+   "exploratory": true
+  },
+  "aux-ce/mAP": {
+   "point": -2.987428613655113e-05,
+   "basic_ci": [
+    -0.004343921395962633,
+    0.004246278748240311
+   ],
+   "exploratory": true
+  },
+  "aux-ce/primary/Q": {
+   "point": 0.01832390191323094,
+   "basic_ci": [
+    0.009190362859959958,
+    0.026687341940227614
+   ],
+   "exploratory": true
+  },
+  "aux-ce/primary/J": {
+   "point": 0.0005389382915656146,
+   "basic_ci": [
+    -0.003333525252323219,
+    0.004395933047709017
+   ],
+   "exploratory": true
+  },
+  "aux-ce/primary/query/EIB": {
+   "point": 0.01414506021678967,
+   "basic_ci": [
+    0.009666674341894981,
+    0.018202971198690694
+   ],
+   "exploratory": true
+  },
+  "aux-ce/primary/query/V2": {
+   "point": 0.020479655079493397,
+   "basic_ci": [
+    0.01361171865361397,
+    0.027538402142144466
+   ],
+   "exploratory": true
+  },
+  "aux-ce/secondary/Q": {
+   "point": 0.01994071678792779,
+   "basic_ci": [
+    0.008373446846926792,
+    0.0309353832441323
+   ],
+   "exploratory": true
+  },
+  "aux-ce/secondary/J": {
+   "point": 0.0010778765831312327,
+   "basic_ci": [
+    -0.0034045307999325952,
+    0.005837842085826186
+   ],
+   "exploratory": true
+  },
+  "aux-ce/secondary/query/EIB": {
+   "point": 0.0028284095072957927,
+   "basic_ci": [
+    0.0022392997875107976,
+    0.003408072188968279
+   ],
+   "exploratory": true
+  },
+  "aux-ce/secondary/query/V2": {
+   "point": 0.020120362885116316,
+   "basic_ci": [
+    0.013688228869056088,
+    0.026969337964376595
+   ],
+   "exploratory": true
+  },
+  "aux-ce/fixed_positive/primary/query/EIB": {
+   "point": 0.01047184782002783,
+   "basic_ci": [
+    0.006851636822684391,
+    0.01412779852042021
+   ],
+   "exploratory": true
+  },
+  "aux-ce/fixed_positive/primary/query/V2": {
+   "point": 0.019581424593550723,
+   "basic_ci": [
+    0.011819835147246379,
+    0.02727007031738054
+   ],
+   "exploratory": true
+  },
+  "aux-ce/fixed_positive/primary/query/Loc": {
+   "point": 0.015359741309620062,
+   "basic_ci": [
+    0.004197911817459807,
+    0.026267803895441193
+   ],
+   "exploratory": true
+  },
+  "aux-ce/fixed_positive/secondary/query/EIB": {
+   "point": 0.0028566727058626645,
+   "basic_ci": [
+    0.002260492519501237,
+    0.0034407890802367934
+   ],
+   "exploratory": true
+  },
+  "aux-ce/fixed_positive/secondary/query/V2": {
+   "point": 0.019761070690739263,
+   "basic_ci": [
+    0.01255323060643923,
+    0.02634563136172132
+   ],
+   "exploratory": true
+  },
+  "aux-ce/fixed_positive/secondary/query/Loc": {
+   "point": 0.025869037995149557,
+   "basic_ci": [
+    0.012638175683496816,
+    0.03832063419092452
+   ],
+   "exploratory": true
+  },
+  "aux-ce/fixed_negative/primary/query/EIB": {
+   "point": 0.0015942208493767152,
+   "basic_ci": [
+    -0.0015804209552184702,
+    0.004768916474807759
+   ],
+   "exploratory": true
+  },
+  "aux-ce/fixed_negative/primary/query/V2": {
+   "point": 0.008623012665049855,
+   "basic_ci": [
+    0.0030736314068239203,
+    0.014167573316322445
+   ],
+   "exploratory": true
+  },
+  "aux-ce/fixed_negative/primary/query/Loc": {
+   "point": 0.009970358393963891,
+   "basic_ci": [
+    0.002853271723353378,
+    0.01699304894431808
+   ],
+   "exploratory": true
+  },
+  "aux-ce/fixed_negative/secondary/query/EIB": {
+   "point": 0.0018784968910049993,
+   "basic_ci": [
+    0.0014783052384833668,
+    0.002275371355677916
+   ],
+   "exploratory": true
+  },
+  "aux-ce/fixed_negative/secondary/query/V2": {
+   "point": 0.012575226803197725,
+   "basic_ci": [
+    0.006758337377666689,
+    0.018897604345901188
+   ],
+   "exploratory": true
+  },
+  "aux-ce/fixed_negative/secondary/query/Loc": {
+   "point": 0.010239827539746699,
+   "basic_ci": [
+    -0.001063392937302711,
+    0.021915510954360864
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/R1": {
+   "point": 0.01050929668552951,
+   "basic_ci": [
+    0.0017476210252701692,
+    0.018861895803584702
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/R10": {
+   "point": 0.034761519805982216,
+   "basic_ci": [
+    0.021623796581418886,
+    0.046796067033565564
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/mAP": {
+   "point": 0.013660212858224538,
+   "basic_ci": [
+    0.0067740682487363695,
+    0.020208272135800717
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/primary/Q": {
+   "point": 0.1401239558070601,
+   "basic_ci": [
+    0.11710277239845213,
+    0.16159966014400917
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/primary/J": {
+   "point": 0.020479655079493397,
+   "basic_ci": [
+    0.01146072408746325,
+    0.02834677163361932
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/primary/query/EIB": {
+   "point": 0.08463876785266232,
+   "basic_ci": [
+    0.07397802131870244,
+    0.09437131941724383
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/primary/query/V2": {
+   "point": 0.12476421449744003,
+   "basic_ci": [
+    0.10836252905885688,
+    0.13928258448684272
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/secondary/Q": {
+   "point": 0.26893020749124225,
+   "basic_ci": [
+    0.23494920506863026,
+    0.30138252715426295
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/secondary/J": {
+   "point": 0.015629210455402855,
+   "basic_ci": [
+    0.007189011450968043,
+    0.02305244380924287
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/secondary/query/EIB": {
+   "point": 0.07279927864889935,
+   "basic_ci": [
+    0.0659632627238194,
+    0.07930525520294607
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/secondary/query/V2": {
+   "point": 0.23524656426839136,
+   "basic_ci": [
+    0.21493711610988187,
+    0.25436175713528286
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/fixed_positive/primary/query/EIB": {
+   "point": 0.10398135456444382,
+   "basic_ci": [
+    0.0931435067336902,
+    0.1147483992873074
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/fixed_positive/primary/query/V2": {
+   "point": 0.1690469774544148,
+   "basic_ci": [
+    0.1498987496188789,
+    0.18673654261815267
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/fixed_positive/primary/query/Loc": {
+   "point": 0.19644300727566694,
+   "basic_ci": [
+    0.1672130473093196,
+    0.2236687472437132
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/fixed_positive/secondary/query/EIB": {
+   "point": 0.07584926187173965,
+   "basic_ci": [
+    0.0688374613743358,
+    0.0825538397831601
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/fixed_positive/secondary/query/V2": {
+   "point": 0.22132399173627954,
+   "basic_ci": [
+    0.20075125444700895,
+    0.24130154910160265
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/fixed_positive/secondary/query/Loc": {
+   "point": 0.28213419563459985,
+   "basic_ci": [
+    0.246532967313148,
+    0.3169254769639001
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/fixed_negative/primary/query/EIB": {
+   "point": 0.08783878354991928,
+   "basic_ci": [
+    0.07696472437759291,
+    0.09805084133600617
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/fixed_negative/primary/query/V2": {
+   "point": 0.12188987694242345,
+   "basic_ci": [
+    0.10525149212857488,
+    0.13594430018597164
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/fixed_negative/primary/query/Loc": {
+   "point": 0.13635138776610078,
+   "basic_ci": [
+    0.11322085417582897,
+    0.15740569009848357
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/fixed_negative/secondary/query/EIB": {
+   "point": 0.07291772799232386,
+   "basic_ci": [
+    0.06592210825490079,
+    0.07954153185278667
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/fixed_negative/secondary/query/V2": {
+   "point": 0.23380939549088295,
+   "basic_ci": [
+    0.213170653582391,
+    0.253592633061227
+   ],
+   "exploratory": true
+  },
+  "cam_bce-ce/fixed_negative/secondary/query/Loc": {
+   "point": 0.2675828617623282,
+   "basic_ci": [
+    0.23353585102921037,
+    0.29985475223960073
+   ],
+   "exploratory": true
+  },
+  "bger-aux/R1": {
+   "point": 0.02694691457828078,
+   "basic_ci": [
+    0.016948678460020454,
+    0.0361903497630047
+   ],
+   "exploratory": true
+  },
+  "bger-aux/R10": {
+   "point": 0.06251684182161141,
+   "basic_ci": [
+    0.044408444502183037,
+    0.0799048449395519
+   ],
+   "exploratory": true
+  },
+  "bger-aux/mAP": {
+   "point": 0.030127625849850882,
+   "basic_ci": [
+    0.021415865756994973,
+    0.03803071101916586
+   ],
+   "exploratory": true
+  },
+  "bger-aux/primary/Q": {
+   "point": -0.03287523578550256,
+   "basic_ci": [
+    -0.043023521490988606,
+    -0.02168262483024542
+   ],
+   "exploratory": true
+  },
+  "bger-aux/primary/J": {
+   "point": -0.005389382915656157,
+   "basic_ci": [
+    -0.009366425998177172,
+    -0.001035198053371239
+   ],
+   "exploratory": true
+  },
+  "bger-aux/primary/query/EIB": {
+   "point": -0.010840414798102618,
+   "basic_ci": [
+    -0.01680820470125682,
+    -0.0043462778943407845
+   ],
+   "exploratory": true
+  },
+  "bger-aux/primary/query/V2": {
+   "point": -0.03574957334051918,
+   "basic_ci": [
+    -0.04496293886604141,
+    -0.0271615590847058
+   ],
+   "exploratory": true
+  },
+  "bger-aux/secondary/Q": {
+   "point": 0.1441659929938022,
+   "basic_ci": [
+    0.12340054466107384,
+    0.16371554846834402
+   ],
+   "exploratory": true
+  },
+  "bger-aux/secondary/J": {
+   "point": 0.016976556184316892,
+   "basic_ci": [
+    0.010290450919046193,
+    0.02316647727260642
+   ],
+   "exploratory": true
+  },
+  "bger-aux/secondary/query/EIB": {
+   "point": 0.07309258327075913,
+   "basic_ci": [
+    0.06845749155245129,
+    0.07765607547915433
+   ],
+   "exploratory": true
+  },
+  "bger-aux/secondary/query/V2": {
+   "point": 0.14578280786849906,
+   "basic_ci": [
+    0.1322078041973842,
+    0.15728257082081712
+   ],
+   "exploratory": true
+  },
+  "bger-aux/fixed_positive/primary/query/EIB": {
+   "point": -0.04543235870536766,
+   "basic_ci": [
+    -0.0524676406136912,
+    -0.03823185237859299
+   ],
+   "exploratory": true
+  },
+  "bger-aux/fixed_positive/primary/query/V2": {
+   "point": -0.0698823318063415,
+   "basic_ci": [
+    -0.08165915602776136,
+    -0.05908575306946161
+   ],
+   "exploratory": true
+  },
+  "bger-aux/fixed_positive/primary/query/Loc": {
+   "point": -0.04850444624090542,
+   "basic_ci": [
+    -0.06267189110356332,
+    -0.03340218906953411
+   ],
+   "exploratory": true
+  },
+  "bger-aux/fixed_positive/secondary/query/EIB": {
+   "point": 0.06697828011785593,
+   "basic_ci": [
+    0.06273318276042365,
+    0.07117906896142194
+   ],
+   "exploratory": true
+  },
+  "bger-aux/fixed_positive/secondary/query/V2": {
+   "point": 0.11802748585286985,
+   "basic_ci": [
+    0.10645380773705743,
+    0.12920813888486035
+   ],
+   "exploratory": true
+  },
+  "bger-aux/fixed_positive/secondary/query/Loc": {
+   "point": 0.12449474535165725,
+   "basic_ci": [
+    0.10531589269951691,
+    0.14270224635143863
+   ],
+   "exploratory": true
+  },
+  "bger-aux/fixed_negative/primary/query/EIB": {
+   "point": -0.02644268396678258,
+   "basic_ci": [
+    -0.032265141469045015,
+    -0.02019634185960803
+   ],
+   "exploratory": true
+  },
+  "bger-aux/fixed_negative/primary/query/V2": {
+   "point": -0.0362885116320848,
+   "basic_ci": [
+    -0.044096401036242794,
+    -0.02769668877743374
+   ],
+   "exploratory": true
+  },
+  "bger-aux/fixed_negative/primary/query/Loc": {
+   "point": -0.030988951765022907,
+   "basic_ci": [
+    -0.03895070910223628,
+    -0.022205176257318535
+   ],
+   "exploratory": true
+  },
+  "bger-aux/fixed_negative/secondary/query/EIB": {
+   "point": 0.07118186120108584,
+   "basic_ci": [
+    0.0666394608978228,
+    0.07567104991980399
+   ],
+   "exploratory": true
+  },
+  "bger-aux/fixed_negative/secondary/query/V2": {
+   "point": 0.1426390011676996,
+   "basic_ci": [
+    0.12957670734839033,
+    0.15435581973586984
+   ],
+   "exploratory": true
+  },
+  "bger-aux/fixed_negative/secondary/query/Loc": {
+   "point": 0.14659121530584746,
+   "basic_ci": [
+    0.12519404359185732,
+    0.1663168061185428
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/R1": {
+   "point": 0.014820803018054426,
+   "basic_ci": [
+    0.00471445856614236,
+    0.024591201593274138
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/R10": {
+   "point": 0.029641606036108853,
+   "basic_ci": [
+    0.013340524916561292,
+    0.0455227277063153
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/mAP": {
+   "point": 0.016437538705489793,
+   "basic_ci": [
+    0.008801287231834341,
+    0.02388590914260994
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/primary/Q": {
+   "point": -0.15467528967933172,
+   "basic_ci": [
+    -0.17868677733912117,
+    -0.1290270497667393
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/primary/J": {
+   "point": -0.025330099703583936,
+   "basic_ci": [
+    -0.034566497878547695,
+    -0.015114724249557843
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/primary/query/EIB": {
+   "point": -0.08133412243397527,
+   "basic_ci": [
+    -0.09296445440110007,
+    -0.06846052150627924
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/primary/query/V2": {
+   "point": -0.14003413275846582,
+   "basic_ci": [
+    -0.15737992376609047,
+    -0.1212711164098447
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/secondary/Q": {
+   "point": -0.10482349770951227,
+   "basic_ci": [
+    -0.13081197291828334,
+    -0.07891684562527282
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/secondary/J": {
+   "point": 0.0024252223120452693,
+   "basic_ci": [
+    -0.006242848618193127,
+    0.011094040759613146
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/secondary/query/EIB": {
+   "point": 0.0031217141291555728,
+   "basic_ci": [
+    -0.0008912973872413337,
+    0.00735051018333727
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/secondary/query/V2": {
+   "point": -0.06934339351477598,
+   "basic_ci": [
+    -0.0838947824088227,
+    -0.054729714426926826
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/fixed_positive/primary/query/EIB": {
+   "point": -0.13894186544978365,
+   "basic_ci": [
+    -0.1536102343194268,
+    -0.1236123056089547
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/fixed_positive/primary/query/V2": {
+   "point": -0.21934788466720556,
+   "basic_ci": [
+    -0.24230395052281686,
+    -0.19637160569622558
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/fixed_positive/primary/query/Loc": {
+   "point": -0.2295877122069523,
+   "basic_ci": [
+    -0.2610786630232502,
+    -0.19568186346751343
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/fixed_positive/secondary/query/EIB": {
+   "point": -0.006014309048021055,
+   "basic_ci": [
+    -0.010093423702283328,
+    -0.001665023256906168
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/fixed_positive/secondary/query/V2": {
+   "point": -0.08353543519267043,
+   "basic_ci": [
+    -0.09876736064478597,
+    -0.06774665885210338
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/fixed_positive/secondary/query/Loc": {
+   "point": -0.13177041228779302,
+   "basic_ci": [
+    -0.1586453350616807,
+    -0.10533111838953557
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/fixed_negative/primary/query/EIB": {
+   "point": -0.11268724666732514,
+   "basic_ci": [
+    -0.12539697894529706,
+    -0.09889881161423283
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/fixed_negative/primary/query/V2": {
+   "point": -0.1495553759094584,
+   "basic_ci": [
+    -0.16609436439138806,
+    -0.1294151139626758
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/fixed_negative/primary/query/Loc": {
+   "point": -0.1573699811371598,
+   "basic_ci": [
+    -0.1807404747006583,
+    -0.13158649781260695
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/fixed_negative/secondary/query/EIB": {
+   "point": 0.00014263009976697716,
+   "basic_ci": [
+    -0.003821727366280633,
+    0.0043859380208348
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/fixed_negative/secondary/query/V2": {
+   "point": -0.07859516751998563,
+   "basic_ci": [
+    -0.09319043041431534,
+    -0.06337457801885696
+   ],
+   "exploratory": true
+  },
+  "bger-cam_bce/fixed_negative/secondary/query/Loc": {
+   "point": -0.11075181891673402,
+   "basic_ci": [
+    -0.13587117537078053,
+    -0.08598676519598869
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/R1": {
+   "point": -0.0010778765831312292,
+   "basic_ci": [
+    -0.009490828646848363,
+    0.007408408507378866
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/R10": {
+   "point": 0.019132309350579357,
+   "basic_ci": [
+    0.005997047927724271,
+    0.032174440020957554
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/mAP": {
+   "point": 0.00410884708536996,
+   "basic_ci": [
+    -0.0018400299667800084,
+    0.0103237840362633
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/primary/Q": {
+   "point": 0.005119913769873349,
+   "basic_ci": [
+    -0.002302360270457774,
+    0.012373246343165497
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/primary/J": {
+   "point": -0.0021557531662624637,
+   "basic_ci": [
+    -0.00607391490479916,
+    0.001972412547794981
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/primary/query/EIB": {
+   "point": 0.019344136406542436,
+   "basic_ci": [
+    0.014842369100548852,
+    0.02363454614795727
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/primary/query/V2": {
+   "point": 0.01095841192850086,
+   "basic_ci": [
+    0.00336462196857832,
+    0.017720954627422625
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/secondary/Q": {
+   "point": 0.01913230935057937,
+   "basic_ci": [
+    0.006532166986158404,
+    0.03118895241414063
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/secondary/J": {
+   "point": -0.0018862840204796547,
+   "basic_ci": [
+    -0.006123728625715474,
+    0.00243685899827298
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/secondary/query/EIB": {
+   "point": 0.006434537820414324,
+   "basic_ci": [
+    0.00518671217549827,
+    0.007627295482644705
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/secondary/query/V2": {
+   "point": 0.030090721279080218,
+   "basic_ci": [
+    0.02249271248322883,
+    0.03795922033593821
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/fixed_positive/primary/query/EIB": {
+   "point": 0.00775132035963455,
+   "basic_ci": [
+    0.0034309780352791627,
+    0.01222198355144596
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/fixed_positive/primary/query/V2": {
+   "point": -0.0017066379232910933,
+   "basic_ci": [
+    -0.00948752927500016,
+    0.0074245914379430615
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/fixed_positive/primary/query/Loc": {
+   "point": -0.0048504446240905386,
+   "basic_ci": [
+    -0.015266009827098945,
+    0.005612523227970793
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/fixed_positive/secondary/query/EIB": {
+   "point": 0.0052483941720403715,
+   "basic_ci": [
+    0.003972106748926349,
+    0.00648089243352489
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/fixed_positive/secondary/query/V2": {
+   "point": 0.024701338363424058,
+   "basic_ci": [
+    0.015735183587280037,
+    0.03395262042842882
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/fixed_positive/secondary/query/Loc": {
+   "point": 0.012934518997574779,
+   "basic_ci": [
+    -0.00017273144052527833,
+    0.02586903799514953
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/fixed_negative/primary/query/EIB": {
+   "point": -0.010582656006654922,
+   "basic_ci": [
+    -0.014175846029395358,
+    -0.007059942010180148
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/fixed_negative/primary/query/V2": {
+   "point": -0.006467259498787389,
+   "basic_ci": [
+    -0.012133615483080779,
+    -0.0005561945233856225
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/fixed_negative/primary/query/Loc": {
+   "point": -0.00404203718674212,
+   "basic_ci": [
+    -0.010116906434933685,
+    0.0023681246556652383
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/fixed_negative/secondary/query/EIB": {
+   "point": 0.0035346283086177543,
+   "basic_ci": [
+    0.0026318370213746682,
+    0.004437889006440272
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/fixed_negative/secondary/query/V2": {
+   "point": 0.017425671427288264,
+   "basic_ci": [
+    0.00990269261983467,
+    0.0249079269382542
+   ],
+   "exploratory": true
+  },
+  "abn_box-ce/fixed_negative/secondary/query/Loc": {
+   "point": 0.005658852061438957,
+   "basic_ci": [
+    -0.005850934156843922,
+    0.017790458288823325
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/R1": {
+   "point": 0.026407976286715165,
+   "basic_ci": [
+    0.015227914589337574,
+    0.036500619261916736
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/R10": {
+   "point": 0.04527081649151171,
+   "basic_ci": [
+    0.02829732871744258,
+    0.06150947411304766
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/mAP": {
+   "point": 0.02598890447834437,
+   "basic_ci": [
+    0.017648939033125616,
+    0.033451539647266
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/primary/Q": {
+   "point": -0.019671247642144972,
+   "basic_ci": [
+    -0.028021816832161397,
+    -0.010440321275615023
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/primary/J": {
+   "point": -0.0026946914578280783,
+   "basic_ci": [
+    -0.0061629288211524445,
+    0.0009914926861373128
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/primary/query/EIB": {
+   "point": -0.016039490987855384,
+   "basic_ci": [
+    -0.021229666075678465,
+    -0.010439077226208827
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/primary/query/V2": {
+   "point": -0.026228330189526645,
+   "basic_ci": [
+    -0.03396932908289851,
+    -0.01819589396412301
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/secondary/Q": {
+   "point": 0.14497440043115062,
+   "basic_ci": [
+    0.12432641285208865,
+    0.1642897520839865
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/secondary/J": {
+   "point": 0.01994071678792778,
+   "basic_ci": [
+    0.012511623951604284,
+    0.02681510914841123
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/secondary/query/EIB": {
+   "point": 0.0694864549576406,
+   "basic_ci": [
+    0.0647759332864814,
+    0.07409097728293652
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/secondary/query/V2": {
+   "point": 0.13581244947453516,
+   "basic_ci": [
+    0.12261688816017399,
+    0.14671071526752588
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/fixed_positive/primary/query/EIB": {
+   "point": -0.04271183124497438,
+   "basic_ci": [
+    -0.04900090613726493,
+    -0.036102421455635435
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/fixed_positive/primary/query/V2": {
+   "point": -0.048594269289499684,
+   "basic_ci": [
+    -0.059844610603552006,
+    -0.0394363624030214
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/fixed_positive/primary/query/Loc": {
+   "point": -0.02829426030719482,
+   "basic_ci": [
+    -0.04064351638124155,
+    -0.015190114430003322
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/fixed_positive/secondary/query/EIB": {
+   "point": 0.06458655865167823,
+   "basic_ci": [
+    0.06016796215433763,
+    0.06882247974016682
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/fixed_positive/secondary/query/V2": {
+   "point": 0.11308721818018505,
+   "basic_ci": [
+    0.1010299128328852,
+    0.12342322032323706
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/fixed_positive/secondary/query/Loc": {
+   "point": 0.13742926434923203,
+   "basic_ci": [
+    0.11643649260662028,
+    0.15718212582726168
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/fixed_negative/primary/query/EIB": {
+   "point": -0.014265807110750942,
+   "basic_ci": [
+    -0.01935560271867269,
+    -0.008651468755079224
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/fixed_negative/primary/query/V2": {
+   "point": -0.021198239468247553,
+   "basic_ci": [
+    -0.02765841679048725,
+    -0.013829605019854446
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/fixed_negative/primary/query/Loc": {
+   "point": -0.016976556184316895,
+   "basic_ci": [
+    -0.023104242895883115,
+    -0.01028117654228013
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/fixed_negative/secondary/query/EIB": {
+   "point": 0.06952572978347309,
+   "basic_ci": [
+    0.06476076053717267,
+    0.07405189938456341
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/fixed_negative/secondary/query/V2": {
+   "point": 0.13778855654360905,
+   "basic_ci": [
+    0.12471013632709638,
+    0.14957244137431255
+   ],
+   "exploratory": true
+  },
+  "bger-abn_box/fixed_negative/secondary/query/Loc": {
+   "point": 0.15117219078415522,
+   "basic_ci": [
+    0.12898486877290624,
+    0.17137389533623681
+   ],
+   "exploratory": true
+  }
+ },
+ "n_boot": 10000,
+ "rng_seed": 0,
+ "shared_draws_sha256": "682b8c1af63c93a5c0d707e29a71581339bd8820816334ac48fb86762420711b",
+ "no_additional_significance_claims": true
+}
