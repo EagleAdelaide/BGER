@@ -53,31 +53,9 @@ def savefig(fig, name, manifest, inputs):
 
 
 def fig02(core, ra, p0a, manifest):
-    """Recall@1 vs own-top-1 query localization; seeds small, means large; prior as a reference line."""
-    fig, ax = plt.subplots(figsize=(COLW, 2.55))
-    ms = core['mean_sd']
-    for arm in ARMS:
-        xs = np.array(ms[arm]['R1']['per_seed']) * 100; ys = np.array(ms[arm]['Loc_q']['per_seed']) * 100
-        ax.scatter(xs, ys, marker=MK[arm], s=16, facecolors='none', edgecolors=COL[arm], linewidths=0.8, zorder=3)
-        ax.scatter([xs.mean()], [ys.mean()], marker=MK[arm], s=52, facecolors=COL[arm], edgecolors='white', linewidths=0.6, zorder=5)
-    lab = dict(ce=(2.8, 1.0, 'right'), aux=(1.0, 8.7, 'left'), bger=(6.5, 0.7, 'center'), cam_bce=(5.3, 19.6, 'left'), abn_box=(0.65, 3.0, 'left'))
-    for arm, (x, y, ha) in lab.items():
-        txt = ('BGER-H' if arm == 'bger' else NAME[arm])
-        ax.annotate(txt, (ms[arm]['R1']['mean'] * 100, ms[arm]['Loc_q']['mean'] * 100), xytext=(x, y), textcoords='data', fontsize=7.5, color=COL[arm] if arm not in ('aux', 'abn_box') else INK2, ha=ha, va='center',
-                    arrowprops=dict(arrowstyle='-', color=GRID, lw=0.6, shrinkA=0, shrinkB=4))
-    prior = ra['centre_prior_own_threshold']['test_loc_at_val_threshold'] * 100
-    ax.axhline(prior, color=INK2, ls=(0, (3, 2)), lw=0.7, zorder=1)
-    ax.text(0.02, 1.08, f'dashed: centre prior {prior:.1f}%', transform=ax.transAxes, fontsize=7, color=INK2, va='bottom')
-    if p0a:
-        xs = np.array(p0a['seeds_R1']) * 100; ys = np.array(p0a['seeds_Loc_F']) * 100
-        ax.scatter(xs, ys, marker=MK['bger'], s=16, facecolors='none', edgecolors=COL['bger'], linewidths=0.8, zorder=3, linestyle=':')
-        ax.scatter([xs.mean()], [ys.mean()], marker=MK['bger'], s=110, facecolors='none', edgecolors=COL['bger'], linewidths=1.3, zorder=6, linestyle=(0, (2, 1)))
-        ax.annotate('BGER-F', (xs.mean(), ys.mean()), xytext=(6.25, 8.1), textcoords='data', fontsize=7.5, color=COL['bger'], ha='left', va='bottom',
-                    arrowprops=dict(arrowstyle='-', color=GRID, lw=0.6, shrinkA=0, shrinkB=6))
-    ax.set_xlabel('Recall@1 (%)'); ax.set_ylabel('Query-logo localization (%)\nown top-1, IoU $\\geq$ .5')
-    ax.set_xlim(0, 8.3); ax.set_ylim(0, 22); ax.grid(True, color=GRID, lw=0.4); ax.set_axisbelow(True)
-    ax.text(0.02, 0.98, 'small: seeds 0/1/2   large: mean', transform=ax.transAxes, fontsize=6.5, color=INK2, va='top')
-    savefig(fig, 'fig02_retrieval_vs_localization', manifest, ['osld_core_results.json', 'osld_readout_analysis.json'] + (['p0a_results.json'] if p0a else []))
+    """Accepted primary-H figure; exploratory F remains in Table 3/Section 6.1."""
+    from make_figure2_primary_h import draw_figure2
+    draw_figure2(core, ra, manifest, source_root=DATA.parent, output_dir=OUT)
 
 
 def fig03(core, allc, p0a, p0b, manifest):

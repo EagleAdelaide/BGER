@@ -2,14 +2,14 @@
   "fig02_retrieval_vs_localization": {
     "inputs": {
       "osld_core_results.json": "782d160ddccf2a385fc753cc30e81f526c3f4af26fb8b5f55ac517bf63315198",
-      "osld_readout_analysis.json": "99806e6a2312b9a61c543412f0b1d0100e27ca911e403e22e7f43854a90f8e8d",
-      "p0a_results.json": "bd34a4acef07dfb649942dceb0e9f4295543f1f37297fe8c6d9edbc13d6e5a3d"
+      "osld_readout_analysis.json": "99806e6a2312b9a61c543412f0b1d0100e27ca911e403e22e7f43854a90f8e8d"
     },
     "files": [
       "fig02_retrieval_vs_localization.pdf",
       "fig02_retrieval_vs_localization.svg",
       "fig02_retrieval_vs_localization.png"
-    ]
+    ],
+    "generator": "figures_src/make_figure2_primary_h.py"
   },
   "fig03_paired_effects": {
     "inputs": {
@@ -49,11 +49,13 @@
     ]
   },
   "_meta": {
-    "script_sha256": "4c0a8ea55c4d41ff1562c7e87a81d7ce432553b0126811478c2dfbed0ebbf673",
+    "script_sha256": "79863400de12c4712be0a7339f747d63f43007c696a7f75a6df931d78b84693d",
     "matplotlib": "3.9.4",
     "numpy": "1.26.4",
     "p0a_included": true,
-    "p0b_included": true
+    "p0b_included": true,
+    "figure2_generator_sha256": "7a66067d6cef56e64db58b2b7f6212cef0d45612aaebad680385ab619c2e20c2",
+    "figure2_readout": "Prespecified H only; ABN-box final perception features; exploratory F in Table 3 / Section 6.1"
   },
   "fig06_coordinate_sensitivity": {
     "inputs": {

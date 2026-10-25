@@ -4,7 +4,7 @@
     {
       "path": "BGER_WWW27_source/README_BUILD.md",
       "baseline_sha256": "fea872a7b3adc6f8daa9632bf1bd9f1865c5e4ce0e3a9fc835f706e9ca104037",
-      "release_sha256": "37a690bf3736791219229cd40c0bd1b3c22533078fcc0cf70851e33e9fa2872b",
+      "release_sha256": "cc857a5ca1b129a6054942da08f3dd1c57e31672c89c5b41de20c2f41f881fbf",
       "status": "DOCUMENTATION_DERIVATIVE"
     },
     {
@@ -136,8 +136,8 @@
     {
       "path": "BGER_WWW27_source/figures/FIGURE_MANIFEST.json",
       "baseline_sha256": "b3d791e712996fcff9e764cc48464bc0f38274481e2abe293eda62f63fb856db",
-      "release_sha256": "b3d791e712996fcff9e764cc48464bc0f38274481e2abe293eda62f63fb856db",
-      "status": "BYTE_IDENTICAL"
+      "release_sha256": "fd445d4fbb2f4ae2d2522491c3afb9e30f303dbdab54e951fd05cd5882b77e1d",
+      "status": "FIGURE2_PRESENTATION_DERIVATIVE"
     },
     {
       "path": "BGER_WWW27_source/figures/OPENLOGO_FIGURE_MANIFEST.json",
@@ -190,20 +190,20 @@
     {
       "path": "BGER_WWW27_source/figures/fig02_retrieval_vs_localization.pdf",
       "baseline_sha256": "13835651e79a569108b24417071bf6897d66df897cf1fce93b891fd5a090dfa7",
-      "release_sha256": "13835651e79a569108b24417071bf6897d66df897cf1fce93b891fd5a090dfa7",
-      "status": "BYTE_IDENTICAL"
+      "release_sha256": "f4b99094bdbfe9fbee785d3b30f5a2163408a31a5e51e96fca81bdecd6266f2e",
+      "status": "FIGURE2_PRESENTATION_DERIVATIVE"
     },
     {
       "path": "BGER_WWW27_source/figures/fig02_retrieval_vs_localization.png",
       "baseline_sha256": "7ed4b4f68b651012a2ccfdc28bda70a8da555644832208a47586dec575ac1dc4",
-      "release_sha256": "7ed4b4f68b651012a2ccfdc28bda70a8da555644832208a47586dec575ac1dc4",
-      "status": "BYTE_IDENTICAL"
+      "release_sha256": "a35a49589219791ceea744f544c775e38bc0ff906c4d74d4ab86faf9152086a6",
+      "status": "FIGURE2_PRESENTATION_DERIVATIVE"
     },
     {
       "path": "BGER_WWW27_source/figures/fig02_retrieval_vs_localization.svg",
       "baseline_sha256": "b6f124019335b6bb1b8b2c563f76744fc9a757d6e8d4f8c477a1c3c04337f9bc",
-      "release_sha256": "b6f124019335b6bb1b8b2c563f76744fc9a757d6e8d4f8c477a1c3c04337f9bc",
-      "status": "BYTE_IDENTICAL"
+      "release_sha256": "75fd81efdcc4c125c99d65cda7d514313de7dff68c37f13ae4b01face31ea581",
+      "status": "FIGURE2_PRESENTATION_DERIVATIVE"
     },
     {
       "path": "BGER_WWW27_source/figures/fig03_paired_effects.pdf",
@@ -322,8 +322,8 @@
     {
       "path": "BGER_WWW27_source/figures_src/make_publication_figures.py",
       "baseline_sha256": "4c0a8ea55c4d41ff1562c7e87a81d7ce432553b0126811478c2dfbed0ebbf673",
-      "release_sha256": "4c0a8ea55c4d41ff1562c7e87a81d7ce432553b0126811478c2dfbed0ebbf673",
-      "status": "BYTE_IDENTICAL"
+      "release_sha256": "79863400de12c4712be0a7339f747d63f43007c696a7f75a6df931d78b84693d",
+      "status": "FIGURE2_PRESENTATION_DERIVATIVE"
     },
     {
       "path": "BGER_WWW27_source/figures_src/verify_figure_numbers.py",
@@ -4458,6 +4458,24 @@
       "baseline_sha256": "459d9f2cebcf6a2494c3f04ada111c9666521f7436df3255ab98858f9ef7fcdb",
       "release_sha256": "459d9f2cebcf6a2494c3f04ada111c9666521f7436df3255ab98858f9ef7fcdb",
       "status": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "BGER_WWW27_source/figures_src/make_figure2_primary_h.py",
+      "baseline_sha256": null,
+      "release_sha256": "7a66067d6cef56e64db58b2b7f6212cef0d45612aaebad680385ab619c2e20c2",
+      "status": "ADDED_FIGURE2_ONLY_REPRODUCTION"
+    },
+    {
+      "path": "reproduce/check_figure2_primary_h.py",
+      "baseline_sha256": null,
+      "release_sha256": "51f33de668e7d9b08e75821d235f96d5cc7ad6d297dbaac842fb92fc3fedf51f",
+      "status": "ADDED_FIGURE2_ONLY_REPRODUCTION"
+    },
+    {
+      "path": "verification/FIGURE2_PRIMARY_H_REPORT.json",
+      "baseline_sha256": null,
+      "release_sha256": "26458a92d2d84e33020aacb8eab28a8d5caf3e5c09e40018de6f60d175dc7137",
+      "status": "ADDED_FIGURE2_ONLY_REPRODUCTION"
     }
   ]
 }

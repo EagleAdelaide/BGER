@@ -72,3 +72,32 @@ none of those inputs is supplied or implied by the archive-only PASS layer.
 Training/re-inference is not authorized by this release. Obtain any future inputs
 from the cited official providers under their terms, never from hidden workspace
 paths. No reviewer needs to contact the authors or visit a named project origin.
+
+
+## Accepted Figure 2: primary-H display
+
+Figure 2 now displays only CE, Aux-BCE, BGER, CAM-BCE and ABN-box at the
+prespecified primary H readout (ABN-box uses its final perception features).
+BGER-F remains exploratory in Table 3 and Section 6.1, and its records are retained.
+The authoritative Figure 2 generator is
+`BGER_WWW27_source/figures_src/make_figure2_primary_h.py`; the older multi-figure
+entry delegates its Figure 2 call to this isolated implementation. Other figure
+generators/assets and scientific inputs have not been updated by this sync.
+
+Run the figure-only check from the repository root with a new output directory:
+
+```sh
+CUDA_VISIBLE_DEVICES='' OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 \
+python reproduce/check_figure2_primary_h.py --out /tmp/bger_figure2_check
+```
+
+This checks all 15 seed and five mean coordinates, the exact centre-prior line,
+unchanged axis limits and regenerated PDF/SVG/PNG hashes. It performs no bootstrap,
+statistical reanalysis, model inference or training. The current figure-only
+result is `verification/FIGURE2_PRIMARY_H_REPORT.json`. The broader saved-record
+CPU report above is preserved historical evidence, not a newly rerun experiment.
+
+The accepted figure keeps fixed coordinates; one CE-mean / ABN-box-seed pair
+partially overlaps. Hollow seeds render above means. No jitter is used and no
+blanket zero-marker-overlap verification is claimed. The manuscript's visual
+acceptance does not establish statistical superiority or an inevitable trade-off.

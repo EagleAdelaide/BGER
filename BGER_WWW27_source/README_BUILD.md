@@ -19,3 +19,10 @@ provenance; current checks are separately bound in the release verification repo
 All scientific input values and hypothesis/uncertainty definitions are retained.
 Missing raw/licensed/checkpoint tiers remain SKIP. No training, inference or GPU
 execution is carried out by the saved-record workflow.
+
+
+For the accepted Figure 2 only, run `python figures_src/make_figure2_primary_h.py`
+from this folder (Python environment in requirements-build.txt). This regenerates
+only Figure 2 and its manifest entry. For exact coordinate and vector regression,
+use the repository-root figure-only command in README_REPRODUCE.md. The isolated
+Figure 2 style does not alter the other legacy generators.

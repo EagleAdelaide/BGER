@@ -51,3 +51,11 @@ Clean-clone CPU validation: [verification/CPU_REPORT.json](verification/CPU_REPO
 All available saved-record layers passed; absent licensed inputs and neural
 artifacts remain explicit skips. The scientific manifest binds the tested bytes
 across documentation-only finalization.
+
+
+Figure 2 synchronization: the current five-arm primary-H figure and exact CPU
+coordinate/vector regeneration evidence are documented in README_REPRODUCE.md
+and verification/FIGURE2_PRIMARY_H_REPORT.json. Exploratory BGER-F remains in the
+Table 3/Section 6.1 records. Other published figure assets are retained; this
+synchronization changes only Figure 2 presentation and its reproduction bindings.
+The earlier broad CPU report is historical; the fresh check is figure-only.

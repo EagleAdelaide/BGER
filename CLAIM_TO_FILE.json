@@ -391,21 +391,33 @@
   },
   {
     "claim": "Figure 2",
-    "paper_page": 5,
+    "paper_page": "5",
     "paths": [
       "BGER_WWW27_source/figures/fig02_retrieval_vs_localization.pdf",
+      "BGER_WWW27_source/figures/fig02_retrieval_vs_localization.svg",
+      "BGER_WWW27_source/figures_src/make_figure2_primary_h.py",
       "BGER_WWW27_source/data/osld_core_results.json",
-      "BGER_WWW27_source/data/p0a_results.json"
+      "BGER_WWW27_source/data/osld_readout_analysis.json"
     ],
-    "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
-    "validation_layer": "osld_saved_reductions",
-    "status": "PASS_SCOPED_SAVED_RECORDS",
-    "limitation": "H/F same checkpoints; observed means and seed points, not CI",
+    "command": "python reproduce/check_figure2_primary_h.py --out /tmp/bger_figure2_check",
+    "validation_layer": "figure2_primary_h",
+    "status": "PASS_EXACT_COORDINATES_AND_VECTOR_REGENERATION",
+    "limitation": "Five matched arms at prespecified H (ABN-box final perception features); 15 seeds and 5 means, not CI; fixed-coordinate partial overlap retained in accepted version; exploratory BGER-F remains in Table 3 and Section 6.1",
     "file_evidence": [
       {
         "path": "BGER_WWW27_source/figures/fig02_retrieval_vs_localization.pdf",
         "kind": "file",
-        "sha256": "13835651e79a569108b24417071bf6897d66df897cf1fce93b891fd5a090dfa7"
+        "sha256": "f4b99094bdbfe9fbee785d3b30f5a2163408a31a5e51e96fca81bdecd6266f2e"
+      },
+      {
+        "path": "BGER_WWW27_source/figures/fig02_retrieval_vs_localization.svg",
+        "kind": "file",
+        "sha256": "75fd81efdcc4c125c99d65cda7d514313de7dff68c37f13ae4b01face31ea581"
+      },
+      {
+        "path": "BGER_WWW27_source/figures_src/make_figure2_primary_h.py",
+        "kind": "file",
+        "sha256": "7a66067d6cef56e64db58b2b7f6212cef0d45612aaebad680385ab619c2e20c2"
       },
       {
         "path": "BGER_WWW27_source/data/osld_core_results.json",
@@ -413,12 +425,12 @@
         "sha256": "782d160ddccf2a385fc753cc30e81f526c3f4af26fb8b5f55ac517bf63315198"
       },
       {
-        "path": "BGER_WWW27_source/data/p0a_results.json",
+        "path": "BGER_WWW27_source/data/osld_readout_analysis.json",
         "kind": "file",
-        "sha256": "bd34a4acef07dfb649942dceb0e9f4295543f1f37297fe8c6d9edbc13d6e5a3d"
+        "sha256": "99806e6a2312b9a61c543412f0b1d0100e27ca911e403e22e7f43854a90f8e8d"
       }
     ],
-    "verification_report": "verification/CPU_REPORT.json"
+    "verification_report": "verification/FIGURE2_PRIMARY_H_REPORT.json"
   },
   {
     "claim": "Figure 3",
@@ -950,7 +962,7 @@
       {
         "path": "README_REPRODUCE.md",
         "kind": "file",
-        "sha256": "aad65e6c1bcc84aae23637e83c11429fd0a11ce02671f27b34a17ec0333ed71c"
+        "sha256": "c78d7744f2917bb37745d73b50c5adb20a8930c9559e56c18024d1e148091bae"
       },
       {
         "path": "BGER_WWW27_reproducibility/DATA_ACCESS.md",

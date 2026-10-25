@@ -1,0 +1,150 @@
+{
+  "scope": "Frozen-record Figure 2 plotting only; no bootstrap, statistical reanalysis, GPU, model computation or data downloads",
+  "readout": "Prespecified H; ABN-box corresponding final perception features",
+  "layers": {
+    "frozen_inputs": "PASS",
+    "20_points_40_scalars": "PASS",
+    "prior_and_axes": "PASS",
+    "marker_and_legend_encoding": "PASS",
+    "exact_PDF_SVG_PNG_regeneration": "PASS",
+    "legacy_Figure2_entry_and_style_restoration": "PASS",
+    "fresh_training_checkpoint_inference": "NOT_RUN_NOT_AUTHORIZED",
+    "broader_saved_record_statistical_checks": "NOT_RERUN_HISTORICAL_REPORT_RETAINED"
+  },
+  "inputs_sha256": {
+    "osld_core_results.json": "782d160ddccf2a385fc753cc30e81f526c3f4af26fb8b5f55ac517bf63315198",
+    "osld_readout_analysis.json": "99806e6a2312b9a61c543412f0b1d0100e27ca911e403e22e7f43854a90f8e8d"
+  },
+  "coordinates": {
+    "xy_percent": [
+      [
+        [
+          3.1527890056588523,
+          2.9102667744543247
+        ],
+        [
+          4.284559417946645,
+          3.9611964430072755
+        ],
+        [
+          4.042037186742118,
+          3.637833468067906
+        ]
+      ],
+      [
+        [
+          3.8264618701158724,
+          3.503098895176502
+        ]
+      ],
+      [
+        [
+          3.5569927243330643,
+          5.901374292643492
+        ],
+        [
+          4.042037186742118,
+          5.578011317704123
+        ],
+        [
+          3.395311236863379,
+          4.527081649151172
+        ]
+      ],
+      [
+        [
+          3.6647803826461876,
+          5.335489086499596
+        ]
+      ],
+      [
+        [
+          6.224737267582862,
+          1.7784963621665322
+        ],
+        [
+          7.113985448666129,
+          2.1018593371059016
+        ],
+        [
+          5.739692805173808,
+          2.263540824575586
+        ]
+      ],
+      [
+        [
+          6.359471840474266,
+          2.0479655079493395
+        ]
+      ],
+      [
+        [
+          4.284559417946645,
+          16.006467259498788
+        ],
+        [
+          5.173807599029911,
+          18.593371059013744
+        ],
+        [
+          5.173807599029911,
+          17.946645109135005
+        ]
+      ],
+      [
+        [
+          4.877391538668822,
+          17.515494475882512
+        ]
+      ],
+      [
+        [
+          3.4761519805982215,
+          4.607922392886015
+        ],
+        [
+          3.8803556992724335,
+          4.12287793047696
+        ],
+        [
+          3.799514955537591,
+          3.3144704931285367
+        ]
+      ],
+      [
+        [
+          3.7186742118027483,
+          4.015090272163837
+        ]
+      ]
+    ],
+    "coordinate_sha256": "93e930fb2f7ef4d021bda8fdbdb8a768fdac3b03747b0b93d864aa2c7305de8c",
+    "prior_percent": 5.982215036378335,
+    "axes_limits": [
+      [
+        0,
+        8.3
+      ],
+      [
+        0,
+        22
+      ]
+    ],
+    "model_points": 20,
+    "coordinate_scalars": 40,
+    "max_abs_difference": 0.0,
+    "legend_outside_data": true,
+    "in_plot_model_annotations": 0,
+    "distinct_marker_shapes": 5,
+    "seed_style": "smaller hollow; above filled means",
+    "mean_style": "larger filled with dark outline"
+  },
+  "generated_sha256": {
+    "fig02_retrieval_vs_localization.pdf": "f4b99094bdbfe9fbee785d3b30f5a2163408a31a5e51e96fca81bdecd6266f2e",
+    "fig02_retrieval_vs_localization.svg": "75fd81efdcc4c125c99d65cda7d514313de7dff68c37f13ae4b01face31ea581",
+    "fig02_retrieval_vs_localization.png": "a35a49589219791ceea744f544c775e38bc0ff906c4d74d4ab86faf9152086a6"
+  },
+  "generator_sha256": "7a66067d6cef56e64db58b2b7f6212cef0d45612aaebad680385ab619c2e20c2",
+  "visual_limitation": "Known fixed-coordinate CE-mean / ABN-box-seed partial overlap retained in the visually accepted candidate; zero-marker-overlap is not certified.",
+  "status": "PASS_FIGURE2_ONLY"
+}
