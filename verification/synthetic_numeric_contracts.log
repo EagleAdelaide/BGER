@@ -1,0 +1,15 @@
+test_source_metric_equivalence_two_conventions (test_contracts.Contracts) ... ok
+test_degenerate_maps_are_misses (test_contracts.Contracts) ... ok
+test_actual_loss_target_transform (test_contracts.Contracts) ... ok
+test_mixture_bounds_are_per_image (test_contracts.Contracts) ... ok
+test_paired_score_has_normalization_derivative (test_contracts.Contracts) ... ok
+test_bootstrap_draws_shared_and_clustered (test_contracts.Contracts) ... ok
+test_archived_gpu_resource_orchestration (__main__.AnalyticContracts) ... skipped 'Historical GPU allocation/orchestration is disabled and outside CPU reproduction'
+test_cub_matched_loss_matches_paper (__main__.AnalyticContracts) ... ok
+test_osld_batch_balanced_loss_matches_paper (__main__.AnalyticContracts) ... ok
+test_stabilized_cosine_identity_at_pooled_F (__main__.AnalyticContracts) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.293s
+
+OK (skipped=1)

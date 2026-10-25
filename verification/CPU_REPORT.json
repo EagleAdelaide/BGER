@@ -1,0 +1,206 @@
+{
+  "scope": "CPU saved-record recomputation plus synthetic code contracts; no training, checkpoint inference or image input",
+  "layers": {
+    "release_manifest": {
+      "status": "PASS",
+      "files": 758,
+      "failed": []
+    },
+    "python_syntax": {
+      "status": "PASS",
+      "files": 79,
+      "errors": []
+    },
+    "synthetic_numeric_contracts": {
+      "status": "PASS",
+      "returncode": 0,
+      "log": "synthetic_numeric_contracts.log",
+      "tests_run": 10,
+      "historical_gpu_budget_fixture": "SKIP_DISABLED_ORCHESTRATION",
+      "original_runtime_log_sha256": "02ca6d88f488983e7430b9c724824b0cb94d7d186685de963bdbbf574b414682",
+      "exported_log_sha256": "02ca6d88f488983e7430b9c724824b0cb94d7d186685de963bdbbf574b414682"
+    },
+    "osld_saved_reductions": {
+      "status": "PASS",
+      "returncode": 0,
+      "log": "osld_saved_reductions.log",
+      "checks": 589,
+      "failed": 0,
+      "tier1": {
+        "status": "PASS",
+        "checks": 589
+      },
+      "tier2": {
+        "status": "SKIPPED_REQUIRES_LICENSED_DATA",
+        "checks": 0,
+        "requirements": "Licensed osld_records.json; torch, scipy for prior pipeline"
+      },
+      "original_runtime_log_sha256": "eb63c96e14266643d4545eb905c16c8feb1c7ef22b8f5bb7697548941122bfec",
+      "exported_log_sha256": "eb63c96e14266643d4545eb905c16c8feb1c7ef22b8f5bb7697548941122bfec"
+    },
+    "osld_original_bootstrap_and_readout": {
+      "status": "PASS",
+      "returncode": 0,
+      "log": "osld_original_bootstrap_and_readout.log",
+      "exact_comparisons": {
+        "primary_inference.json": true,
+        "descriptive_inference.json": true,
+        "readout_identity_analysis": true
+      },
+      "original_runtime_log_sha256": "65e1aa6f9fb1fb44575a8e96966612c5e4aba3a15a3977e3385d42720d3faf52",
+      "exported_log_sha256": "65e1aa6f9fb1fb44575a8e96966612c5e4aba3a15a3977e3385d42720d3faf52"
+    },
+    "posthoc_gate_controls": {
+      "status": "PASS",
+      "returncode": 0,
+      "log": "posthoc_gate_controls.log",
+      "all_saved_results_equal": true,
+      "original_runtime_log_sha256": "c9de36427fe1e2fdbcd0263e18b4a92eadb388c36564694f18009b8c22ac2b01",
+      "exported_log_sha256": "c9de36427fe1e2fdbcd0263e18b4a92eadb388c36564694f18009b8c22ac2b01"
+    },
+    "frozen_references": {
+      "status": "PASS",
+      "returncode": 0,
+      "log": "frozen_references.log",
+      "saved_metric_comparisons": 20,
+      "failed_comparisons": [],
+      "annotation_quartiles": "SKIP_REQUIRES_LICENSED_ANNOTATIONS",
+      "original_runtime_log_sha256": "024c593ffc4fd4af88878d0f7bd9aaa4176af4c8b86dc3d080c4740a23113f80",
+      "exported_log_sha256": "024c593ffc4fd4af88878d0f7bd9aaa4176af4c8b86dc3d080c4740a23113f80"
+    },
+    "openlogo_archive_only": {
+      "status": "PASS",
+      "returncode": 0,
+      "log": "openlogo_archive_only.log",
+      "checks": 1768,
+      "passed": 1768,
+      "skipped_raw_score_rows": 28,
+      "source_binding": {
+        "status": "PASS",
+        "exact_csv_inputs": 3
+      },
+      "raw_shards": {
+        "status": "SKIP_REQUIRES_UNSHIPPED_NEURAL_SHARDS",
+        "note": "No raw score/map regeneration is claimed by tier 1."
+      },
+      "licensed_loader": {
+        "status": "SKIP_REQUIRES_LICENSED_IMAGES",
+        "note": "Not implied by stored target verification"
+      },
+      "checkpoint_binaries": {
+        "status": "SKIP_REQUIRES_UNSHIPPED_CHECKPOINT_BINARIES"
+      },
+      "original_runtime_log_sha256": "4fabf3c4783fb3b08828e4186f9d1778e01bfc3f1986232bd8419026e5c2bdb8",
+      "exported_log_sha256": "4fabf3c4783fb3b08828e4186f9d1778e01bfc3f1986232bd8419026e5c2bdb8"
+    },
+    "cub_saved_records_and_bootstrap": {
+      "status": "PASS",
+      "returncode": 0,
+      "log": "cub_saved_records_and_bootstrap.log",
+      "runs": 25,
+      "paired_image_bootstrap_seeds": 3,
+      "draws_per_seed": 2000,
+      "original_runtime_log_sha256": "0f19e8fa2b776dfc0219ca318ff72d79641c0f3ae3e95f8536e36126f28bf970",
+      "exported_log_sha256": "0f19e8fa2b776dfc0219ca318ff72d79641c0f3ae3e95f8536e36126f28bf970"
+    },
+    "generate_cub_tables": {
+      "status": "PASS",
+      "returncode": 0,
+      "log": "generate_cub_tables.log",
+      "original_runtime_log_sha256": "281fb21c9c195ed8cc2d3525e58de6b708eb297d0b574ac123bb212e81d7dfca",
+      "exported_log_sha256": "281fb21c9c195ed8cc2d3525e58de6b708eb297d0b574ac123bb212e81d7dfca"
+    },
+    "generate_osld_data_table": {
+      "status": "PASS",
+      "returncode": 0,
+      "log": "generate_osld_data_table.log",
+      "original_runtime_log_sha256": "d8a3256be6fc868014487a59d725ed1b08d412ac8f74f024fb5520b44e0dcfa6",
+      "exported_log_sha256": "d8a3256be6fc868014487a59d725ed1b08d412ac8f74f024fb5520b44e0dcfa6"
+    },
+    "generate_osld_results_tables": {
+      "status": "PASS",
+      "returncode": 0,
+      "log": "generate_osld_results_tables.log",
+      "original_runtime_log_sha256": "2a5cdf29efbcf06b5edc5f593e4a446852d4e19665ef48d5dd5a2b085170ac06",
+      "exported_log_sha256": "d75d7402db751f30e0abb6c6dd0ada9f63373518560dcbda3a30b24af62d6bfb"
+    },
+    "generate_cub_plot": {
+      "status": "PASS",
+      "returncode": 0,
+      "log": "generate_cub_plot.log",
+      "original_runtime_log_sha256": "2135797a650c4515bca7f61ea1fc939ba7462c60fc7d0a0499002772718e3d76",
+      "exported_log_sha256": "49840bbee36b7e1535db9cc84253aaed1d3a553e469f9da83614e2b1bc43da8b"
+    },
+    "generate_publication_figures": {
+      "status": "PASS",
+      "returncode": 0,
+      "log": "generate_publication_figures.log",
+      "original_runtime_log_sha256": "ba31b0e953babf32862390ad62add8e9199f87986ca32f446f6b26bcebc9b52c",
+      "exported_log_sha256": "ba31b0e953babf32862390ad62add8e9199f87986ca32f446f6b26bcebc9b52c"
+    },
+    "generate_openlogo_tables_figures": {
+      "status": "PASS",
+      "returncode": 0,
+      "log": "generate_openlogo_tables_figures.log",
+      "original_runtime_log_sha256": "a34e83dbb43319ba083b559f8ccd195ab17996325acd0e6dbcf842ff080fbd5b",
+      "exported_log_sha256": "a34e83dbb43319ba083b559f8ccd195ab17996325acd0e6dbcf842ff080fbd5b"
+    },
+    "generate_expanded_table_wrappers": {
+      "status": "PASS",
+      "returncode": 0,
+      "log": "generate_expanded_table_wrappers.log",
+      "original_runtime_log_sha256": "81251ce5d4da98d7e1e39f7b1a45c97fabf0e0a09aa8401dc53cd320722cfca8",
+      "exported_log_sha256": "81251ce5d4da98d7e1e39f7b1a45c97fabf0e0a09aa8401dc53cd320722cfca8"
+    },
+    "generated_numerical_tables": {
+      "status": "PASS",
+      "tables_checked": 30,
+      "different_files": []
+    },
+    "figure_export_bytes": {
+      "status": "PASS",
+      "checked": 22,
+      "byte_identical": 22,
+      "different_files": [],
+      "scope": "Unchanged input records and generator code are separately hash bound; render-byte differences require review, not a numerical PASS claim."
+    },
+    "figure1_vector_build": {
+      "status": "PASS",
+      "returncode": 0,
+      "log": "figure1_vector_build.log",
+      "scope": "Synthetic editable TikZ only; no dataset imagery or image generation",
+      "original_runtime_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exported_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "osld_licensed_annotations": {
+      "status": "SKIP",
+      "reason": "Licensed full OSLD annotation records not supplied; prior/strata and full P0-A annotation-dependent recomputation are not inferred from saved-hit checks"
+    },
+    "fresh_training_checkpoint_inference": {
+      "status": "SKIP",
+      "reason": "Not authorized or supplied; no GPU, fresh training, pretrained downloads or checkpoint inference"
+    }
+  },
+  "python": "3.9.25",
+  "dependencies": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.13.1",
+    "torch": "1.13.1+cu116",
+    "torchvision": "0.14.1+cu116",
+    "matplotlib": "3.9.4",
+    "opencv-python": "MISSING"
+  },
+  "failed_layers": [],
+  "status": "PASS_WITH_EXPLICIT_SKIPS",
+  "result": "PASS_WITH_EXPLICIT_SKIPS",
+  "tested_commit": "24be63802429f56067503bba50b863500723e13c",
+  "scientific_manifest_sha256": "2341407f3dffa68ddb64189502614769c4ddb161e6f2361b4508ba698f89fc4d",
+  "isolation": {
+    "original_project_hidden": true,
+    "network_disabled": true,
+    "clean_clone_no_alternates": true,
+    "outputs_external": true
+  },
+  "log_export": "Runtime directory prefixes replaced with neutral labels. Original and exported log hashes are separately recorded. No scientific inputs changed."
+}

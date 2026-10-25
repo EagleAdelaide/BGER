@@ -1,0 +1,5 @@
+SKIPPED_REQUIRES_LICENSED_DATA: frozen-reference area quartiles; supply --records
+dinov2_vitb14__study {'recall1': 0.0275, 'recall10': 0.0768, 'mAP': 0.0352} byQ SKIPPED_REQUIRES_LICENSED_DATA vsBGER -0.0361 [-0.0604, -0.0153] True True
+dinov2_vitb14__native {'recall1': 0.0356, 'recall10': 0.0905, 'mAP': 0.0401} byQ SKIPPED_REQUIRES_LICENSED_DATA vsBGER -0.028 [-0.0529, -0.0066] True True
+openclip_vitb32__study {'recall1': 0.5053, 'recall10': 0.6936, 'mAP': 0.5211} byQ SKIPPED_REQUIRES_LICENSED_DATA vsBGER 0.4417 [0.3907, 0.4911] True True
+openclip_vitb32__native {'recall1': 0.35, 'recall10': 0.5271, 'mAP': 0.3313} byQ SKIPPED_REQUIRES_LICENSED_DATA vsBGER 0.2864 [0.2332, 0.3368] True True

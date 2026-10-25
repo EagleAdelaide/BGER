@@ -9,7 +9,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "generated_numerical_tables",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "Counts regenerated from supplied release summary; full annotation verification SKIP without licensed inputs",
     "file_evidence": [
       {
@@ -27,7 +27,8 @@
         "kind": "file",
         "sha256": "0dcc6ae3317595f7995cde62184d546bdeef370ee579432e9e6f90eb18b90d7f"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Table 2",
@@ -39,7 +40,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "osld_saved_reductions",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "Seed SD is not CI; wrong top-1 included",
     "file_evidence": [
       {
@@ -57,7 +58,8 @@
         "kind": "file",
         "sha256": "4811481d13849bd36e1dcc8dba9630cd59ac5a500db9baa2798e314386b575f9"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Table 3",
@@ -71,7 +73,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "osld_saved_reductions",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "Same BGER checkpoints at H/F; controls and hook exploratory",
     "file_evidence": [
       {
@@ -99,7 +101,8 @@
         "kind": "directory",
         "sha256": null
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Table 4",
@@ -112,7 +115,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "frozen_references",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "Official identifiers/digests, no weights/embeddings; annotation quartiles SKIP",
     "file_evidence": [
       {
@@ -135,7 +138,8 @@
         "kind": "directory",
         "sha256": null
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Table 5",
@@ -147,7 +151,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "openlogo_archive_only",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "Exploratory, conditional paired group percentile intervals; sample SD not CI",
     "file_evidence": [
       {
@@ -165,7 +169,8 @@
         "kind": "file",
         "sha256": "657a87397efe7af301f5257ab13b0000d303d6c015766f8e3bf3820d2f9f64db"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Table 6",
@@ -177,7 +182,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "openlogo_archive_only",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "H/D/C0/C1 and class-macro; raw neural shards absent",
     "file_evidence": [
       {
@@ -195,7 +200,8 @@
         "kind": "file",
         "sha256": "32e0293559446ed224c1b61ff17babccf073b94d9ec5b3087a6a22ea22647ef7"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Table 7",
@@ -207,7 +213,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "osld_saved_reductions",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "Fifteen selected models; fixed development thresholds",
     "file_evidence": [
       {
@@ -225,7 +231,8 @@
         "kind": "file",
         "sha256": "782d160ddccf2a385fc753cc30e81f526c3f4af26fb8b5f55ac517bf63315198"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Table 8",
@@ -237,7 +244,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "generated_numerical_tables",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "Saved subgroup values regenerated; raw annotation-defined bin reconstruction SKIP",
     "file_evidence": [
       {
@@ -255,7 +262,8 @@
         "kind": "file",
         "sha256": "c9deabfe95ebf1fc2e081a7890e06c46591b163ea41bf0afbc14360f91f098cc"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Table 9",
@@ -267,7 +275,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "cub_saved_records_and_bootstrap",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "Related classification task, not retrieval replication; lambda .5 CAM point post hoc",
     "file_evidence": [
       {
@@ -285,7 +293,8 @@
         "kind": "directory",
         "sha256": null
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Table 10",
@@ -297,7 +306,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "cub_saved_records_and_bootstrap",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "Same-seed system contrasts, not additive causal shares",
     "file_evidence": [
       {
@@ -315,7 +324,8 @@
         "kind": "directory",
         "sha256": null
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Table 11",
@@ -326,7 +336,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "generated_numerical_tables",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "Saved aggregates only; fresh checkpoint gradient recomputation SKIP",
     "file_evidence": [
       {
@@ -339,7 +349,8 @@
         "kind": "file",
         "sha256": "24eb78fc4c35b7ef0298da6fce38733de1085833c26859c9a190d2de0198a424"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Figure 1",
@@ -352,7 +363,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "figure1_vector_build",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "Synthetic TikZ, no dataset pixels; independent arms and H/F hooks retained",
     "file_evidence": [
       {
@@ -375,7 +386,8 @@
         "kind": "file",
         "sha256": "2521b8d8853affafd862e8cb5f8cb41665e9459d9ebf0e05c863317316679b8e"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Figure 2",
@@ -387,7 +399,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "osld_saved_reductions",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "H/F same checkpoints; observed means and seed points, not CI",
     "file_evidence": [
       {
@@ -405,7 +417,8 @@
         "kind": "file",
         "sha256": "bd34a4acef07dfb649942dceb0e9f4295543f1f37297fe8c6d9edbc13d6e5a3d"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Figure 3",
@@ -418,7 +431,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "openlogo_archive_only",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "Separate OSLD/OpenLogo effects; P/D/E scopes retained; not hook comparisons",
     "file_evidence": [
       {
@@ -441,7 +454,8 @@
         "kind": "file",
         "sha256": "657a87397efe7af301f5257ab13b0000d303d6c015766f8e3bf3820d2f9f64db"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Figure 4",
@@ -453,7 +467,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "osld_original_bootstrap_and_readout",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "OSLD candidate diagnostics; overlap/sensitivity is not causal faithfulness",
     "file_evidence": [
       {
@@ -471,7 +485,8 @@
         "kind": "file",
         "sha256": "99806e6a2312b9a61c543412f0b1d0100e27ca911e403e22e7f43854a90f8e8d"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Figure 5",
@@ -482,7 +497,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "generated_numerical_tables",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "Smallest original upper boundary .02046 (~2.05%); no new strata",
     "file_evidence": [
       {
@@ -495,7 +510,8 @@
         "kind": "file",
         "sha256": "c9deabfe95ebf1fc2e081a7890e06c46591b163ea41bf0afbc14360f91f098cc"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Figure 6",
@@ -507,7 +523,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "generate_osld_results_tables",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "Four prespecified feature-grid examples, not product image pixels",
     "file_evidence": [
       {
@@ -525,7 +541,8 @@
         "kind": "file",
         "sha256": "5146a0c5a0635bf3dcb081adf48fa63eb70737b92defd09c80b81b877a5d0cb1"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Figure 7",
@@ -537,7 +554,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "openlogo_archive_only",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "Mean, not CI; no official coordinate-semantic certification",
     "file_evidence": [
       {
@@ -555,7 +572,8 @@
         "kind": "file",
         "sha256": "bdd702b1a788fd81de8136d6c661885f1eb5a37df83c21c7d1f421669a4597d6"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Equations 1-3: pooling and stabilized cosine readout",
@@ -568,7 +586,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "synthetic_numeric_contracts",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SYNTHETIC_CONTRACTS",
     "limitation": "Identity at pooled F before postprocessing; no learned-model inference in fixtures",
     "file_evidence": [
       {
@@ -591,7 +609,8 @@
         "kind": "file",
         "sha256": "25b9a9ba18bc5647bc064a3a8043dba469518d4a3a76bed6fe9bccad521a512f"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "OSLD H1/H2 original confirmatory family",
@@ -604,7 +623,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "osld_original_bootstrap_and_readout",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "H1 non-inferiority holds; H2 superiority fails; conditional basic intervals and two-test Holm",
     "file_evidence": [
       {
@@ -627,7 +646,8 @@
         "kind": "file",
         "sha256": "dac43d71bca29bc54a8da3eb0f9be48e7faaccd142ca9f8fe14379fa78787a4b"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Section 6.1 complete pooled-hook contrasts / expanded Table 1",
@@ -639,7 +659,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "osld_saved_reductions",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "Saved hooks/contrasts checked; full annotation-dependent P0-A analysis SKIP",
     "file_evidence": [
       {
@@ -657,7 +677,8 @@
         "kind": "file",
         "sha256": "dd186738b7d0bd03b53b4e970ccb332384acbf8ae52b25a52d74030224156279"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Section 7 candidate diagnostics / expanded Table 4",
@@ -669,7 +690,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "osld_original_bootstrap_and_readout",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "Fixed CE seed-0 candidates; empirical query-only dominance checked only for OSLD",
     "file_evidence": [
       {
@@ -687,7 +708,8 @@
         "kind": "file",
         "sha256": "b769108318906596bdb658fe3329d20df33bdd20f402a9b2b1f650ac85817edf"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Appendix A expanded contrasts/development / expanded Tables 2-3",
@@ -700,7 +722,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "generated_numerical_tables",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "Saved-record recomputation; not raw-image/checkpoint reproduction",
     "file_evidence": [
       {
@@ -723,7 +745,8 @@
         "kind": "file",
         "sha256": "dd186738b7d0bd03b53b4e970ccb332384acbf8ae52b25a52d74030224156279"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Appendix B pooled hook, controls, frozen references, blocked Proxy",
@@ -736,7 +759,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "osld_saved_reductions",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "No new training/inference; partial Proxy logs are not a test baseline",
     "file_evidence": [
       {
@@ -759,7 +782,8 @@
         "kind": "directory",
         "sha256": null
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Appendix C CUB expanded Tables 5-7",
@@ -772,7 +796,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "cub_saved_records_and_bootstrap",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "Different classification task, model selection, pretraining and metrics",
     "file_evidence": [
       {
@@ -795,7 +819,8 @@
         "kind": "file",
         "sha256": "8538b42b6109cef8d4c5b0d792a8d813f074a42ec070d3968ca9587d9f1fe1bf"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Appendix E actual box-loss implementations",
@@ -807,7 +832,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "synthetic_numeric_contracts",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SYNTHETIC_CONTRACTS",
     "limitation": "CUB per-image clamped class fractions versus OSLD selected-batch weights; legacy pilot utility not substituted",
     "file_evidence": [
       {
@@ -825,7 +850,8 @@
         "kind": "file",
         "sha256": "bc5c1f8a141c4a8adce5039b23879da7db4bc8595e06fa4a6751073d558363d3"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Appendix G retained OpenLogo C0/C1 targets and split/exclusions",
@@ -839,7 +865,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "openlogo_archive_only",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "949/965 paired targets, declared groups; no raw image or official semantic certification",
     "file_evidence": [
       {
@@ -867,7 +893,8 @@
         "kind": "directory",
         "sha256": null
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Appendix G intervals, coordinate mixture and paired draws",
@@ -880,7 +907,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "openlogo_archive_only",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "Mixture bound is deterministic, not a CI; endpoints pointwise and not simultaneous",
     "file_evidence": [
       {
@@ -903,7 +930,8 @@
         "kind": "file",
         "sha256": "5da65b8b52210999e44b98ae0333b9d2288a30ccd9cb5f8499c4e4acfe63c2ea"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   },
   {
     "claim": "Appendix H reproduction inventory",
@@ -916,7 +944,7 @@
     ],
     "command": "python reproduce/run_cpu_checks.py --out /tmp/bger_review_check",
     "validation_layer": "release_manifest",
-    "status": "PENDING_CLEAN_CLONE",
+    "status": "PASS_SCOPED_SAVED_RECORDS",
     "limitation": "Licensed images, checkpoint binaries, embeddings and raw neural shards absent; missing layers SKIP",
     "file_evidence": [
       {
@@ -939,6 +967,7 @@
         "kind": "file",
         "sha256": "2ce1078187a9704e592dd9ffe9db01a2bed4a35610e3b30134c199353b66c749"
       }
-    ]
+    ],
+    "verification_report": "verification/CPU_REPORT.json"
   }
 ]

@@ -1,0 +1,124 @@
+{
+ "structural": {
+  "ce": {
+   "primary_readout_tensor": "features(x) output (pre-gate H for BGER)",
+   "pooled_input_equals_readout_tensor": true,
+   "z_equals_gap_of_pooled_input": true
+  },
+  "aux": {
+   "primary_readout_tensor": "features(x) output (pre-gate H for BGER)",
+   "pooled_input_equals_readout_tensor": true,
+   "z_equals_gap_of_pooled_input": true
+  },
+  "bger": {
+   "primary_readout_tensor": "features(x) output (pre-gate H for BGER)",
+   "pooled_input_equals_readout_tensor": false,
+   "z_equals_gap_of_pooled_input": true
+  },
+  "cam_bce": {
+   "primary_readout_tensor": "features(x) output (pre-gate H for BGER)",
+   "pooled_input_equals_readout_tensor": true,
+   "z_equals_gap_of_pooled_input": true
+  },
+  "abn_box": {
+   "primary_readout_tensor": "features(x) output (pre-gate H for BGER)",
+   "pooled_input_equals_readout_tensor": true,
+   "z_equals_gap_of_pooled_input": true
+  }
+ },
+ "identity_at_F": [
+  {
+   "arm": "ce",
+   "seed": 0,
+   "n_queries": 1237,
+   "views": 3,
+   "max_abs_diff_recovered_T_across_views": 1.5154922983207086e-08,
+   "recovered_T_sum_median": 1.000000016615018,
+   "recovered_T_sum_maxdev_from_1": 2.6329594482454866e-07,
+   "median_norm_ratio_C_over_D": 0.0726083849773286,
+   "p90_norm_ratio_C_over_D": 0.15066544024764533,
+   "median_cosine_D_vs_T": 0.9974257132525013
+  },
+  {
+   "arm": "ce",
+   "seed": 1,
+   "n_queries": 1237,
+   "views": 3,
+   "max_abs_diff_recovered_T_across_views": 1.6044417787408616e-08,
+   "recovered_T_sum_median": 1.000000020473267,
+   "recovered_T_sum_maxdev_from_1": 2.4580304347487925e-07,
+   "median_norm_ratio_C_over_D": 0.07928812681396948,
+   "p90_norm_ratio_C_over_D": 0.15501103159311816,
+   "median_cosine_D_vs_T": 0.9969590626332562
+  },
+  {
+   "arm": "ce",
+   "seed": 2,
+   "n_queries": 1237,
+   "views": 3,
+   "max_abs_diff_recovered_T_across_views": 2.1267604309593846e-08,
+   "recovered_T_sum_median": 1.0000000258796515,
+   "recovered_T_sum_maxdev_from_1": 2.261084999233276e-07,
+   "median_norm_ratio_C_over_D": 0.0784167656122852,
+   "p90_norm_ratio_C_over_D": 0.1598535375346236,
+   "median_cosine_D_vs_T": 0.9970169388455331
+  },
+  {
+   "arm": "aux",
+   "seed": 0,
+   "n_queries": 1237,
+   "views": 3,
+   "max_abs_diff_recovered_T_across_views": 1.8128911476178455e-08,
+   "recovered_T_sum_median": 1.0000000153046025,
+   "recovered_T_sum_maxdev_from_1": 2.8664763007668626e-07,
+   "median_norm_ratio_C_over_D": 0.07781434201122012,
+   "p90_norm_ratio_C_over_D": 0.15834053277133803,
+   "median_cosine_D_vs_T": 0.9970854982629963
+  },
+  {
+   "arm": "aux",
+   "seed": 1,
+   "n_queries": 1237,
+   "views": 3,
+   "max_abs_diff_recovered_T_across_views": 2.1934479413343588e-08,
+   "recovered_T_sum_median": 1.0000000141672878,
+   "recovered_T_sum_maxdev_from_1": 2.439811788157442e-07,
+   "median_norm_ratio_C_over_D": 0.07766301568568837,
+   "p90_norm_ratio_C_over_D": 0.15604285054904177,
+   "median_cosine_D_vs_T": 0.9970952736441285
+  },
+  {
+   "arm": "aux",
+   "seed": 2,
+   "n_queries": 1237,
+   "views": 3,
+   "max_abs_diff_recovered_T_across_views": 1.8683061757396313e-08,
+   "recovered_T_sum_median": 1.000000023852716,
+   "recovered_T_sum_maxdev_from_1": 2.6782250595047685e-07,
+   "median_norm_ratio_C_over_D": 0.0791126454081022,
+   "p90_norm_ratio_C_over_D": 0.15954637505406316,
+   "median_cosine_D_vs_T": 0.9969710064281341
+  },
+  {
+   "arm": "cam_bce",
+   "seed": 0,
+   "n_queries": 1237,
+   "views": 3,
+   "max_abs_diff_recovered_T_across_views": 4.1454767202298015e-08,
+   "recovered_T_sum_median": 1.000000018318552,
+   "recovered_T_sum_maxdev_from_1": 2.766915478957799e-07,
+   "median_norm_ratio_C_over_D": 0.0808086616618865,
+   "p90_norm_ratio_C_over_D": 0.1655541780058546,
+   "median_cosine_D_vs_T": 0.9974103248911959
+  },
+  {
+   "arm": "cam_bce",
+   "seed": 1,
+   "n_queries": 1237,
+   "views": 3,
+   "max_abs_diff_recovered_T_across_views": 4.6316803101187354e-08,
+   "recovered_T_sum_median": 1.0000000155142248,
+   "recovered_T_sum_maxdev_from_1": 2.710632449609562
+step 1 (inference from per-query records): {'primary_inference.json': True, 'descriptive_inference.json': True}
+SKIPPED_REQUIRES_LICENSED_DATA: A5 annotation overlap, size strata, numeric-example boxes and centre-prior threshold; supply --records
+step 3 (readout analysis): True

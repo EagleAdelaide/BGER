@@ -46,3 +46,8 @@ hashes. Internal approval notes, scheduler scripts and identifiers are excluded.
 Third-party credits and license notices are retained in
 [RIGHTS_AND_ATTRIBUTION.md](RIGHTS_AND_ATTRIBUTION.md) and `THIRD_PARTY_LICENSES/`.
 The release does not grant new rights to the datasets or model weights.
+
+Clean-clone CPU validation: [verification/CPU_REPORT.json](verification/CPU_REPORT.json).
+All available saved-record layers passed; absent licensed inputs and neural
+artifacts remain explicit skips. The scientific manifest binds the tested bytes
+across documentation-only finalization.

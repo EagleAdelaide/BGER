@@ -1,0 +1,20 @@
+{
+  "scope": "Local saved-record recomputation, not an independent training/raw-image audit",
+  "GPU": "NOT_USED",
+  "source_binding": {
+    "status": "PASS",
+    "exact_csv_inputs": 3
+  },
+  "tier2_raw_scores_maps": {
+    "status": "SKIP_REQUIRES_UNSHIPPED_NEURAL_SHARDS",
+    "note": "No raw score/map regeneration is claimed by tier 1."
+  },
+  "tier3_licensed_loader": {
+    "status": "SKIP_REQUIRES_LICENSED_IMAGES",
+    "note": "Not implied by stored target verification"
+  },
+  "checkpoint_binaries": {
+    "status": "SKIP_REQUIRES_UNSHIPPED_CHECKPOINT_BINARIES"
+  }
+}
+Tier 1: 1768 checks

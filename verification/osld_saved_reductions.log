@@ -1,0 +1,18 @@
+{
+  "scope": "Saved-record CPU audit only; no model inference or training",
+  "tier1": {
+    "status": "PASS",
+    "checks": 589
+  },
+  "tier2": {
+    "status": "SKIPPED_REQUIRES_LICENSED_DATA",
+    "checks": 0,
+    "requirements": "Licensed osld_records.json; torch, scipy for prior pipeline"
+  },
+  "tier3": {
+    "status": "NOT_RUN_NOT_AUTHORIZED",
+    "requirements": "Original images/checkpoints and fresh authorization"
+  },
+  "n_failed": 0,
+  "n_checks": 589
+}
